@@ -1,0 +1,43 @@
+#Gnome
+x11-base/xorg-server udev
+gnome-base/gnome-session branding
+
+#Empathy
+net-im/telepathy-connection-managers jabber
+
+#CUPS / Samba
+net-print/cups ppds
+net-fs/samba readline cups pam
+
+#Vim
+app-editors/vim python
+
+#Telepathy/Gabble
+net-voip/telepathy-gabble gnutls
+
+sys-devel/llvm gold
+sys-devel/clang gold
+
+#Auto Generated
+
+#required by net-misc/networkmanager-0.9.6.4[ppp], required by gnome-base/gnome-control-center-3.6.3-r1[networkmanager], required by gnome-base/gnome-light-3.6.2, required by gnome-light (argument)
+>=net-dialup/ppp-2.4.5-r3 ipv6
+
+#required by gnome-base/gnome-shell-3.6.3.1[i18n], required by gnome-base/gnome-light-3.6.2[gnome-shell], required by gnome-light (argument)
+>=app-i18n/ibus-1.5.1-r1 dconf
+
+#required by dev-vcs/git-1.8.1.5[subversion,perl], required by sys-devel/gettext-0.18.1.1-r3[git], required by sys-apps/util-linux-2.22.2[nls], required by dev-libs/apr-1.4.5[uuid], required by dev-libs/apr-util-1.3.12
+>=dev-vcs/subversion-1.7.7 -dso perl
+
+#required by www-client/chromium-25.0.1364.97, required by chromium (argument)
+>=dev-libs/libxml2-2.9.0-r2 icu
+#required by www-client/chromium-25.0.1364.97, required by chromium (argument)
+>=sys-libs/zlib-1.2.7 minizip
+=media-libs/mesa-9.1.2-r1 gles2
+
+#required by dev-libs/folks-0.8.0[eds,vala], required by net-im/empathy-3.6.3, required by empathy (argument)
+>=gnome-extra/evolution-data-server-3.6.3 vala
+#required by gnome-extra/gnome-contacts-3.6.2[-v4l], required by net-im/empathy-3.6.3[gnome], required by empathy (argument)
+>=dev-libs/folks-0.8.0 vala
+#required by media-video/cheese-3.6.2, required by net-im/empathy-3.6.3[v4l], required by empathy (argument)
+>=media-libs/gst-plugins-base-1.0.5-r2 theora
