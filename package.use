@@ -16,7 +16,7 @@ app-editors/vim python
 net-voip/telepathy-gabble gnutls
 
 sys-devel/llvm gold
-sys-devel/clang gold
+sys-devel/clang gold python
 
 #Auto Generated
 

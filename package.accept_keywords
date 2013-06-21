@@ -14,8 +14,8 @@
 =sys-devel/gcc-4.7.3 ~amd64
 
 #Clang
-=sys-devel/llvm-3.2 ~amd64
-=sys-devel/clang-3.2 ~amd64
+=sys-devel/llvm-3.3 ~amd64
+=sys-devel/clang-3.3 ~amd64
 
 #VMware Player
 =app-emulation/vmware-tools-9.2.3.1031769 ~amd64
