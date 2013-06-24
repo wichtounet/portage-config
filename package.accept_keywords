@@ -8,7 +8,7 @@
 #Java
 =virtual/jdk-1.7.0 ~amd64
 =virtual/jre-1.7.0 ~amd64
-=dev-java/oracle-jdk-bin-1.7.0.21 ~amd64
+>dev-java/oracle-jdk-bin-1.7.0.0 ~amd64
 
 #GCC 4.7.3
 =sys-devel/gcc-4.7.3 ~amd64
