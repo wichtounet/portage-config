@@ -46,8 +46,10 @@ mail-client/evolution
 media-fonts/inconsolata
 media-gfx/fontforge
 media-gfx/gimp
+media-gfx/inkscape
 net-analyzer/jnettop
 net-analyzer/nethogs
+net-analyzer/nmap
 net-fs/samba
 net-ftp/filezilla
 net-im/empathy
@@ -77,3 +79,4 @@ www-plugins/adobe-flash
 www-servers/tomcat
 x11-base/xorg-server
 x11-drivers/ati-drivers
+x11-misc/xscreensaver
