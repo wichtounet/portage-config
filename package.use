@@ -1,0 +1,11 @@
+gnome-base/gnome-session branding
+
+>=app-i18n/ibus-1.5.2 dconf
+
+>=dev-libs/libxml2-2.9.0-r2 icu
+=sys-libs/zlib-1.2.7 minizip
+
+=media-libs/mesa-9.1.2-r1 gles2
+>=x11-libs/libdrm-2.4.45 libkms
+
+media-video/vlc dvd ffmpeg mpeg mad wxwindows aac dts a52 ogg flac theora oggvorbis matroska freetype bidi xv svga gnutls stream vlm httpd cdda vcd cdio live lua
