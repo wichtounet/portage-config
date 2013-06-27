@@ -6,6 +6,7 @@ app-admin/syslog-ng
 app-doc/doxygen
 app-editors/gedit
 app-editors/vim
+app-emulation/crossover-bin
 app-misc/task
 app-portage/eix
 app-portage/genlop

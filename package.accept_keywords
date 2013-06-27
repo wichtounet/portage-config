@@ -21,6 +21,9 @@
 #Cppcheck
 =dev-util/cppcheck-1.59-r1 ~amd64
 
+#Crossover
+=app-emulation/crossover-bin-12.2.1 ~amd64
+
 #Gnome 3.6
 =app-editors/gedit-3.6.2-r1 ~amd64
 =sys-apps/gnome-disk-utility-3.6.1 ~amd64
