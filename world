@@ -10,7 +10,7 @@ app-emulation/crossover-bin
 app-misc/task
 app-portage/eix
 app-portage/genlop
-app-portage/portpeek
+app-portage/gentoolkit
 app-shells/autojump
 app-shells/zsh
 app-shells/zsh-completion
@@ -26,6 +26,7 @@ gnome-base/gnome-light:2.0
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweak-tool
 gnome-extra/nautilus-dropbox
+media-sound/clementine
 media-video/vlc
 net-fs/nfs-utils
 net-ftp/filezilla
