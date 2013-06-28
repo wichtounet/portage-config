@@ -18,6 +18,7 @@ app-shells/autojump
 app-shells/zsh
 app-shells/zsh-completion
 app-text/texlive
+dev-lang/go
 dev-lang/nasm
 dev-perl/Curses
 dev-util/ccache
@@ -25,6 +26,8 @@ dev-util/cppcheck
 dev-util/ctags
 dev-util/oprofile
 dev-vcs/git
+dev-vcs/mercurial
+dev-vcs/subversion
 gnome-base/gnome-light:2.0
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweak-tool
@@ -37,6 +40,7 @@ net-ftp/filezilla
 net-im/empathy
 net-misc/dhcpcd
 net-misc/dropbox
+net-nntp/sabnzbd
 sys-apps/gnome-disk-utility
 sys-apps/lm_sensors
 sys-apps/pciutils
@@ -44,6 +48,7 @@ sys-boot/grub
 sys-devel/clang
 sys-devel/gcc
 sys-devel/gdb
+sys-fs/fuse
 sys-kernel/module-rebuild
 www-client/chromium
 www-client/links
