@@ -26,10 +26,12 @@ gnome-base/gnome-light:2.0
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweak-tool
 gnome-extra/nautilus-dropbox
+mail-client/evolution
 media-sound/clementine
 media-video/vlc
 net-fs/nfs-utils
 net-ftp/filezilla
+net-im/empathy
 net-misc/dhcpcd
 net-misc/dropbox
 sys-apps/gnome-disk-utility
