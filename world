@@ -3,6 +3,9 @@
 app-admin/logrotate
 app-admin/sudo
 app-admin/syslog-ng
+app-arch/file-roller
+app-arch/unrar
+app-cdr/cdrtools
 app-doc/doxygen
 app-editors/gedit
 app-editors/vim
