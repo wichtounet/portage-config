@@ -22,6 +22,9 @@ app-text/texlive
 dev-lang/go
 dev-lang/nasm
 dev-perl/Curses
+dev-texlive/texlive-latexextra
+dev-texlive/texlive-pictures
+dev-texlive/texlive-science
 dev-util/ccache
 dev-util/cppcheck
 dev-util/ctags
