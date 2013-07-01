@@ -8,7 +8,6 @@
 #Java
 =virtual/jdk-1.7.0 ~amd64
 =virtual/jre-1.7.0 ~amd64
->dev-java/oracle-jdk-bin-1.7.0.0 ~amd64
 
 #GCC 4.7.3
 =sys-devel/gcc-4.7.3 ~amd64
@@ -39,7 +38,6 @@
 =app-admin/eselect-gnome-shell-extensions-20120911 ~amd64
 =mail-client/evolution-3.6.4 ~amd64
 =net-libs/libsoup-gnome-2.40.3 ~amd64
-=sys-apps/shadow-4.1.5.1 ~amd64
 =gnome-base/gnome-light-3.6.2 ~amd64
 =net-im/empathy-3.6.4 ~amd64
 =sys-apps/gnome-disk-utility-3.6.1 ~amd64
@@ -48,7 +46,6 @@
 =dev-python/pygobject-3.4.2-r1 ~amd64
 =app-accessibility/at-spi2-atk-2.6.2 ~amd64
 =gnome-base/gnome-keyring-3.6.3 ~amd64
-=sys-auth/pambase-20120417-r1 ~amd64
 =dev-libs/gobject-introspection-common-1.34.2 ~amd64
 =app-crypt/gcr-3.6.2 ~amd64
 =net-libs/liboauth-0.9.7 ~amd64
