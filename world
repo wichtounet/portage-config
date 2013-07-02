@@ -39,6 +39,8 @@ gnome-extra/nautilus-dropbox
 mail-client/evolution
 media-sound/clementine
 media-video/vlc
+net-analyzer/jnettop
+net-analyzer/nethogs
 net-fs/nfs-utils
 net-ftp/filezilla
 net-im/empathy
