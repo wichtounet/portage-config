@@ -54,9 +54,11 @@ sys-devel/gcc
 sys-devel/gdb
 sys-fs/fuse
 sys-kernel/module-rebuild
+sys-process/vixie-cron
 www-client/chromium
 www-client/links
 www-plugins/adobe-flash
 x11-drivers/nvidia-drivers
 x11-libs/cairo
 x11-libs/gdk-pixbuf
+x11-misc/xscreensaver
