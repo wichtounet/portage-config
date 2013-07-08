@@ -31,6 +31,8 @@
 #gitstats
 =dev-vcs/gitstats-100711 ~amd64
 
+=dev-lang/go-1.1.1 ~amd64
+
 #Gnome 3.6.2
 =app-text/poppler-0.22.5 ~amd64
 =gnome-extra/gnome-shell-extensions-3.6.2 ~amd64
