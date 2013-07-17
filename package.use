@@ -16,6 +16,9 @@ net-voip/telepathy-gabble gnutls
 sys-devel/llvm gold
 sys-devel/clang gold
 
+#Disable bootstrap of icedtea
+dev-java/icedtea -jbootstrap
+
 #Auto Generated
 
 net-misc/networkmanager -ppp

@@ -1,5 +1,2 @@
-#required by oracle-jdk-bin (argument)
->=dev-java/oracle-jdk-bin-1.7.0.15 Oracle-BCLA-JavaSE
-
 # required by adobe-flash (argument)
 >=www-plugins/adobe-flash-11.2.202.285 AdobeFlash-11.x
