@@ -1,2 +1,5 @@
 # required by adobe-flash (argument)
 >=www-plugins/adobe-flash-11.2.202.285 AdobeFlash-11.x
+
+# required by mendeleydesktop (argument)
+>=sci-misc/mendeleydesktop-1.9.1 Mendeley-EULA

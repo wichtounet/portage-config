@@ -1,34 +1,41 @@
-#Gnome
+# Gnome
 x11-base/xorg-server udev
 gnome-base/gnome-session branding
 
-#Empathy
+# Empathy
 net-im/telepathy-connection-managers jabber
 
-#CUPS / Samba
+# CUPS / Samba
 net-print/cups ppds
 net-fs/samba readline cups pam
 
-#Telepathy/Gabble
+# Telepathy/Gabble
 net-voip/telepathy-gabble gnutls
 
-#LLVM / CLang
+# LLVM / CLang
 sys-devel/llvm gold
 sys-devel/clang gold
 
-#Disable bootstrap of icedtea
+# Disable bootstrap of icedtea
 dev-java/icedtea -jbootstrap
 
-#Auto Generated
+# required by www-client/chromium-28.0.1500.95[system-ffmpeg]
+=media-video/ffmpeg-1.0.7 opus
 
+# Disable Point-to-Point Protocol
 net-misc/networkmanager -ppp
+
+# required by mendeleydesktop (argument)
+dev-qt/qtwebkit icu
+dev-libs/libxml2 icu
+
+# Auto Generated
 
 >=net-dialup/ppp-2.4.5-r3 ipv6
 >=app-i18n/ibus-1.5.1-r1 dconf
 
 >=dev-vcs/subversion-1.7.7 -dso perl
 
->=dev-libs/libxml2-2.9.0-r2 icu
 >=sys-libs/zlib-1.2.7 minizip
 =media-libs/mesa-9.1.2-r1 gles2
 
