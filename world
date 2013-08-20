@@ -1,0 +1,14 @@
+app-admin/logrotate
+app-admin/sudo
+app-admin/syslog-ng
+app-editors/vim
+app-portage/eix
+dev-vcs/git
+dev-vcs/subversion
+media-sound/teamspeak-server-bin
+sys-apps/lm_sensors
+sys-apps/pciutils
+sys-boot/grub
+sys-kernel/gentoo-sources
+sys-process/vixie-cron
+www-client/links
