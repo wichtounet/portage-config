@@ -1,1 +1,7 @@
+#Remove Perl from Git
 dev-vcs/git -perl
+
+#Tiny Tiny RSS
+www-apps/tt-rss -mysql postgres daemon
+=dev-lang/php-5.5.1 apache2 pcntl fpm curl postgres
+=app-admin/eselect-php-0.7.1 fpm apache2

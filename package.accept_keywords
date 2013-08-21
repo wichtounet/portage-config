@@ -1,2 +1,5 @@
-# required by teamspeak-server-bin (argument)
+# Teamspeak
 =media-sound/teamspeak-server-bin-3.0.7.2 ~amd64
+
+#Tiny Tiny RSS
+=www-apps/tt-rss-1.8 ~amd64
