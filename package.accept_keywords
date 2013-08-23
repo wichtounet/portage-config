@@ -3,3 +3,9 @@
 
 #Tiny Tiny RSS
 =www-apps/tt-rss-1.8 ~amd64
+
+#Sabnzbd
+=net-nntp/sabnzbd-0.7.14 ~amd64
+=dev-python/yenc-0.4.0-r1 ~amd64
+=dev-python/pythonutils-0.4.0 ~amd64
+=dev-python/gntp-1.0.1 ~amd64
