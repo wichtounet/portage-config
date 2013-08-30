@@ -75,7 +75,6 @@
 =media-libs/cogl-1.12.2-r1 ~amd64
 =gnome-base/gdm-3.6.2-r1 ~amd64
 =gnome-base/gnome-menus-3.6.2 ~amd64
-=net-wireless/gnome-bluetooth-3.6.1 ~amd64
 =gnome-base/gnome-settings-daemon-3.6.4 ~amd64
 =x11-misc/notification-daemon-0.7.6 ~amd64
 =dev-util/gdbus-codegen-2.34.3 ~amd64
@@ -108,7 +107,6 @@
 =dev-libs/folks-0.8.0 ~amd64
 =gnome-extra/zeitgeist-0.9.12 ~amd64
 =dev-libs/libzeitgeist-0.3.18 ~amd64
-=media-video/cheese-3.6.2 ~amd64
 =sci-geosciences/geocode-glib-0.99.0 ~amd64
 =dev-python/isodate-0.4.9-r1 ~amd64
 =dev-python/rdflib-3.2.3-r1 ~amd64

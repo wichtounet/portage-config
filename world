@@ -36,7 +36,6 @@ dev-util/idea:12
 dev-vcs/git
 dev-vcs/git-flow
 dev-vcs/gitstats
-dev-vcs/subversion
 gnome-base/gdm
 gnome-base/gnome-light
 gnome-extra/gcalctool

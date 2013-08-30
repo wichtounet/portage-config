@@ -29,14 +29,10 @@ net-misc/networkmanager -ppp
 # Mendeley Desktop
 dev-qt/qtwebkit icu
 
-# Subversion
-dev-vcs/subversion -dso perl
-
 # hpn causes scp to be very slow
 net-misc/openssh -hpn
 
 # Gnome 3
-
 >=net-dialup/ppp-2.4.5-r3 ipv6
 >=app-i18n/ibus-1.5.1-r1 dconf
 >=sys-libs/zlib-1.2.7 minizip
@@ -49,3 +45,12 @@ net-misc/openssh -hpn
 gnome-base/gnome-control-center -v4l
 gnome-extra/gnome-contacts -v4l
 net-im/empathy -v4l
+
+# There is no need for bluetooth here
+gnome-base/gnome-control-center -bluetooth
+gnome-base/gnome-shell -bluetooth
+gnome-extra/nm-applet -bluetooth
+
+#Remove subversion
+app-portage/layman -subversion
+dev-vcs/git -subversion
