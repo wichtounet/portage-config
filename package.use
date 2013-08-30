@@ -19,26 +19,33 @@ sys-devel/clang gold
 # Disable bootstrap of icedtea
 dev-java/icedtea -jbootstrap
 
-# required by www-client/chromium-28.0.1500.95[system-ffmpeg]
+# required by www-client/chromium
 =media-video/ffmpeg-1.0.7 opus
+dev-libs/libxml2 icu
 
 # Disable Point-to-Point Protocol
 net-misc/networkmanager -ppp
 
-# required by mendeleydesktop (argument)
+# Mendeley Desktop
 dev-qt/qtwebkit icu
-dev-libs/libxml2 icu
 
-# Auto Generated
+# Subversion
+dev-vcs/subversion -dso perl
+
+# hpn causes scp to be very slow
+net-misc/openssh -hpn
+
+# Gnome 3
 
 >=net-dialup/ppp-2.4.5-r3 ipv6
 >=app-i18n/ibus-1.5.1-r1 dconf
-
->=dev-vcs/subversion-1.7.7 -dso perl
-
 >=sys-libs/zlib-1.2.7 minizip
 =media-libs/mesa-9.1.2-r1 gles2
-
 >=gnome-extra/evolution-data-server-3.6.3 vala
 >=dev-libs/folks-0.8.0 vala
 >=media-libs/gst-plugins-base-1.0.5-r2 theora
+
+# There is no need for video or webcam support here
+gnome-base/gnome-control-center -v4l
+gnome-extra/gnome-contacts -v4l
+net-im/empathy -v4l
