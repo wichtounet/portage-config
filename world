@@ -57,7 +57,6 @@ net-fs/samba
 net-ftp/filezilla
 net-im/empathy
 net-misc/dropbox
-net-misc/openssh
 net-print/cups
 net-voip/telepathy-gabble
 sci-misc/mendeleydesktop
