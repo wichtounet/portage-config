@@ -13,6 +13,7 @@ media-video/vlc dvd ffmpeg mpeg mad wxwindows aac dts a52 ogg flac theora oggvor
 
 #Chromium
 =media-video/ffmpeg-1.0.7 opus
+>=dev-libs/libxml2-2.9.0-r2 icu
 
 #Disable bootstrap of icedtea
 dev-java/icedtea -jbootstrap
@@ -20,10 +21,12 @@ dev-java/icedtea -jbootstrap
 #Printing
 net-print/hplip scanner snmp fax
 
+#VLC does not build with these flags
+media-video/vlc -libnotify -svg
+
 #Uncategorized
 >=app-i18n/ibus-1.5.2 dconf
 
->=dev-libs/libxml2-2.9.0-r2 icu
 =sys-libs/zlib-1.2.7 minizip
 
 =media-libs/mesa-9.1.2-r1 gles2
