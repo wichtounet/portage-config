@@ -24,7 +24,6 @@ dev-java/icedtea
 dev-java/icedtea-web
 dev-lang/go
 dev-lang/nasm
-dev-libs/gobject-introspection
 dev-perl/Curses
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
@@ -36,7 +35,6 @@ dev-util/idea
 dev-util/oprofile
 dev-vcs/git
 dev-vcs/mercurial
-dev-vcs/subversion
 gnome-base/gdm
 gnome-base/gnome-light:2.0
 gnome-extra/gnome-system-monitor
@@ -55,7 +53,6 @@ net-analyzer/nethogs
 net-fs/nfs-utils
 net-ftp/filezilla
 net-im/empathy
-net-libs/gssdp
 net-misc/dhcpcd
 net-print/hplip
 sys-apps/gnome-disk-utility
@@ -78,6 +75,3 @@ www-client/chromium
 www-client/links
 www-plugins/adobe-flash
 x11-drivers/nvidia-drivers
-x11-libs/cairo
-x11-libs/gdk-pixbuf
-x11-misc/xscreensaver
