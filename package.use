@@ -1,5 +1,26 @@
+#Gnome
 gnome-base/gnome-session branding
 
+#VLC
+media-video/vlc dvd ffmpeg mpeg mad wxwindows aac dts a52 ogg flac theora oggvorbis matroska freetype bidi xv svga gnutls stream vlm httpd cdda vcd cdio live lua
+
+#Evolution
+=gnome-extra/evolution-data-server-3.6.4 vala
+=dev-libs/folks-0.8.0 vala
+
+#Teamspeak
+>=dev-qt/qtgui-4.8.4-r1 xinerama
+
+#Chromium
+=media-video/ffmpeg-1.0.7 opus
+
+#Disable bootstrap of icedtea
+dev-java/icedtea -jbootstrap
+
+#Printing
+net-print/hplip scanner snmp fax
+
+#Uncategorized
 >=app-i18n/ibus-1.5.2 dconf
 
 >=dev-libs/libxml2-2.9.0-r2 icu
@@ -7,8 +28,3 @@ gnome-base/gnome-session branding
 
 =media-libs/mesa-9.1.2-r1 gles2
 >=x11-libs/libdrm-2.4.45 libkms
-
-media-video/vlc dvd ffmpeg mpeg mad wxwindows aac dts a52 ogg flac theora oggvorbis matroska freetype bidi xv svga gnutls stream vlm httpd cdda vcd cdio live lua
-
-=gnome-extra/evolution-data-server-3.6.4 vala
-=dev-libs/folks-0.8.0 vala
