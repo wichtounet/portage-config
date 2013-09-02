@@ -12,8 +12,11 @@ dev-db/phppgadmin
 dev-db/postgresql-server
 dev-vcs/git
 dev-vcs/subversion
+mail-mta/ssmtp
 media-sound/murmur
 media-sound/teamspeak-server-bin
+media-video/ffmpeg
+net-analyzer/fail2ban
 net-analyzer/nmap
 net-analyzer/traceroute
 net-analyzer/zabbix
@@ -22,12 +25,12 @@ net-firewall/iptables
 net-fs/nfs-utils
 net-misc/dropbox
 net-misc/ntp
-net-nntp/nzbget
 net-nntp/sabnzbd
 sys-apps/lm_sensors
 sys-apps/pciutils
 sys-boot/grub
 sys-kernel/gentoo-sources
+sys-power/cpufrequtils
 sys-process/htop
 sys-process/vixie-cron
 www-apps/tt-rss

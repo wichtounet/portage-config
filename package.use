@@ -3,13 +3,17 @@ dev-vcs/git -perl
 
 #Tiny Tiny RSS
 www-apps/tt-rss -mysql postgres daemon
-=dev-lang/php-5.5.1 apache2 pcntl fpm curl postgres
+>=dev-lang/php-5.5.1 apache2 pcntl fpm curl postgres
 =app-admin/eselect-php-0.7.1 fpm apache2
 
 #Zabbix
 net-analyzer/zabbix agent server frontend ssh postgres snmp openipmi
-=dev-lang/php-5.5.1 truetype xmlwriter bcmath xmlreader sysvipc gd sockets
+>=dev-lang/php-5.5.1 truetype xmlwriter bcmath xmlreader sysvipc gd sockets
 >=media-libs/gd-2.0.35-r3 png
 
 #Sabnzbd
 =dev-lang/python-2.7.5 sqlite
+
+#Apache2
+>=dev-lang/python-2.7.5-r2:2.7 sqlite
+>=dev-lang/php-5.5.1 postgres truetype xmlwriter bcmath curl xmlreader sysvipc gd pcntl apache2 sockets
