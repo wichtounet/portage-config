@@ -70,7 +70,6 @@ sys-devel/clang
 sys-devel/gcc
 sys-devel/gdb
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:3.8.13
 sys-kernel/linux-headers
 sys-kernel/module-rebuild
 sys-process/vixie-cron
