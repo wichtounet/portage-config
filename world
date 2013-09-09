@@ -42,7 +42,6 @@ gnome-extra/gcalctool
 gnome-extra/gnome-shell-extensions
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweak-tool
-gnome-extra/nautilus-dropbox
 mail-client/evolution
 media-fonts/inconsolata
 media-gfx/fontforge
@@ -55,7 +54,7 @@ net-analyzer/traceroute
 net-fs/samba
 net-ftp/filezilla
 net-im/empathy
-net-misc/dropbox
+net-misc/mirall
 net-print/cups
 net-voip/telepathy-gabble
 sci-misc/mendeleydesktop
