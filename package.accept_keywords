@@ -41,6 +41,9 @@
 =app-emulation/vmware-tools-9.2.3.1031769 ~amd64
 =app-emulation/vmware-modules-271.2 ~amd64
 
+# For Genlop
+=perl-core/ExtUtils-Manifest-1.630.0 ~amd64
+
 #Owncloud Update Client
 =net-misc/mirall-1.4.0 ~amd64
 =net-misc/ocsync-0.90.0 ~amd64
