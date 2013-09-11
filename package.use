@@ -17,3 +17,7 @@ net-analyzer/zabbix agent server frontend ssh postgres snmp openipmi
 #Apache2
 >=dev-lang/python-2.7.5-r2:2.7 sqlite
 >=dev-lang/php-5.5.1 postgres truetype xmlwriter bcmath curl xmlreader sysvipc gd pcntl apache2 sockets
+
+#Owncloud
+www-apps/owncloud -sqlite postgres
+=dev-lang/php-5.5.2 pdo zip

@@ -2,12 +2,15 @@ app-admin/logcheck
 app-admin/logrotate
 app-admin/sudo
 app-admin/syslog-ng
+app-admin/syslog-summary
 app-editors/nano
 app-editors/vim
 app-forensics/chkrootkit
 app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
+app-shells/zsh
+app-shells/zsh-completion
 dev-db/phppgadmin
 dev-db/postgresql-server
 dev-vcs/git
@@ -25,7 +28,9 @@ net-firewall/iptables
 net-fs/nfs-utils
 net-misc/dropbox
 net-misc/ntp
+net-nntp/couchpotato
 net-nntp/sabnzbd
+net-nntp/sickbeard
 sys-apps/lm_sensors
 sys-apps/pciutils
 sys-boot/grub
@@ -33,5 +38,7 @@ sys-kernel/gentoo-sources
 sys-power/cpufrequtils
 sys-process/htop
 sys-process/vixie-cron
+www-apps/owncloud
 www-apps/tt-rss
 www-client/links
+www-servers/apache
