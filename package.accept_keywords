@@ -42,6 +42,9 @@
 =net-misc/ocsync-0.90.0 ~amd64
 =x11-misc/qtkeychain-0.1.0-r3 ~amd64
 
+#Skype
+=net-im/skype-4.2.0.11-r1 ~amd64
+
 # Gnome 3.6
 =app-text/poppler-0.22.5 ~amd64
 =gnome-extra/gnome-shell-extensions-3.6.2 ~amd64
