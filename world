@@ -28,6 +28,7 @@ app-text/texlive
 dev-java/icedtea
 dev-java/maven-bin
 dev-lang/nasm
+dev-libs/nss
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
 dev-texlive/texlive-science
@@ -65,6 +66,7 @@ sys-apps/lm_sensors
 sys-apps/memtest86+
 sys-apps/pciutils
 sys-apps/portage
+sys-apps/pv
 sys-boot/grub
 sys-devel/clang
 sys-devel/gcc
