@@ -32,6 +32,9 @@ dev-qt/qtwebkit icu
 # hpn causes scp to be very slow
 net-misc/openssh -hpn
 
+# Allow managing of certifications for chromium
+dev-libs/nss utils
+
 # Gnome 3
 >=net-dialup/ppp-2.4.5-r3 ipv6
 >=app-i18n/ibus-1.5.1-r1 dconf
