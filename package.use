@@ -19,10 +19,16 @@ media-video/vlc dvd ffmpeg mpeg mad wxwindows aac dts a52 ogg flac theora oggvor
 dev-java/icedtea -jbootstrap
 
 #Printing
-net-print/hplip scanner snmp fax
+net-print/hplip snmp
+
+#Certificate utility for chromium
+dev-libs/nss utils
 
 #VLC does not build with these flags
 media-video/vlc -libnotify -svg
+
+#Terminator without gnome support
+x11-terms/terminator -gnome
 
 #Uncategorized
 >=app-i18n/ibus-1.5.2 dconf
@@ -31,3 +37,5 @@ media-video/vlc -libnotify -svg
 
 =media-libs/mesa-9.1.2-r1 gles2
 >=x11-libs/libdrm-2.4.45 libkms
+dev-qt/qtwebkit icu
+

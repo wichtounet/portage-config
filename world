@@ -1,4 +1,3 @@
-=sys-kernel/gentoo-sources-3.8.13
 =sys-kernel/gentoo-sources-3.9.7
 app-admin/logrotate
 app-admin/sudo
@@ -8,7 +7,6 @@ app-arch/unrar
 app-cdr/brasero
 app-cdr/cdrtools
 app-doc/doxygen
-app-editors/gedit
 app-editors/vim
 app-emulation/crossover-bin
 app-misc/task
@@ -24,13 +22,16 @@ dev-java/icedtea
 dev-java/icedtea-web
 dev-lang/go
 dev-lang/nasm
+dev-libs/nss
 dev-perl/Curses
+dev-qt/qtwebkit
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
 dev-texlive/texlive-science
 dev-util/ccache
 dev-util/cppcheck
 dev-util/ctags
+dev-util/gtk-doc
 dev-util/idea
 dev-util/oprofile
 dev-vcs/git
@@ -44,7 +45,8 @@ media-gfx/eog
 media-gfx/gimp
 media-gfx/gnome-screenshot
 media-gfx/imagemagick
-media-sound/clementine
+media-sound/beets
+media-sound/cmus
 media-sound/mumble
 media-sound/teamspeak-client-bin
 media-video/vlc
@@ -54,6 +56,7 @@ net-fs/nfs-utils
 net-ftp/filezilla
 net-im/empathy
 net-misc/dhcpcd
+net-misc/mirall
 net-print/hplip
 sys-apps/gnome-disk-utility
 sys-apps/lm_sensors
@@ -75,3 +78,4 @@ www-client/chromium
 www-client/links
 www-plugins/adobe-flash
 x11-drivers/nvidia-drivers
+x11-terms/terminator
