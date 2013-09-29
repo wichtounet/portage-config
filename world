@@ -9,6 +9,7 @@ app-cdr/cdrtools
 app-doc/doxygen
 app-editors/vim
 app-emulation/crossover-bin
+app-misc/mmv
 app-misc/task
 app-portage/eix
 app-portage/genlop
@@ -47,6 +48,7 @@ media-gfx/gnome-screenshot
 media-gfx/imagemagick
 media-sound/beets
 media-sound/cmus
+media-sound/id3v2
 media-sound/mumble
 media-sound/teamspeak-client-bin
 media-video/vlc
@@ -57,6 +59,7 @@ net-ftp/filezilla
 net-im/empathy
 net-misc/dhcpcd
 net-misc/mirall
+net-misc/ntp
 net-print/hplip
 sys-apps/gnome-disk-utility
 sys-apps/lm_sensors
