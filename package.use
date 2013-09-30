@@ -35,6 +35,9 @@ net-misc/openssh -hpn
 # Allow managing of certifications for chromium
 dev-libs/nss utils
 
+#Disable gnome support in terminator
+x11-terms/terminator -gnome
+
 # Gnome 3
 >=net-dialup/ppp-2.4.5-r3 ipv6
 >=app-i18n/ibus-1.5.1-r1 dconf

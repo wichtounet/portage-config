@@ -9,7 +9,6 @@ app-arch/p7zip
 app-arch/unrar
 app-cdr/cdrtools
 app-doc/doxygen
-app-editors/gedit
 app-editors/nano
 app-editors/vim
 app-emulation/vmware-modules
@@ -39,7 +38,6 @@ dev-vcs/git-flow
 dev-vcs/gitstats
 gnome-base/gdm
 gnome-base/gnome-light
-gnome-extra/gcalctool
 gnome-extra/gnome-shell-extensions
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweak-tool
@@ -47,7 +45,6 @@ mail-client/evolution
 media-fonts/inconsolata
 media-gfx/fontforge
 media-gfx/gimp
-media-gfx/inkscape
 net-analyzer/jnettop
 net-analyzer/nethogs
 net-analyzer/nmap
@@ -57,6 +54,7 @@ net-ftp/filezilla
 net-im/empathy
 net-im/skype
 net-misc/mirall
+net-misc/ntp
 net-print/cups
 net-voip/telepathy-gabble
 sci-misc/mendeleydesktop
@@ -83,3 +81,4 @@ www-plugins/adobe-flash
 www-servers/tomcat
 x11-base/xorg-server
 x11-drivers/ati-drivers
+x11-terms/terminator
