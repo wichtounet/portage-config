@@ -4,12 +4,6 @@
 =dev-java/icedtea-web-1.3.2-r7 ~amd64
 =dev-java/icedtea-7.2.4.1 ~amd64
 
-# Idea
-=dev-util/idea-12.1.4.129.713 ~amd64
-
-# GCC 4.7.3
-=sys-devel/gcc-4.7.3 ~amd64
-
 # Clang
 =sys-devel/llvm-3.3 ~amd64
 =sys-devel/clang-3.3 ~amd64
@@ -42,8 +36,10 @@
 #Skype
 =net-im/skype-4.2.0.11-r1 ~amd64
 
+#Ranger file explorer
+=app-misc/ranger-1.6.1 ~amd64
+
 # Gnome 3.6
-=app-text/poppler-0.22.5 ~amd64
 =gnome-extra/gnome-shell-extensions-3.6.2 ~amd64
 =gnome-extra/gnome-tweak-tool-3.6.1-r1 ~amd64
 =app-admin/eselect-gnome-shell-extensions-20120911 ~amd64
@@ -66,7 +62,7 @@
 =dev-libs/libgdata-0.14.0 ~amd64
 =app-crypt/libsecret-0.14 ~amd64
 =x11-wm/mutter-3.6.3 ~amd64
-=dev-libs/glib-2.36.4 ~amd64
+=dev-libs/glib-2.36.4-r1 ~amd64
 =app-admin/openrc-settingsd-1.0.1 ~amd64
 =gnome-base/dconf-0.16.1 ~amd64
 =gnome-extra/sushi-3.6.1 ~amd64
