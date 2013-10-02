@@ -19,3 +19,6 @@
 
 # Couchpotato
 =net-nntp/couchpotato-9999 ~amd64
+
+# Headphones
+=net-nntp/headphones-9999 ~amd64
