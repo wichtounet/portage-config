@@ -4,6 +4,7 @@ app-admin/syslog-ng
 app-admin/sysstat
 app-admin/system-config-printer-common
 app-admin/system-config-printer-gnome
+app-arch/atool
 app-arch/file-roller
 app-arch/p7zip
 app-arch/unrar
@@ -24,6 +25,7 @@ app-portage/layman
 app-shells/autojump
 app-shells/zsh
 app-shells/zsh-completion
+app-text/highlight
 app-text/texlive
 dev-java/icedtea
 dev-java/maven-bin
@@ -47,6 +49,7 @@ mail-client/evolution
 media-fonts/inconsolata
 media-gfx/fontforge
 media-gfx/gimp
+media-libs/exiftool
 net-analyzer/jnettop
 net-analyzer/nethogs
 net-analyzer/nmap
@@ -59,7 +62,6 @@ net-misc/mirall
 net-misc/ntp
 net-print/cups
 net-voip/telepathy-gabble
-sci-misc/mendeleydesktop
 sys-apps/gnome-disk-utility
 sys-apps/ifplugd
 sys-apps/lm_sensors
@@ -79,6 +81,7 @@ virtual/jdk
 virtual/jre
 www-client/chromium
 www-client/links
+www-client/w3m
 www-plugins/adobe-flash
 www-servers/tomcat
 x11-base/xorg-server
