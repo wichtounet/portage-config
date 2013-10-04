@@ -11,9 +11,6 @@
 # Git Flow
 =dev-vcs/git-flow-0.4.1 **
 
-# Mendeley Desktop
-=sci-misc/mendeleydesktop-1.9.2 ~amd64
-
 # Autojump
 =app-shells/autojump-21.3.0-r1 ~amd64
 
