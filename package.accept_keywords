@@ -22,3 +22,9 @@
 
 # Headphones
 =net-nntp/headphones-9999 ~amd64
+
+# I, Librarian
+=app-text/bibutils-4.12 ~amd64
+
+# Ranger file explorer
+=app-misc/ranger-1.6.1 ~amd64
