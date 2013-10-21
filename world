@@ -12,6 +12,8 @@ app-cdr/cdrtools
 app-doc/doxygen
 app-editors/nano
 app-editors/vim
+app-emulation/bochs
+app-emulation/qemu
 app-emulation/vmware-modules
 app-emulation/vmware-player
 app-emulation/vmware-tools
@@ -26,11 +28,16 @@ app-shells/autojump
 app-shells/zsh
 app-shells/zsh-completion
 app-text/highlight
+app-text/sloccount
 app-text/texlive
+dev-go/fuse
+dev-go/sqlite3
 dev-java/icedtea
 dev-java/maven-bin
+dev-lang/go
 dev-lang/nasm
 dev-libs/nss
+dev-tex/rubber
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
 dev-texlive/texlive-science
@@ -72,9 +79,11 @@ sys-boot/grub
 sys-devel/clang
 sys-devel/gcc
 sys-devel/gdb
+sys-fs/simple-mtpfs
 sys-kernel/gentoo-sources
 sys-kernel/linux-headers
 sys-kernel/module-rebuild
+sys-process/htop
 sys-process/vixie-cron
 virtual/jdk
 virtual/jre
