@@ -1,8 +1,5 @@
 # required by adobe-flash
 >=www-plugins/adobe-flash-11.2.202.285 AdobeFlash-11.x
 
-# required by mendeleydesktop
->=sci-misc/mendeleydesktop-1.9.1 Mendeley-EULA
-
 # required by skype
 >=net-im/skype-4.2.0.11-r1 skype-4.0.0.7-copyright

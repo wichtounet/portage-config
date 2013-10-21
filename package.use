@@ -53,7 +53,6 @@ gnome-base/gnome-session branding
 >=net-dialup/ppp-2.4.5-r3 ipv6
 >=app-i18n/ibus-1.5.1-r1 dconf
 >=sys-libs/zlib-1.2.7 minizip
-=media-libs/mesa-9.1.2-r1 gles2
 >=gnome-extra/evolution-data-server-3.6.3 vala
 >=dev-libs/folks-0.8.0 vala
 >=media-libs/gst-plugins-base-1.0.5-r2 theora

@@ -47,7 +47,6 @@
 =gnome-extra/gnome-shell-extensions-3.6.2 ~amd64
 =gnome-extra/gnome-tweak-tool-3.6.1-r1 ~amd64
 =app-admin/eselect-gnome-shell-extensions-20120911 ~amd64
-=mail-client/evolution-3.6.4 ~amd64
 =net-libs/libsoup-gnome-2.42.2 ~amd64
 =gnome-base/gnome-light-3.6.2 ~amd64
 =net-im/empathy-3.6.4 ~amd64
@@ -57,14 +56,14 @@
 =dev-libs/gobject-introspection-common-1.36.0 ~amd64
 =dev-cpp/glibmm-2.36.2 ~amd64
 =dev-python/pygobject-3.4.2-r1 ~amd64
-=app-accessibility/at-spi2-atk-2.6.2 ~amd64
+=app-accessibility/at-spi2-atk-2.6.2-r1 ~amd64
 =gnome-base/gnome-keyring-3.6.3 ~amd64
 =app-crypt/gcr-3.6.2 ~amd64
 =gnome-base/gnome-session-3.6.2-r2 ~amd64
 =dev-python/pyatspi-2.6.0-r1 ~amd64
 =x11-libs/gdk-pixbuf-2.26.5 ~amd64
 =dev-libs/libgdata-0.14.0 ~amd64
-=app-crypt/libsecret-0.14 ~amd64
+=app-crypt/libsecret-0.15 ~amd64
 =x11-wm/mutter-3.6.3 ~amd64
 =dev-libs/glib-2.36.4-r1 ~amd64
 =app-admin/openrc-settingsd-1.0.1 ~amd64
@@ -98,7 +97,6 @@
 =gnome-extra/gnome-color-manager-3.6.1 ~amd64
 =gnome-base/gnome-desktop-3.6.3 ~amd64
 =gnome-base/libgnomekbd-3.6.0 ~amd64
-=x11-libs/gtk+-3.6.3-r2 ~amd64
 =gnome-base/gnome-shell-3.6.3.1 ~amd64
 =app-text/evince-3.6.1 ~amd64
 =gnome-extra/gnome-contacts-3.6.2 ~amd64
