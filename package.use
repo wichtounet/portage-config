@@ -1,13 +1,11 @@
-# Gnome
-x11-base/xorg-server udev
-gnome-base/gnome-session branding
-
 # Empathy
 net-im/telepathy-connection-managers jabber
 
 # CUPS / Samba
 net-print/cups ppds
 net-fs/samba readline cups pam
+net-fs/cifs-utils upcall
+=net-fs/samba-3.6.19 winbind
 
 # Telepathy/Gabble
 net-voip/telepathy-gabble gnutls
@@ -26,9 +24,6 @@ dev-libs/libxml2 icu
 # Disable Point-to-Point Protocol
 net-misc/networkmanager -ppp
 
-# Mendeley Desktop
-dev-qt/qtwebkit icu
-
 # hpn causes scp to be very slow
 net-misc/openssh -hpn
 
@@ -37,15 +32,6 @@ dev-libs/nss utils
 
 #Disable gnome support in terminator
 x11-terms/terminator -gnome
-
-# Gnome 3
->=net-dialup/ppp-2.4.5-r3 ipv6
->=app-i18n/ibus-1.5.1-r1 dconf
->=sys-libs/zlib-1.2.7 minizip
-=media-libs/mesa-9.1.2-r1 gles2
->=gnome-extra/evolution-data-server-3.6.3 vala
->=dev-libs/folks-0.8.0 vala
->=media-libs/gst-plugins-base-1.0.5-r2 theora
 
 # There is no need for video or webcam support here
 gnome-base/gnome-control-center -v4l
@@ -60,3 +46,14 @@ gnome-extra/nm-applet -bluetooth
 #Remove subversion
 app-portage/layman -subversion
 dev-vcs/git -subversion
+
+# Gnome
+x11-base/xorg-server udev
+gnome-base/gnome-session branding
+>=net-dialup/ppp-2.4.5-r3 ipv6
+>=app-i18n/ibus-1.5.1-r1 dconf
+>=sys-libs/zlib-1.2.7 minizip
+=media-libs/mesa-9.1.2-r1 gles2
+>=gnome-extra/evolution-data-server-3.6.3 vala
+>=dev-libs/folks-0.8.0 vala
+>=media-libs/gst-plugins-base-1.0.5-r2 theora
