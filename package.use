@@ -47,6 +47,12 @@ gnome-extra/nm-applet -bluetooth
 app-portage/layman -subversion
 dev-vcs/git -subversion
 
+#RXVT Unicode configuration
+x11-terms/rxvt-unicode xft unicode3 256-color
+www-client/w3m imlib
+
+# Ranger
+
 # Gnome
 x11-base/xorg-server udev
 gnome-base/gnome-session branding

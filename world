@@ -55,7 +55,7 @@ gnome-extra/gnome-tweak-tool
 media-fonts/inconsolata
 media-gfx/fontforge
 media-gfx/gimp
-media-libs/exiftool
+media-gfx/gnome-screenshot
 net-analyzer/jnettop
 net-analyzer/nethogs
 net-analyzer/nmap
@@ -94,4 +94,5 @@ www-plugins/adobe-flash
 www-servers/tomcat
 x11-base/xorg-server
 x11-drivers/ati-drivers
-x11-terms/terminator
+x11-misc/urxvt-perls
+x11-terms/rxvt-unicode
