@@ -7,6 +7,9 @@ net-fs/samba readline cups pam
 net-fs/cifs-utils upcall
 =net-fs/samba-3.6.19 winbind
 
+# Conky
+app-admin/conky imlib iostats lua lua-cairo lua-imlib
+
 # Telepathy/Gabble
 net-voip/telepathy-gabble gnutls
 
