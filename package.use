@@ -3,9 +3,8 @@ net-im/telepathy-connection-managers jabber
 
 # CUPS / Samba
 net-print/cups ppds
-net-fs/samba readline cups pam
+net-fs/samba readline cups pam winbind
 net-fs/cifs-utils upcall
-=net-fs/samba-3.6.19 winbind
 
 # Conky
 app-admin/conky imlib iostats lua lua-cairo lua-imlib
@@ -53,8 +52,6 @@ dev-vcs/git -subversion
 #RXVT Unicode configuration
 x11-terms/rxvt-unicode xft unicode3 256-color
 www-client/w3m imlib
-
-# Ranger
 
 # Gnome
 x11-base/xorg-server udev
