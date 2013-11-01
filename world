@@ -8,7 +8,9 @@ app-cdr/brasero
 app-cdr/cdrtools
 app-doc/doxygen
 app-editors/vim
+app-emulation/bochs
 app-emulation/crossover-bin
+app-emulation/qemu
 app-misc/mmv
 app-misc/task
 app-portage/eix
@@ -36,14 +38,11 @@ dev-util/gtk-doc
 dev-util/idea
 dev-util/oprofile
 dev-vcs/git
-dev-vcs/mercurial
 gnome-base/gdm
 gnome-base/gnome-light:2.0
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweak-tool
 mail-client/evolution
-media-gfx/eog
-media-gfx/gimp
 media-gfx/gnome-screenshot
 media-gfx/imagemagick
 media-sound/beets
@@ -73,6 +72,7 @@ sys-fs/dosfstools
 sys-fs/fuse
 sys-fs/ntfs3g
 sys-kernel/module-rebuild
+sys-process/htop
 sys-process/lsof
 sys-process/vixie-cron
 virtual/jdk

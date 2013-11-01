@@ -20,8 +20,8 @@
 #Autojump
 =app-shells/autojump-21.6.9 ~amd64
 
-#Better kernel
-=sys-kernel/gentoo-sources-3.9.7 ~amd64
+# Bochs 
+=app-emulation/bochs-2.6 ~amd64
 
 #Beets: Audio Library Manager
 =media-sound/beets-1.1.0 ~amd64
