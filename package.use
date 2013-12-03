@@ -4,7 +4,7 @@ net-im/telepathy-connection-managers jabber
 # CUPS / Samba
 net-print/cups ppds
 net-fs/samba readline cups pam winbind
-net-fs/cifs-utils upcall
+net-fs/cifs-utils upcall ads acl
 
 # Conky
 app-admin/conky imlib iostats lua lua-cairo lua-imlib
@@ -21,7 +21,6 @@ dev-java/icedtea -jbootstrap
 
 # required by www-client/chromium
 =media-video/ffmpeg-1.0.7 opus
-dev-libs/libxml2 icu
 
 # Disable Point-to-Point Protocol
 net-misc/networkmanager -ppp
@@ -44,6 +43,9 @@ net-im/empathy -v4l
 gnome-base/gnome-control-center -bluetooth
 gnome-base/gnome-shell -bluetooth
 gnome-extra/nm-applet -bluetooth
+
+# Bochs
+app-emulation/bochs debugger
 
 #Remove subversion
 app-portage/layman -subversion

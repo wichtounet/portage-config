@@ -38,6 +38,7 @@ dev-java/maven-bin
 dev-lang/go
 dev-lang/nasm
 dev-libs/nss
+dev-tex/glossaries
 dev-tex/rubber
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
@@ -54,6 +55,7 @@ gnome-extra/gnome-shell-extensions
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweak-tool
 media-fonts/inconsolata
+media-gfx/feh
 media-gfx/fontforge
 media-gfx/gnome-screenshot
 media-sound/cmus
@@ -79,6 +81,7 @@ sys-boot/grub
 sys-devel/clang
 sys-devel/gcc
 sys-devel/gdb
+sys-fs/dosfstools
 sys-fs/sshfs-fuse
 sys-kernel/gentoo-sources
 sys-kernel/linux-headers
