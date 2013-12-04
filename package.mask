@@ -1,1 +1,7 @@
 >sys-boot/grub-2
+
+#Avoid Gnome 3.8
+>net-im/empathy-3.7
+>gnome-extra/evolution-data-server-3.7
+>gnome-extra/gnome-online-accounts-3.7
+>dev-libs/folks-0.8.0
