@@ -1,6 +1,9 @@
 # Grub2 LVM Support
 sys-boot/grub:2 device-mapper
 
+# Disable thin provisioning support in LVM
+sys-fs/lvm2 -thin
+
 # Disable parts of git
 dev-vcs/git -subversion
 
@@ -9,6 +12,9 @@ app-emulation/bochs debugger sdl
 
 # X.Org Server
 dev-libs/libxml2 python
+
+# Sound
+=virtual/udev-200 hwdb
 
 # Awesome
 =media-libs/imlib2-1.4.5 png jpeg
