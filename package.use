@@ -1,66 +1,39 @@
-# Empathy
-net-im/telepathy-connection-managers jabber
+# Disable thin partitioning
+sys-fs/lvm2 -thin
 
-# CUPS / Samba
-net-print/cups ppds
-net-fs/samba readline cups pam winbind
-net-fs/cifs-utils upcall ads acl
+# X server
+x11-base/xorg-server udev
+dev-libs/libxml2 python
 
-# Conky
-app-admin/conky imlib iostats lua lua-cairo lua-imlib
+# Awesome
+media-gfx/imagemagick png
+media-libs/imlib2 png
+x11-libs/cairo xcb
 
-# Telepathy/Gabble
-net-voip/telepathy-gabble gnutls
+#Chromium
+media-libs/harfbuzz icu
+dev-libs/libxml2 icu
+sys-libs/zlib minizip
 
-# LLVM / CLang
-sys-devel/llvm gold
-sys-devel/clang gold
-
-# Disable bootstrap of icedtea
-dev-java/icedtea -jbootstrap
-
-# required by www-client/chromium
-=media-video/ffmpeg-1.0.7 opus
-
-# Disable Point-to-Point Protocol
-net-misc/networkmanager -ppp
-
-# hpn causes scp to be very slow
-net-misc/openssh -hpn
-
-# Allow managing of certifications for chromium
-dev-libs/nss utils
-
-#Disable gnome support in terminator
-x11-terms/terminator -gnome
-
-# There is no need for video or webcam support here
-gnome-base/gnome-control-center -v4l
-gnome-extra/gnome-contacts -v4l
-net-im/empathy -v4l
-
-# There is no need for bluetooth here
-gnome-base/gnome-control-center -bluetooth
-gnome-base/gnome-shell -bluetooth
-gnome-extra/nm-applet -bluetooth
-
-# Bochs
-app-emulation/bochs debugger
-
-#Remove subversion
-app-portage/layman -subversion
-dev-vcs/git -subversion
-
-#RXVT Unicode configuration
+# RXVT Unicode
 x11-terms/rxvt-unicode xft unicode3 256-color
 www-client/w3m imlib
 
-# Gnome
-x11-base/xorg-server udev
-gnome-base/gnome-session branding
->=net-dialup/ppp-2.4.5-r3 ipv6
->=app-i18n/ibus-1.5.1-r1 dconf
->=sys-libs/zlib-1.2.7 minizip
->=gnome-extra/evolution-data-server-3.6.3 vala
->=dev-libs/folks-0.8.0 vala
->=media-libs/gst-plugins-base-1.0.5-r2 theora
+# Evince
+app-text/poppler cairo
+
+# Grahical ATI control
+x11-drivers/ati-drivers qt4
+
+# Support of python inside vim
+app-editors/vim python
+
+# Conky Configuration
+app-admin/conky truetype imlib iostats lua lua-cairo lua-imlib
+x11-libs/libXfont truetype
+
+# Activate perl extensions
+x11-terms/rxvt-unicode perl
+
+# Bochs
+app-emulation/bochs debugger sdl
