@@ -37,3 +37,6 @@ x11-terms/rxvt-unicode perl
 
 # Bochs
 app-emulation/bochs debugger sdl
+
+# Disable bootstrap of icedtea
+dev-java/icedtea -jbootstrap
