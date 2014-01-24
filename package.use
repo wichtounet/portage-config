@@ -6,8 +6,6 @@ x11-base/xorg-server udev
 dev-libs/libxml2 python
 
 # Awesome
-media-gfx/imagemagick png
-media-libs/imlib2 png
 x11-libs/cairo xcb
 
 #Chromium
@@ -29,8 +27,7 @@ x11-drivers/ati-drivers qt4
 app-editors/vim python
 
 # Conky Configuration
-app-admin/conky truetype imlib iostats lua lua-cairo lua-imlib
-x11-libs/libXfont truetype
+app-admin/conky imlib iostats lua lua-cairo lua-imlib
 
 # Activate perl extensions
 x11-terms/rxvt-unicode perl
@@ -40,3 +37,7 @@ app-emulation/bochs debugger sdl
 
 # Disable bootstrap of icedtea
 dev-java/icedtea -jbootstrap
+
+# Firefox
+>=media-libs/libpng-1.6.8 apng
+>=dev-lang/python-2.7.5-r3 sqlite
