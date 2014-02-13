@@ -5,8 +5,8 @@ app-doc/doxygen
 app-editors/vim
 app-emulation/qemu
 app-emulation/vmware-player
+app-misc/budgetwarrior
 app-misc/ranger
-app-misc/task
 app-misc/tmsu
 app-office/dia
 app-portage/eix
@@ -21,9 +21,10 @@ app-text/zathura
 app-text/zathura-pdf-poppler
 dev-java/icedtea
 dev-java/maven-bin
-dev-lang/go
 dev-lang/nasm
+dev-tex/biblatex
 dev-tex/glossaries
+dev-tex/latexmk
 dev-tex/rubber
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
@@ -34,7 +35,9 @@ dev-util/idea-ultimate
 dev-util/perf
 dev-util/valgrind
 dev-vcs/git
+media-fonts/lohit-fonts
 media-gfx/feh
+media-gfx/graphicsmagick
 media-gfx/imagemagick
 media-libs/gd
 media-sound/cmus
@@ -42,6 +45,7 @@ media-sound/pavucontrol
 media-sound/volumeicon
 net-fs/samba
 net-ftp/filezilla
+net-irc/weechat
 net-misc/mirall
 net-print/cups
 sci-visualization/gnuplot
@@ -67,7 +71,6 @@ virtual/jdk
 virtual/jre
 www-client/firefox
 www-client/w3m
-www-plugins/adobe-flash
 www-servers/tomcat
 x11-base/xorg-server
 x11-drivers/ati-drivers
