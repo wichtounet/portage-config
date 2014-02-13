@@ -1,13 +1,13 @@
 app-admin/conky
 app-admin/sudo
 app-arch/atool
+app-arch/cpio
 app-doc/doxygen
 app-editors/vim
 app-emulation/qemu
 app-emulation/vmware-player
 app-misc/budgetwarrior
 app-misc/ranger
-app-misc/tmsu
 app-office/dia
 app-portage/eix
 app-portage/gentoolkit
@@ -22,10 +22,10 @@ app-text/zathura-pdf-poppler
 dev-java/icedtea
 dev-java/maven-bin
 dev-lang/nasm
+dev-python/numpy
 dev-tex/biblatex
 dev-tex/glossaries
 dev-tex/latexmk
-dev-tex/rubber
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
 dev-texlive/texlive-science

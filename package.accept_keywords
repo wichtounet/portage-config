@@ -19,10 +19,10 @@
 =net-misc/ocsync-0.91.4 ~amd64
 =dev-libs/qtkeychain-0.1.0-r3 ~amd64
 
-#IntelliJ Idea
+# IntelliJ Idea
 =dev-util/idea-ultimate-12.1.6 ~amd64
 
-=dev-tex/biber-1.8 ~amd64
+# Biblatex
 =dev-tex/biblatex-2.8 ~amd64
 
 #Java 7
@@ -46,21 +46,11 @@
 # GWS
 =dev-util/gws-9999 ~amd64
 
-# TMSU
-=app-misc/tmsu-9999 ~amd64
-=dev-go/fuse-9999 ~amd64
-=dev-go/sqlite3-9999 ~amd64
-
 # Perf tools
 =dev-util/perf-3.8-r1 ~amd64
-
-# Vit (Taskwarrior frontend)
-=app-misc/vit-1.2 ~amd64
 
 # Last version of Zathura
 =app-text/zathura-0.2.6 ~amd64
 =app-text/zathura-pdf-poppler-0.2.4 ~amd64
 =dev-libs/girara-0.1.9-r200 ~amd64
 =dev-libs/girara-0.1.9-r300 ~amd64
-
-=net-im/skype-4.2.0.13 ~amd64
