@@ -3,6 +3,7 @@ gnome-base/gnome-session branding
 
 #VLC
 media-video/vlc dvd ffmpeg mpeg mad wxwindows aac dts a52 ogg flac theora oggvorbis matroska freetype bidi xv svga gnutls stream vlm httpd cdda vcd cdio live lua
+>=sys-libs/zlib-1.2.8-r1 minizip
 
 #Evolution
 =gnome-extra/evolution-data-server-3.6.4 vala
@@ -19,7 +20,9 @@ media-video/vlc dvd ffmpeg mpeg mad wxwindows aac dts a52 ogg flac theora oggvor
 dev-java/icedtea -jbootstrap
 
 #Printing
-net-print/hplip snmp
+net-print/hplip snmp scanner fax
+dev-python/pillow python_targets_python2_7 -python_targets_python3_3
+virtual/python-imaging -python_targets_python3_3
 
 #Certificate utility for chromium
 dev-libs/nss utils
@@ -30,12 +33,12 @@ media-video/vlc -libnotify -svg
 #Terminator without gnome support
 x11-terms/terminator -gnome
 
+# Bochs
+app-emulation/bochs -smp -gdb debugger svga
+
 #Uncategorized
 >=app-i18n/ibus-1.5.2 dconf
-
-=sys-libs/zlib-1.2.7 minizip
-
+>=media-plugins/gst-plugins-meta-0.10-r8:0.10 ffmpeg
 =media-libs/mesa-9.1.2-r1 gles2
 >=x11-libs/libdrm-2.4.45 libkms
 dev-qt/qtwebkit icu
-

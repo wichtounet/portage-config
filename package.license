@@ -1,2 +1,8 @@
 # required by adobe-flash (argument)
 www-plugins/adobe-flash AdobeFlash-11.x
+
+www-plugins/chrome-binary-plugins google-chrome
+>=www-client/google-chrome-32.0.1700.102_p1 google-chrome
+
+# required by skype (argument)
+>=net-im/skype-4.2.0.13 skype-4.0.0.7-copyright

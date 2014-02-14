@@ -16,12 +16,18 @@
 
 #Task warrior
 =app-misc/task-2.2.0 ~amd64
+=app-misc/vit-1.2 ~amd64
 
 #Autojump
 =app-shells/autojump-21.6.9 ~amd64
 
-# Bochs 
+# Bochs
 =app-emulation/bochs-2.6 ~amd64
+
+# TMSU
+=app-misc/tmsu-9999 ~amd64
+=dev-go/sqlite3-9999 ~amd64
+=dev-go/fuse-9999 ~amd64
 
 #Beets: Audio Library Manager
 =media-sound/beets-1.1.0 ~amd64
@@ -30,6 +36,8 @@
 =dev-python/munkres-1.0.5.4-r2 ~amd64
 =dev-python/python-musicbrainz-ngs-0.4 ~amd64
 =dev-python/unidecode-0.04.9-r1 ~amd64
+
+=net-im/skype-4.2.0.13 ~amd64
 
 #Cppcheck
 =dev-util/cppcheck-1.59-r1 ~amd64
