@@ -13,21 +13,20 @@
 # Autojump
 =app-shells/autojump-21.6.9 ~amd64
 
-# Mirall
+# Mirall (ownCloud client)
 =net-misc/mirall-1.5.3 ~amd64
-=net-misc/ocsync-0.91.4 ~amd64
 =dev-libs/qtkeychain-0.1.0-r3 ~amd64
 
 # Biblatex
 =dev-tex/biblatex-2.8 ~amd64
 
-#Java 7
+# Java 7
 =virtual/jdk-1.7.0 ~amd64
 =virtual/jre-1.7.0 ~amd64
 =dev-java/icedtea-7.2.4.3 ~amd64
 =dev-java/icedtea-web-1.4.1 ~amd64
 
-#Vmware
+# Vmware
 =app-emulation/vmware-tools-9.6.1.1379776 ~amd64
 =app-emulation/vmware-player-6.0.0.1295980 ~amd64
 =app-emulation/vmware-modules-279.0 ~amd64
@@ -53,7 +52,8 @@
 =dev-libs/girara-0.1.9-r200 ~amd64
 =dev-libs/girara-0.1.9-r300 ~amd64
 
-# Last version of pugixml
+# Recent version of pugixml
 =dev-libs/pugixml-1.4 ~amd64
 
+# Recent version of opencv
 =media-libs/opencv-2.4.8 ~amd64
