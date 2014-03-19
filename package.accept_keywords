@@ -1,9 +1,8 @@
 #Systemd
-=sys-kernel/genkernel-next-50 ~amd64
+=sys-kernel/genkernel-next-54 ~amd64
 
 # Recent awesome
 =x11-wm/awesome-3.5.2-r1 ~amd64
-=dev-lua/lgi-0.6.2-r1 ~amd64
 =x11-libs/xcb-util-cursor-0.1.1 ~amd64
 =x11-plugins/vicious-2.1.0-r1 ~amd64
 
@@ -15,12 +14,9 @@
 =app-shells/autojump-21.6.9 ~amd64
 
 # Mirall
-=net-misc/mirall-1.5.0-r1 ~amd64
+=net-misc/mirall-1.5.3 ~amd64
 =net-misc/ocsync-0.91.4 ~amd64
 =dev-libs/qtkeychain-0.1.0-r3 ~amd64
-
-# IntelliJ Idea
-=dev-util/idea-ultimate-12.1.6 ~amd64
 
 # Biblatex
 =dev-tex/biblatex-2.8 ~amd64
@@ -29,19 +25,21 @@
 =virtual/jdk-1.7.0 ~amd64
 =virtual/jre-1.7.0 ~amd64
 =dev-java/icedtea-7.2.4.3 ~amd64
-=app-admin/eselect-java-0.1.0 ~amd64
 =dev-java/icedtea-web-1.4.1 ~amd64
-=dev-java/java-config-2.2.0 ~amd64
-=sys-apps/baselayout-java-0.1.0 ~amd64
 
 #Vmware
 =app-emulation/vmware-tools-9.6.1.1379776 ~amd64
 =app-emulation/vmware-player-6.0.0.1295980 ~amd64
 =app-emulation/vmware-modules-279.0 ~amd64
 
-#Clang 3.3
-=sys-devel/llvm-3.3 ~amd64
-=sys-devel/clang-3.3 ~amd64
+# Clang 3.4
+=sys-devel/llvm-3.4 ~amd64
+=sys-devel/clang-3.4-r100 ~amd64
+=sys-libs/libcxx-0.0_p20131222 ~amd64
+=sys-libs/libcxxrt-0.0_p20131222 ~amd64
+
+# More recent GCC
+=sys-devel/gcc-4.8.2 ~amd64
 
 # GWS
 =dev-util/gws-9999 ~amd64
@@ -54,3 +52,8 @@
 =app-text/zathura-pdf-poppler-0.2.4 ~amd64
 =dev-libs/girara-0.1.9-r200 ~amd64
 =dev-libs/girara-0.1.9-r300 ~amd64
+
+# Last version of pugixml
+=dev-libs/pugixml-1.4 ~amd64
+
+=media-libs/opencv-2.4.8 ~amd64

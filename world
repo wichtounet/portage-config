@@ -5,6 +5,7 @@ app-arch/cpio
 app-doc/doxygen
 app-editors/vim
 app-emulation/qemu
+app-emulation/vmware-modules
 app-emulation/vmware-player
 app-misc/budgetwarrior
 app-misc/ranger
@@ -16,12 +17,16 @@ app-shells/autojump
 app-shells/zsh
 app-shells/zsh-completion
 app-text/highlight
+app-text/sloccount
 app-text/texlive
 app-text/zathura
 app-text/zathura-pdf-poppler
 dev-java/icedtea
 dev-java/maven-bin
 dev-lang/nasm
+dev-lang/python-exec
+dev-lang/python-exec:0
+dev-libs/pugixml
 dev-python/numpy
 dev-tex/biblatex
 dev-tex/glossaries
@@ -35,11 +40,13 @@ dev-util/idea-ultimate
 dev-util/perf
 dev-util/valgrind
 dev-vcs/git
+games-fps/ut2004-demo
 media-fonts/lohit-fonts
 media-gfx/feh
 media-gfx/graphicsmagick
 media-gfx/imagemagick
 media-libs/gd
+media-libs/opencv
 media-sound/cmus
 media-sound/pavucontrol
 media-sound/volumeicon
@@ -57,6 +64,8 @@ sys-apps/smartmontools
 sys-apps/the_silver_searcher
 sys-boot/grub:2
 sys-devel/clang
+sys-devel/gcc
+sys-devel/gcc:4.7
 sys-devel/gdb
 sys-devel/llvm
 sys-fs/dosfstools
@@ -64,6 +73,7 @@ sys-fs/sshfs-fuse
 sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
 sys-libs/glibc
+sys-libs/libcxx
 sys-process/htop
 sys-process/lsof
 sys-process/vixie-cron
@@ -71,6 +81,7 @@ virtual/jdk
 virtual/jre
 www-client/firefox
 www-client/w3m
+www-plugins/adobe-flash
 www-servers/tomcat
 x11-base/xorg-server
 x11-drivers/ati-drivers
