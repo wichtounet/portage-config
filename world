@@ -54,6 +54,7 @@ net-fs/samba
 net-ftp/filezilla
 net-irc/weechat
 net-misc/mirall
+net-misc/ntp
 net-print/cups
 sci-visualization/gnuplot
 sys-apps/dbus
