@@ -37,8 +37,6 @@
 =app-text/zathura-0.2.7 ~amd64
 =app-text/zathura-pdf-poppler-0.2.5 ~amd64
 =dev-libs/girara-0.2.0 ~amd64
-=dev-libs/girara-0.1.9-r200 ~amd64
-=dev-libs/girara-0.1.9-r300 ~amd64
 
 # Autojump
 =app-shells/autojump-21.6.9 ~amd64
