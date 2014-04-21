@@ -1,8 +1,7 @@
 # required by adobe-flash (argument)
-www-plugins/adobe-flash AdobeFlash-11.x
+>=www-plugins/adobe-flash-11.2.202.336 AdobeFlash-11.x
 
-www-plugins/chrome-binary-plugins google-chrome
->=www-client/google-chrome-32.0.1700.102_p1 google-chrome
+>=dev-java/oracle-jre-bin-1.7.0.51 Oracle-BCLA-JavaSE
 
-# required by skype (argument)
->=net-im/skype-4.2.0.13 skype-4.0.0.7-copyright
+# required by google-chrome (argument)
+>=www-client/google-chrome-33.0.1750.152_p1 google-chrome
