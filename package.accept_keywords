@@ -3,7 +3,6 @@
 
 # Recent awesome
 =x11-wm/awesome-3.5.2-r1 ~amd64
-=x11-libs/xcb-util-cursor-0.1.0 ~amd64
 =x11-plugins/vicious-2.1.0-r1 ~amd64
 
 # LLVM / Clang 3.4
@@ -12,16 +11,16 @@
 =sys-libs/libcxx-0.0_p20140322 ~amd64
 =sys-libs/libcxxrt-0.0_p20140322 ~amd64
 
-=x11-libs/libdrm-2.4.52 ~amd64
+# Graphics
 =media-libs/mesa-10.0.3 ~amd64
-=x11-proto/xcb-proto-1.10 ~amd64
-=x11-proto/dri3proto-1.0 ~amd64
-=x11-libs/libxshmfence-1.1 ~amd64
-=x11-libs/libxcb-1.10 ~amd64
-=x11-proto/presentproto-1.0 ~amd64
+=media-video/vlc-2.1.2 ~amd64
+=x11-libs/libvdpau-0.7 ~amd64
+=media-video/ffmpeg-1.2.6 ~amd64
 
+# Updated GCC
 =sys-devel/gcc-4.8.2 ~amd64
 
+# GUI for synergy
 =x11-misc/qsynergy-0.9.1-r1 ~amd64
 
 # Recent ranger
@@ -49,14 +48,6 @@
 
 # Latex
 =dev-tex/biblatex-2.8 ~amd64
-
-=app-emulation/bochs-2.6 ~amd64
-
-=media-video/vlc-2.1.2 ~amd64
-=x11-libs/libvdpau-0.7 ~amd64
-=media-video/ffmpeg-1.2.6 ~amd64
-
-=www-client/google-chrome-33.0.1750.152_p1 ~amd64
 
 # Git Flow
 =dev-vcs/git-flow-0.4.1 ~amd64
