@@ -12,7 +12,6 @@
 =sys-libs/libcxxrt-0.0_p20140322 ~amd64
 
 # Graphics
-=media-libs/mesa-10.0.3 ~amd64
 =media-video/vlc-2.1.2 ~amd64
 =x11-libs/libvdpau-0.7 ~amd64
 =media-video/ffmpeg-1.2.6 ~amd64

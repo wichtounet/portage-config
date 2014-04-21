@@ -1,44 +1,39 @@
-#Gnome
-gnome-base/gnome-session branding
-
 #VLC
-media-video/vlc dvd ffmpeg mpeg mad wxwindows aac dts a52 ogg flac theora oggvorbis matroska freetype bidi xv svga gnutls stream vlm httpd cdda vcd cdio live lua
+media-video/vlc dvd ffmpeg mad wxwindows aac dts oggvorbis freetype svga vcd cdio opengl x264
 >=sys-libs/zlib-1.2.8-r1 minizip
 
-#Evolution
-=gnome-extra/evolution-data-server-3.6.4 vala
-=dev-libs/folks-0.8.0 vala
-
-#Teamspeak
->=dev-qt/qtgui-4.8.4-r1 xinerama
-
-#Chromium
-=media-video/ffmpeg-1.0.7 opus
->=dev-libs/libxml2-2.9.0-r2 icu
-
-#Disable bootstrap of icedtea
-dev-java/icedtea -jbootstrap
+sys-devel/llvm -ncurses clang gold
 
 #Printing
-net-print/hplip snmp scanner fax
-dev-python/pillow python_targets_python2_7 -python_targets_python3_3
-virtual/python-imaging -python_targets_python3_3
+net-print/hplip scanner qt4
+dev-python/pillow python_targets_python2_7 
 
-#Certificate utility for chromium
-dev-libs/nss utils
-
-#VLC does not build with these flags
+# VLC Configuration
 media-video/vlc -libnotify -svg
 
-#Terminator without gnome support
-x11-terms/terminator -gnome
+# Python support for plugins
+app-editors/vim python
 
-# Bochs
-app-emulation/bochs -smp -gdb debugger svga
+#Disable thin partitioning
+sys-fs/lvm2 -thin
 
-#Uncategorized
->=app-i18n/ibus-1.5.2 dconf
->=media-plugins/gst-plugins-meta-0.10-r8:0.10 ffmpeg
-=media-libs/mesa-9.1.2-r1 gles2
->=x11-libs/libdrm-2.4.45 libkms
-dev-qt/qtwebkit icu
+# Avoid humongous amount of horrible perl packages
+x11-misc/xscreensaver -perl
+dev-vcs/git -perl
+
+dev-libs/boost static-libs tools
+
+www-client/w3m imlib
+
+dev-lang/python sqlite
+
+
+x11-terms/rxvt-unicode 256-color unicode3 xft
+
+app-admin/conky imlib iostats lua lua-cairo lua-imlib
+
+# More screensavers
+x11-misc/xscreensaver opengl
+
+# Support for LVM2
+sys-boot/grub device-mapper
