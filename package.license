@@ -1,7 +1,2 @@
 # required by adobe-flash (argument)
 >=www-plugins/adobe-flash-11.2.202.336 AdobeFlash-11.x
-
->=dev-java/oracle-jre-bin-1.7.0.51 Oracle-BCLA-JavaSE
-
-# required by google-chrome (argument)
->=www-client/google-chrome-33.0.1750.152_p1 google-chrome
