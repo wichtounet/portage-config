@@ -34,8 +34,9 @@
 =net-misc/mirall-1.5.1 ~amd64
 
 # Last version of Zathura
-=app-text/zathura-0.2.6 ~amd64
-=app-text/zathura-pdf-poppler-0.2.4 ~amd64
+=app-text/zathura-0.2.7 ~amd64
+=app-text/zathura-pdf-poppler-0.2.5 ~amd64
+=dev-libs/girara-0.2.0 ~amd64
 =dev-libs/girara-0.1.9-r200 ~amd64
 =dev-libs/girara-0.1.9-r300 ~amd64
 
