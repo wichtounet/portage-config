@@ -44,3 +44,6 @@ dev-java/icedtea -jbootstrap
 # Firefox
 >=media-libs/libpng-1.6.8 apng
 >=dev-lang/python-2.7.5-r3 sqlite
+
+# Inkscape
+>=media-libs/lcms-1.19-r1:0 python
