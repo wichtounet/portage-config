@@ -7,6 +7,7 @@ app-editors/vim
 app-emulation/vmware-modules
 app-emulation/vmware-player
 app-misc/budgetwarrior
+app-misc/fdupes
 app-misc/ranger
 app-office/dia
 app-portage/eix
@@ -61,6 +62,7 @@ media-sound/volumeicon
 net-fs/samba
 net-ftp/filezilla
 net-misc/ntp
+net-misc/owncloud-client
 net-print/cups
 sci-visualization/gnuplot
 sys-apps/dbus
