@@ -4,7 +4,6 @@ app-arch/atool
 app-arch/cpio
 app-doc/doxygen
 app-editors/vim
-app-emulation/qemu
 app-emulation/vmware-modules
 app-emulation/vmware-player
 app-misc/budgetwarrior
@@ -33,11 +32,9 @@ dev-python/numpy
 dev-python/pip
 dev-python/virtualenv
 dev-python/virtualenvwrapper
-dev-qt/qtsql
 dev-tex/biblatex
 dev-tex/glossaries
 dev-tex/latexdiff
-dev-tex/latexmk
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
 dev-texlive/texlive-science
@@ -48,7 +45,6 @@ dev-util/perf
 dev-util/valgrind
 dev-vcs/git
 dev-vcs/git-flow
-games-fps/ut2004-demo
 media-fonts/lohit-fonts
 media-fonts/thaifonts-scalable
 media-gfx/feh
@@ -64,8 +60,6 @@ media-sound/pavucontrol
 media-sound/volumeicon
 net-fs/samba
 net-ftp/filezilla
-net-irc/weechat
-net-misc/mirall
 net-misc/ntp
 net-print/cups
 sci-visualization/gnuplot
