@@ -1,0 +1,33 @@
+# TT-RSS
+=www-apps/tt-rss-1.12 ~amd64
+
+# Sabnzbd
+=net-nntp/sabnzbd-0.7.17 ~amd64
+=dev-python/yenc-0.4.0-r1 ~amd64
+
+# Sickbeard
+=net-nntp/sickbeard-9999 ~amd64
+
+# Couchpotato
+=net-nntp/couchpotato-9999 ~amd64
+
+# Headphones
+=net-nntp/headphones-9999 ~amd64
+
+# Taskd server
+=app-misc/taskd-1.0.0 ~amd64
+
+# Owncloud 6.0
+=www-apps/owncloud-6.0.3 ~amd64
+
+# Zabbix 2.2
+=net-analyzer/zabbix-2.2.3 ~amd64
+
+# Gitolite
+=dev-vcs/gitolite-3.5.3.1 ~amd64
+
+# Ranger 
+=app-misc/ranger-1.6.1 ~amd64
+
+# Teamspeak Server
+=media-sound/teamspeak-server-bin-3.0.10.3 ~amd64

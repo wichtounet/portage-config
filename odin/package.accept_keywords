@@ -1,0 +1,9 @@
+# Beets
+=dev-python/pyyaml-3.11 ~amd64
+=dev-python/munkres-1.0.5.4-r2 ~amd64
+=dev-python/unidecode-0.04.14 ~amd64
+=dev-python/python-musicbrainz-ngs-0.4 ~amd64
+=media-sound/beets-1.3.3 ~amd64
+
+# Zabbix
+=net-analyzer/zabbix-2.2.3 ~amd64

@@ -1,0 +1,11 @@
+app-editors/vim python
+dev-vcs/git -perl
+sys-boot/grub device-mapper
+
+# Zabbix agent
+net-analyzer/zabbix agent
+
+# Beets
+dev-lang/python sqlite
+
+sys-apps/iproute2 -iptables

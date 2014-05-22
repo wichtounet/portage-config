@@ -1,0 +1,29 @@
+# Remove Perl from Git
+dev-vcs/git -perl
+
+# No need for iptables
+sys-apps/iproute2 -iptables
+
+# LVM in Grub
+sys-boot/grub device-mapper
+
+# PHP/Apache/PostgreSQL
+dev-lang/php -apache2 pcntl fpm curl postgres
+app-admin/eselect-php -apache2 fpm
+
+# TT-RSS
+www-apps/tt-rss -mysql postgres daemon
+
+# Sabnzbd
+dev-lang/python sqlite
+
+# Owncloud
+www-apps/owncloud -sqlite postgres
+dev-lang/php gd zip pdo xmlwriter
+
+# Zabbix Server
+net-analyzer/zabbix agent server frontend ssh postgres snmp
+>=media-libs/gd-2.0.35-r3 png
+=dev-lang/php-5.5.10 sockets xmlreader sysvipc bcmath truetype
+
+media-sound/murmur -dbus
