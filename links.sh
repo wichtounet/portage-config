@@ -51,12 +51,12 @@ function install_folder_link {
             echo "$link already exists, not overwriting"
         else
             # The file exists but is a symlink, we can replace it
-            echo "Create symlink $link -> $host_dir/$file"
-            sudo ln -sf $host_dir/$file $link
+            echo "Create symlink $link -> $host_dir/$folder"
+            sudo ln -sf $host_dir/$folder $link
         fi
     else
-        echo "Create symlink $link -> $host_dir/$file"
-        sudo ln -sf $host_dir/$file $link
+        echo "Create symlink $link -> $host_dir/$folder"
+        sudo ln -sf $host_dir/$folder $link
     fi
 }
 
