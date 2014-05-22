@@ -39,3 +39,4 @@ install_link /etc/portage/package.accept_keywords package.accept_keywords
 install_link /etc/portage/package.mask package.mask
 install_link /etc/portage/package.license package.license
 install_link /etc/portage/make.conf make.conf
+install_link /var/lib/portage/world world
