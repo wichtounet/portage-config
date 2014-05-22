@@ -8,20 +8,8 @@ dev-libs/libxml2 python
 # Awesome
 x11-libs/cairo xcb
 
-#Chromium
-media-libs/harfbuzz icu
-dev-libs/libxml2 icu
-sys-libs/zlib minizip
-
-# RXVT Unicode
-x11-terms/rxvt-unicode xft unicode3 256-color
-www-client/w3m imlib
-
 # LLVM / Clang 3.4
 sys-devel/llvm clang
-
-# Evince
-app-text/poppler cairo
 
 # Grahical ATI control
 x11-drivers/ati-drivers qt4
@@ -32,7 +20,9 @@ app-editors/vim python
 # Conky Configuration
 app-admin/conky imlib iostats lua lua-cairo lua-imlib
 
-# Activate perl extensions
+# RXVT Unicode
+x11-terms/rxvt-unicode xft unicode3 256-color
+www-client/w3m imlib
 x11-terms/rxvt-unicode perl
 
 # Bochs

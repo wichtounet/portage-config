@@ -51,9 +51,6 @@
 =app-text/zathura-pdf-poppler-0.2.5 ~amd64
 =dev-libs/girara-0.2.0 ~amd64
 
-# Recent version of pugixml
-=dev-libs/pugixml-1.4 ~amd64
-
 # Last Firefox version
 =www-client/firefox-29.0.1 ~amd64
 
@@ -65,3 +62,26 @@
 =dev-python/pbr-0.7.0 ~amd64
 =dev-python/stevedore-0.15 ~amd64
 =dev-python/virtualenvwrapper-4.2 ~amd64
+
+# Perl Hell for biber :(
+=perl-core/Exporter-5.680.0 ~amd64
+=dev-perl/Business-ISMN-1.110.0 ~amd64
+=dev-perl/File-Slurp-Unicode-0.7.1 ~amd64
+=virtual/perl-Exporter-5.680.0 ~amd64
+=dev-perl/autovivification-0.120.0 ~amd64
+=dev-perl/Encode-HanExtra-0.230.0 ~amd64
+=dev-perl/Business-ISBN-2.50.0 ~amd64
+=dev-tex/biber-1.8 ~amd64
+=dev-perl/Business-ISBN-Data-20120719.1.0 ~amd64
+=dev-perl/Date-Simple-3.30.0 ~amd64
+=dev-perl/Tie-Cycle-1.190.0 ~amd64
+=dev-perl/Text-BibTeX-0.690.0 ~amd64
+=dev-perl/Config-AutoConf-0.270.0 ~amd64
+=dev-perl/XML-LibXML-Simple-0.930.0 ~amd64
+=dev-perl/Encode-JIS2K-0.02 ~amd64
+=dev-perl/Unicode-LineBreak-2013.11 ~amd64
+=dev-perl/Readonly-XS-1.50.0 ~amd64
+=dev-perl/Business-ISSN-0.910.0 ~amd64
+=dev-perl/Encode-EUCJPASCII-0.03 ~amd64
+=dev-perl/List-AllUtils-0.30.0 ~amd64
+=dev-perl/ExtUtils-LibBuilder-0.04 ~amd64
