@@ -7,9 +7,6 @@ sys-fs/lvm2 -thin
 # Disable parts of git
 dev-vcs/git -subversion
 
-# Activate Debugger in bochs
-app-emulation/bochs debugger sdl
-
 # X.Org Server
 dev-libs/libxml2 python
 
@@ -18,7 +15,7 @@ dev-libs/libxml2 python
 
 # Awesome
 =media-libs/imlib2-1.4.5 png jpeg
-=x11-libs/cairo-1.12.14-r4 xcb
+x11-libs/cairo xcb
 =media-gfx/imagemagick-6.8.6.8 png jpeg
 x11-libs/libXfont truetype
 
@@ -44,3 +41,9 @@ app-text/poppler cairo
 # Fast compilation of openjdk
 dev-java/icedtea -jbootstrap
 app-text/ghostscript-gpl cups
+net-print/cups ppds
+net-fs/samba readline cups pam
+
+# Firefox
+>=media-libs/libpng-1.6.8 apng
+>=dev-lang/python-2.7.5-r3 sqlite
