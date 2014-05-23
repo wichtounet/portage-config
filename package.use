@@ -10,13 +10,8 @@ dev-vcs/git -subversion
 # X.Org Server
 dev-libs/libxml2 python
 
-# Sound
-=virtual/udev-200 hwdb
-
 # Awesome
-=media-libs/imlib2-1.4.5 png jpeg
 x11-libs/cairo xcb
-=media-gfx/imagemagick-6.8.6.8 png jpeg
 x11-libs/libXfont truetype
 
 # Python support in vim

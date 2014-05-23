@@ -1,14 +1,8 @@
-# Systemd
-=sys-kernel/genkernel-next-50 ~amd64
-=sys-block/thin-provisioning-tools-0.2.8-r1 ~amd64
-
 # Autojump
 =app-shells/autojump-21.6.9 ~amd64
 
 # Recent awesome
 =x11-wm/awesome-3.5.2-r1 ~amd64
-=dev-lua/lgi-0.6.2-r1 ~amd64
-=x11-libs/xcb-util-cursor-0.1.0 ~amd64
 =x11-plugins/vicious-2.1.0-r1 ~amd64
 
 # Recent ranger
@@ -23,13 +17,20 @@
 # Idea Ultimate
 =dev-util/idea-12.1.6.129.1359 ~amd64
 
-# Bochs
-=app-emulation/bochs-2.6 ~amd64
-
 # Owncloud client
-=net-misc/ocsync-0.90.4 ~amd64
-=x11-misc/qtkeychain-0.1.0-r3 ~amd64
-=net-misc/mirall-1.4.2 ~amd64
+=net-misc/owncloud-client-1.5.4 ~amd64
+=dev-libs/qtkeychain-0.3.0 ~amd64
 
-# required by skype (argument)
+# Skype
 =net-im/skype-4.2.0.13 ~amd64
+
+# Recent firefox
+=www-client/firefox-29.0.1 ~amd64
+
+# Python compile problems
+=dev-python/urwid-1.1.2 ~amd64
+
+# Zathura
+=app-text/zathura-0.2.7 ~amd64
+=app-text/zathura-pdf-poppler-0.2.5 ~amd64
+=dev-libs/girara-0.2.0 ~amd64
