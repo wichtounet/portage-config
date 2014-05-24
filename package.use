@@ -1,35 +1,40 @@
-#VLC
-media-video/vlc dvd ffmpeg mad wxwindows aac dts oggvorbis freetype svga vcd cdio opengl x264
->=sys-libs/zlib-1.2.8-r1 minizip
-
+# Activate Clang and Gold
 sys-devel/llvm -ncurses clang gold
 
 #Printing
 net-print/hplip scanner qt4
 dev-python/pillow python_targets_python2_7 
 
-# VLC Configuration
-media-video/vlc -libnotify -svg
-
 # Python support for plugins
 app-editors/vim python
-
-#Disable thin partitioning
-sys-fs/lvm2 -thin
 
 # Avoid humongous amount of horrible perl packages
 x11-misc/xscreensaver -perl
 dev-vcs/git -perl
 
-dev-libs/boost static-libs tools
+# Graphics
+dev-libs/libxml2 python
 
-www-client/w3m imlib
+# Mutt
+mail-client/mutt imap smtp sidebar sasl
+
+dev-libs/boost static-libs tools
 
 dev-lang/python sqlite
 
+# Firefox
+media-libs/libpng apng
 
+# Awesome VM
+x11-libs/cairo xcb
+
+# Zathura
+app-text/poppler cairo
+
+# Nice console font
 x11-terms/rxvt-unicode 256-color unicode3 xft
 
+# Powerful conky
 app-admin/conky imlib iostats lua lua-cairo lua-imlib
 
 # More screensavers
@@ -37,3 +42,8 @@ x11-misc/xscreensaver opengl
 
 # Support for LVM2
 sys-boot/grub device-mapper
+
+# Nice console images
+www-client/w3m imlib
+
+>=dev-qt/qtgui-4.8.5-r1 xinerama
