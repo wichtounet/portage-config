@@ -1,0 +1,14 @@
+app-admin/logrotate
+app-admin/sudo
+app-admin/syslog-ng
+app-editors/vim
+app-portage/eix
+dev-vcs/git
+sys-apps/dbus
+sys-apps/iproute2
+sys-apps/pciutils
+sys-boot/grub:2
+sys-fs/lvm2
+sys-kernel/genkernel-next
+sys-kernel/gentoo-sources
+sys-process/htop
