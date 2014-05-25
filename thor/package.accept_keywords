@@ -67,7 +67,6 @@
 # Mutt
 =mail-client/mutt-1.5.23-r2 ~amd64
 
-
 # Gmail IMAP proxy
 #=virtual/perl-Exporter-5.680.0 ~amd64
 #=dev-lang/perl-5.18.2 ~amd64

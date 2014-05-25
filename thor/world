@@ -13,6 +13,7 @@ app-portage/layman
 app-shells/autojump
 app-shells/zsh
 app-shells/zsh-completion
+app-text/evince
 app-text/highlight
 app-text/sloccount
 app-text/zathura
