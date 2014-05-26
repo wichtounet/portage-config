@@ -61,9 +61,6 @@
 # Mutt
 =mail-client/mutt-1.5.23-r2 ~amd64
 
-# Jumanji Browser
-=www-client/jumanji-0.0.0_p20130103-r1 ~amd64
-
 # Python virtualenv
 =dev-python/pbr-0.7.0 ~amd64
 =dev-python/stevedore-0.15 ~amd64
