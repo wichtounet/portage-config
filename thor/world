@@ -27,6 +27,7 @@ dev-python/virtualenvwrapper
 dev-qt/qtsql
 dev-tex/biblatex
 dev-tex/glossaries
+dev-tex/latex-beamer
 dev-tex/latexmk
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-science
@@ -54,6 +55,7 @@ net-dns/bind-tools
 net-ftp/filezilla
 net-im/pidgin
 net-misc/owncloud-client
+net-misc/urlview
 net-print/hplip
 sys-apps/dbus
 sys-apps/iproute2
