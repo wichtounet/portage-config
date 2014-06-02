@@ -1,0 +1,360 @@
+diff -r -U 8 mutt-1.5.22/OPS mutt-1.5.22-MOD/OPS
+--- mutt-1.5.22/OPS	2014-02-26 20:06:01.000000000 -0800
++++ mutt-1.5.22-MOD/OPS	2014-02-26 21:18:45.000000000 -0800
+@@ -56,16 +56,17 @@
+ OP_DECODE_SAVE "make decoded copy (text/plain) and delete"
+ OP_DELETE "delete the current entry"
+ OP_DELETE_MAILBOX "delete the current mailbox (IMAP only)"
+ OP_DELETE_SUBTHREAD "delete all messages in subthread"
+ OP_DELETE_THREAD "delete all messages in thread"
+ OP_DISPLAY_ADDRESS "display full address of sender"
+ OP_DISPLAY_HEADERS "display message and toggle header weeding"
+ OP_DISPLAY_MESSAGE "display a message"
++OP_EDIT_LABEL "add, change, or delete a message's label"
+ OP_EDIT_MESSAGE "edit the raw message"
+ OP_EDITOR_BACKSPACE "delete the char in front of the cursor"
+ OP_EDITOR_BACKWARD_CHAR "move the cursor one character to the left"
+ OP_EDITOR_BACKWARD_WORD "move the cursor to the beginning of the word"
+ OP_EDITOR_BOL "jump to the beginning of the line"
+ OP_EDITOR_BUFFY_CYCLE "cycle among incoming mailboxes"
+ OP_EDITOR_COMPLETE "complete filename or alias"
+ OP_EDITOR_COMPLETE_QUERY "complete address with query"
+diff -r -U 8 mutt-1.5.22/PATCHES mutt-1.5.22-MOD/PATCHES
+--- mutt-1.5.22/PATCHES	2014-02-26 20:13:32.000000000 -0800
++++ mutt-1.5.22-MOD/PATCHES	2014-02-26 21:19:44.000000000 -0800
+@@ -5,8 +5,9 @@
+ fg.change_folder_next
+ fg.smarttime
+ vvv.initials
+ vvv.quote
+ vvv.nntp
+ patch-1.5.20hg.pdmef.progress.vl.2
+ rr.compressed
+ patch-1.5.4.lpr.collapse_flagged Lukas P. Ruf <lukas.ruf@lpr.ch>
++dgc.xlabel_ext.5
+diff -r -U 8 mutt-1.5.22/copy.c mutt-1.5.22-MOD/copy.c
+--- mutt-1.5.22/copy.c	2012-07-08 17:34:00.000000000 -0700
++++ mutt-1.5.22-MOD/copy.c	2014-02-26 21:18:45.000000000 -0800
+@@ -106,16 +106,20 @@
+ 	    ascii_strncasecmp ("References:", buf, 11) == 0)
+ 	  continue;
+ 	if ((flags & CH_UPDATE_IRT) &&
+ 	    ascii_strncasecmp ("In-Reply-To:", buf, 12) == 0)
+ 	  continue;
+ 	ignore = 0;
+       }
+ 
++      if (flags & CH_UPDATE_LABEL &&
++         mutt_strncasecmp ("X-Label:", buf, 8) == 0)
++        continue;
++
+       if (!ignore && fputs (buf, out) == EOF)
+ 	return (-1);
+     }
+     return 0;
+   }
+ 
+   hdr_count = 1;
+   x = 0;
+@@ -407,16 +411,24 @@
+   if (flags & CH_UPDATE_LEN &&
+       (flags & CH_NOLEN) == 0)
+   {
+     fprintf (out, "Content-Length: " OFF_T_FMT "\n", h->content->length);
+     if (h->lines != 0 || h->content->length == 0)
+       fprintf (out, "Lines: %d\n", h->lines);
+   }
+ 
++  if (flags & CH_UPDATE_LABEL && h->xlabel_changed)
++  {
++    if (h->env->x_label != NULL)
++      if (fprintf(out, "X-Label: %s\n", h->env->x_label) !=
++		  10 + strlen(h->env->x_label))
++        return -1;
++  }
++
+   if ((flags & CH_NONEWLINE) == 0)
+   {
+     if (flags & CH_PREFIX)
+       fputs(prefix, out);
+     fputc ('\n', out); /* add header terminator */
+   }
+ 
+   if (ferror (out) || feof (out))
+@@ -487,16 +499,19 @@
+   if (flags & M_CM_PREFIX)
+   {
+     if (option (OPTTEXTFLOWED))
+       strfcpy (prefix, ">", sizeof (prefix));
+     else
+       _mutt_make_string (prefix, sizeof (prefix), NONULL (Prefix), Context, hdr, 0);
+   }
+ 
++  if (hdr->xlabel_changed)
++    chflags |= CH_UPDATE_LABEL;
++
+   if ((flags & M_CM_NOHEADER) == 0)
+   {
+     if (flags & M_CM_PREFIX)
+       chflags |= CH_PREFIX;
+ 
+     else if (hdr->attach_del && (chflags & CH_UPDATE_LEN))
+     {
+       int new_lines;
+diff -r -U 8 mutt-1.5.22/copy.h mutt-1.5.22-MOD/copy.h
+--- mutt-1.5.22/copy.h	2010-02-21 14:10:41.000000000 -0800
++++ mutt-1.5.22-MOD/copy.h	2014-02-26 21:18:45.000000000 -0800
+@@ -36,16 +36,18 @@
+ /* flags for mutt_copy_header() */
+ #define CH_UPDATE         1       /* update the status and x-status fields? */
+ #define CH_WEED           (1<<1)  /* weed the headers? */
+ #define CH_DECODE         (1<<2)  /* do RFC1522 decoding? */
+ #define CH_XMIT           (1<<3)  /* transmitting this message? */
+ #define CH_FROM           (1<<4)  /* retain the "From " message separator? */
+ #define CH_PREFIX         (1<<5)  /* use Prefix string? */
+ #define CH_NOSTATUS       (1<<6)  /* suppress the status and x-status fields */
++/* this absurd location to avoid conflict with cd.edit_threads -- *sigh* */
++#define CH_UPDATE_LABEL   (1<<20) /* update X-Label: from hdr->env->x_label? */
+ #define CH_REORDER        (1<<7)  /* Re-order output of headers */
+ #define CH_NONEWLINE      (1<<8)  /* don't output terminating newline */
+ #define CH_MIME           (1<<9)  /* ignore MIME fields */
+ #define CH_UPDATE_LEN     (1<<10) /* update Lines: and Content-Length: */
+ #define CH_TXTPLAIN       (1<<11) /* generate text/plain MIME headers */
+ #define CH_NOLEN          (1<<12) /* don't write Content-Length: and Lines: */
+ #define CH_WEED_DELIVERED (1<<13) /* weed eventual Delivered-To headers */
+ #define CH_FORCE_FROM     (1<<14) /* give CH_FROM precedence over CH_WEED? */
+diff -r -U 8 mutt-1.5.22/curs_main.c mutt-1.5.22-MOD/curs_main.c
+--- mutt-1.5.22/curs_main.c	2014-02-26 20:06:02.000000000 -0800
++++ mutt-1.5.22-MOD/curs_main.c	2014-02-26 21:18:45.000000000 -0800
+@@ -2268,16 +2268,31 @@
+         CHECK_VISIBLE;
+ 	CHECK_ATTACH;
+ 	if (option (OPTPGPAUTODEC) && (tag || !(CURHDR->security & PGP_TRADITIONAL_CHECKED)))
+ 	  mutt_check_traditional_pgp (tag ? NULL : CURHDR, &menu->redraw);
+ 	ci_send_message (SENDREPLY|SENDGROUPREPLY, NULL, NULL, Context, tag ? NULL : CURHDR);
+ 	menu->redraw = REDRAW_FULL;
+ 	break;
+ 
++      case OP_EDIT_LABEL:
++
++	CHECK_MSGCOUNT;
++	CHECK_READONLY;
++	rc = mutt_label_message(tag ? NULL : CURHDR);
++	if (rc > 0) {
++	  Context->changed = 1;
++	  menu->redraw = REDRAW_FULL;
++	  mutt_message ("%d label%s changed.", rc, rc == 1 ? "" : "s");
++	}
++	else {
++	  mutt_message _("No labels changed.");
++	}
++	break;
++
+       case OP_LIST_REPLY:
+ 
+ 	CHECK_ATTACH;
+ 	CHECK_MSGCOUNT;
+         CHECK_VISIBLE;
+ 	if (option (OPTPGPAUTODEC) && (tag || !(CURHDR->security & PGP_TRADITIONAL_CHECKED)))
+ 	  mutt_check_traditional_pgp (tag ? NULL : CURHDR, &menu->redraw);
+ 	ci_send_message (SENDREPLY|SENDLISTREPLY, NULL, NULL, Context, tag ? NULL : CURHDR);
+diff -r -U 8 mutt-1.5.22/doc/manual.txt mutt-1.5.22-MOD/doc/manual.txt
+--- mutt-1.5.22/doc/manual.txt	2013-10-17 22:53:22.000000000 -0700
++++ mutt-1.5.22-MOD/doc/manual.txt	2014-02-26 21:21:11.000000000 -0800
+@@ -4246,17 +4246,20 @@
+ the ?Reply-To? field will be used when present.
+ 
+ The ?X-Label:? header field can be used to further identify mailing lists or
+ list subject matter (or just to annotate messages individually). The
+ $index_format variable's ?%y? and ?%Y? expandos can be used to expand ?X-Label:
+ ? fields in the index, and Mutt's pattern-matcher can match regular expressions
+ to ?X-Label:? fields with the ?~y? selector. ?X-Label:? is not a standard
+ message header field, but it can easily be inserted by procmail and other mail
+-filtering agents.
++filtering agents. The ?X-Label:? header can be changed or deleted within Mutt 
++using the ``edit-label'' command, bound to the ??y? key by default. This works 
++for tagged messages, too.
++
+ 
+ Lastly, Mutt has the ability to sort the mailbox into threads. A thread is a
+ group of messages which all relate to the same subject. This is usually
+ organized into a tree-like structure where a message and all of its replies are
+ represented graphically. If you've ever used a threaded news client, this is
+ the same concept. It makes dealing with large volume mailing lists easier
+ because you can easily delete uninteresting threads and quickly find topics of
+ value.
+diff -r -U 8 mutt-1.5.22/doc/manual.xml.head mutt-1.5.22-MOD/doc/manual.xml.head
+--- mutt-1.5.22/doc/manual.xml.head	2014-02-26 20:06:02.000000000 -0800
++++ mutt-1.5.22-MOD/doc/manual.xml.head	2014-02-26 21:23:22.000000000 -0800
+@@ -5906,17 +5906,20 @@
+ The <quote>X-Label:</quote> header field can be used to further identify
+ mailing lists or list subject matter (or just to annotate messages
+ individually).  The <link linkend="index-format">$index_format</link>
+ variable's <quote>%y</quote> and <quote>%Y</quote> expandos can be used
+ to expand <quote>X-Label:</quote> fields in the index, and Mutt's
+ pattern-matcher can match regular expressions to <quote>X-Label:</quote>
+ fields with the <quote>~y</quote> selector.  <quote>X-Label:</quote> is
+ not a standard message header field, but it can easily be inserted by
+-procmail and other mail filtering agents.
++procmail and other mail filtering agents.  The <quote>X-Label:</quote> header 
++can be changed or deleted within Mutt using the <quote>edit-label</quote>
++command, bound to the <quote>y</quote> key by default. This works for tagged 
++messages, too.
+ </para>
+ 
+ <para>
+ Lastly, Mutt has the ability to <link linkend="sort">sort</link> the
+ mailbox into <link linkend="threads">threads</link>.  A thread is a
+ group of messages which all relate to the same subject.  This is usually
+ organized into a tree-like structure where a message and all of its
+ replies are represented graphically.  If you've ever used a threaded
+diff -r -U 8 mutt-1.5.22/functions.h mutt-1.5.22-MOD/functions.h
+--- mutt-1.5.22/functions.h	2014-02-26 20:06:01.000000000 -0800
++++ mutt-1.5.22-MOD/functions.h	2014-02-26 21:18:45.000000000 -0800
+@@ -98,16 +98,17 @@
+   { "copy-message",		OP_COPY_MESSAGE,		"C" },
+   { "decode-copy",		OP_DECODE_COPY,			"\033C" },
+   { "decode-save",		OP_DECODE_SAVE,			"\033s" },
+   { "delete-message",		OP_DELETE,			"d" },
+   { "delete-pattern",		OP_MAIN_DELETE_PATTERN,		"D" },
+   { "delete-thread",		OP_DELETE_THREAD,		"\004" },
+   { "delete-subthread",		OP_DELETE_SUBTHREAD,		"\033d" },
+   { "edit",			OP_EDIT_MESSAGE,		"e" },
++  { "edit-label",		OP_EDIT_LABEL,			"y" },
+   { "edit-type",		OP_EDIT_TYPE,			"\005" },
+   { "forward-message",		OP_FORWARD_MESSAGE,		"f" },
+ #ifdef USE_NNTP
+   { "forward-to-group",		OP_FORWARD_TO_GROUP,		"\033F" },
+   { "followup-message",		OP_FOLLOWUP,			"F" },
+   { "get-children",		OP_GET_CHILDREN,		NULL },
+   { "get-message",		OP_GET_MESSAGE,			"\007" },
+   { "get-parent",		OP_GET_PARENT,			"\033G" },
+@@ -205,16 +206,17 @@
+   { "copy-message",	OP_COPY_MESSAGE,		"C" },
+   { "decode-copy",	OP_DECODE_COPY,			"\033C" },
+   { "delete-message",	OP_DELETE,			"d" },
+   { "delete-thread",	OP_DELETE_THREAD,		"\004" },
+   { "delete-subthread",	OP_DELETE_SUBTHREAD,		"\033d" },
+   { "set-flag",  	OP_MAIN_SET_FLAG,		"w" },
+   { "clear-flag",       OP_MAIN_CLEAR_FLAG,		"W" },
+   { "edit",		OP_EDIT_MESSAGE,		"e" },
++  { "edit-label",	OP_EDIT_LABEL,			"y" },
+   { "edit-type",	OP_EDIT_TYPE,			"\005" },
+ #ifdef USE_NNTP
+   { "followup-message",	OP_FOLLOWUP,			"F" },
+   { "forward-to-group",	OP_FORWARD_TO_GROUP,		"\033F" },
+ #endif
+   { "forward-message",	OP_FORWARD_MESSAGE,		"f" },
+   { "flag-message",	OP_FLAG_MESSAGE,		"\033f" },
+   { "group-reply",	OP_GROUP_REPLY,			"g" },
+diff -r -U 8 mutt-1.5.22/headers.c mutt-1.5.22-MOD/headers.c
+--- mutt-1.5.22/headers.c	2014-02-26 20:06:01.000000000 -0800
++++ mutt-1.5.22-MOD/headers.c	2014-02-26 21:18:45.000000000 -0800
+@@ -209,8 +209,64 @@
+       tmp       = cur;
+       *last     = cur->next;
+       cur       = cur->next;
+       tmp->next = NULL;
+       mutt_free_list (&tmp);
+     }
+   }
+ }
++
++/*
++ * dgc: Add an X-Label: field.
++ */
++static int label_message(HEADER *hdr, char *new)
++{
++	if (hdr == NULL)
++		return 0;
++	if (hdr->env->x_label == NULL && new == NULL)
++		return 0;
++	if (hdr->env->x_label != NULL && new != NULL &&
++			strcmp(hdr->env->x_label, new) == 0)
++		return 0;
++	if (hdr->env->x_label != NULL)
++		FREE(&hdr->env->x_label);
++	if (new == NULL)
++		hdr->env->x_label = NULL;
++	else
++		hdr->env->x_label = safe_strdup(new);
++	return hdr->changed = hdr->xlabel_changed = 1;
++}
++
++int mutt_label_message(HEADER *hdr)
++{
++	char buf[LONG_STRING], *new;
++	int i;
++	int changed;
++
++	*buf = '\0';
++	if (hdr != NULL && hdr->env->x_label != NULL) {
++		strncpy(buf, hdr->env->x_label, LONG_STRING);
++	}
++
++	mutt_get_field("Label: ", buf, sizeof(buf), M_CLEAR);
++	new = buf;
++	SKIPWS(new);
++	if (*new == '\0')
++		new = NULL;
++
++	changed = 0;
++	if (hdr != NULL) {
++		changed += label_message(hdr, new);
++	} else {
++#define HDR_OF(index)	Context->hdrs[Context->v2r[(index)]]
++		for (i = 0; i < Context->vcount; ++i) {
++			if (HDR_OF(i)->tagged)
++				if (label_message(HDR_OF(i), new)) {
++					++changed;
++					mutt_set_flag(Context, HDR_OF(i),
++						M_TAG, 0);
++				}
++		}
++	}
++
++	return changed;
++}
+diff -r -U 8 mutt-1.5.22/mutt.h mutt-1.5.22-MOD/mutt.h
+--- mutt-1.5.22/mutt.h	2014-02-26 20:06:02.000000000 -0800
++++ mutt-1.5.22-MOD/mutt.h	2014-02-26 21:18:45.000000000 -0800
+@@ -775,16 +775,18 @@
+   unsigned int display_subject : 1; 	/* used for threading */
+   unsigned int recip_valid : 1;  	/* is_recipient is valid */
+   unsigned int active : 1;	    	/* message is not to be removed */
+   unsigned int trash : 1;		/* message is marked as trashed on disk.
+ 					 * This flag is used by the maildir_trash
+ 					 * option.
+ 					 */
+   
++  unsigned int xlabel_changed : 1;	/* editable - used for syncing */
++
+   /* timezone of the sender of this message */
+   unsigned int zhours : 5;
+   unsigned int zminutes : 6;
+   unsigned int zoccident : 1;
+ 
+   /* bits used for caching when searching */
+   unsigned int searched : 1;
+   unsigned int matched : 1;
+diff -r -U 8 mutt-1.5.22/protos.h mutt-1.5.22-MOD/protos.h
+--- mutt-1.5.22/protos.h	2014-02-26 20:06:02.000000000 -0800
++++ mutt-1.5.22-MOD/protos.h	2014-02-26 21:23:46.000000000 -0800
+@@ -180,16 +180,17 @@
+ void mutt_decode_attachment (BODY *, STATE *);
+ void mutt_decode_base64 (STATE *s, long len, int istext, iconv_t cd);
+ void mutt_default_save (char *, size_t, HEADER *);
+ void mutt_display_address (ENVELOPE *);
+ void mutt_display_sanitize (char *);
+ void mutt_edit_content_type (HEADER *, BODY *, FILE *);
+ void mutt_edit_file (const char *, const char *);
+ void mutt_edit_headers (const char *, const char *, HEADER *, char *, size_t);
++int mutt_label_message (HEADER *);
+ int mutt_filter_unprintable (char **);
+ void mutt_curses_error (const char *, ...);
+ void mutt_curses_message (const char *, ...);
+ void mutt_encode_path (char *, size_t, const char *);
+ void mutt_enter_command (void);
+ void mutt_expand_aliases_env (ENVELOPE *);
+ void mutt_expand_file_fmt (char *, size_t, const char *, const char *);
+ void mutt_expand_fmt (char *, size_t, const char *, const char *);
