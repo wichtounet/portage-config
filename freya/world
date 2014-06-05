@@ -26,7 +26,9 @@ dev-libs/glib
 dev-libs/gobject-introspection
 dev-libs/gobject-introspection-common
 dev-python/chardet
+dev-util/cppcheck
 dev-util/idea
+dev-util/valgrind
 dev-vcs/git
 media-fonts/inconsolata
 media-gfx/feh
@@ -38,6 +40,7 @@ media-sound/pavucontrol
 media-sound/volumeicon
 media-video/mediainfo
 media-video/vlc
+net-analyzer/traceroute
 net-fs/nfs-utils
 net-fs/samba
 net-im/pidgin
@@ -60,6 +63,7 @@ sys-fs/sshfs-fuse
 sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
+sys-libs/glibc
 sys-process/htop
 sys-process/vixie-cron
 virtual/jdk
