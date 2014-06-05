@@ -62,6 +62,7 @@ net-ftp/filezilla
 net-im/pidgin
 net-misc/ntp
 net-misc/owncloud-client
+net-misc/urlview
 net-print/cups
 sci-visualization/gnuplot
 sys-apps/dbus
