@@ -41,8 +41,12 @@ dev-java/icedtea -jbootstrap
 # Mutt
 mail-client/mutt imap smtp sidebar sasl
 
-sys-libs/libcxx static-libs
-sys-libs/libcxxrt static-libs
-
 # Disable iptables support
 sys-apps/iproute2 -iptables
+
+# Activate damn perl for interactive add
+dev-vcs/git perl
+
+# Temporary only
+sys-libs/libcxx static-libs
+sys-libs/libcxxrt static-libs
