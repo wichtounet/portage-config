@@ -43,3 +43,6 @@ mail-client/mutt imap smtp sidebar sasl
 
 sys-libs/libcxx static-libs
 sys-libs/libcxxrt static-libs
+
+# Disable iptables support
+sys-apps/iproute2 -iptables
