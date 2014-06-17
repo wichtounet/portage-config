@@ -55,10 +55,6 @@ media-gfx/inkscape
 media-gfx/jpegoptim
 media-gfx/optipng
 media-libs/gd
-media-libs/libjpeg-turbo
-media-libs/libpng
-media-libs/opencv
-media-libs/tiff
 media-sound/cmus
 media-sound/pavucontrol
 media-sound/volumeicon
@@ -85,10 +81,8 @@ sys-devel/llvm
 sys-fs/sshfs-fuse
 sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
-sys-libs/glibc
 sys-libs/libcxx
 sys-libs/libcxxrt
-sys-libs/zlib
 sys-process/htop
 sys-process/lsof
 sys-process/vixie-cron
