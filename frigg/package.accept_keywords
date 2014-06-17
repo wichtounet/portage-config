@@ -32,7 +32,7 @@
 =app-editors/vim-core-7.4.193 ~amd64
 
 # Clang 3.4
-=sys-devel/llvm-3.4.1-r1 ~amd64
+=sys-devel/llvm-3.4.1-r2 ~amd64
 =sys-devel/clang-3.4.1-r100 ~amd64
 =sys-libs/libcxx-0.0_p20140322 ~amd64
 =sys-libs/libcxxrt-0.0_p20140322 ~amd64
