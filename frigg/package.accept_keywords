@@ -46,11 +46,6 @@
 # Perf tools
 =dev-util/perf-3.8-r1 ~amd64
 
-# Last version of Zathura
-=app-text/zathura-0.2.7 ~amd64
-=app-text/zathura-pdf-poppler-0.2.5 ~amd64
-=dev-libs/girara-0.2.0 ~amd64
-
 # Last Firefox version
 =www-client/firefox-29.0.1 ~amd64
 
@@ -79,7 +74,7 @@
 =dev-perl/Date-Simple-3.30.0 ~amd64
 =dev-perl/Tie-Cycle-1.190.0 ~amd64
 =dev-perl/Text-BibTeX-0.690.0 ~amd64
-=dev-perl/Config-AutoConf-0.270.0 ~amd64
+=dev-perl/Config-AutoConf-0.304 ~amd64
 =dev-perl/XML-LibXML-Simple-0.930.0 ~amd64
 =dev-perl/Encode-JIS2K-0.02 ~amd64
 =dev-perl/Unicode-LineBreak-2013.11 ~amd64
