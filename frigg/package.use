@@ -43,6 +43,9 @@ mail-client/mutt imap smtp sidebar sasl
 mail-client/mutt-kz imap smtp sidebar sasl slang notmuch
 net-mail/notmuch mutt
 
+# Build opencv with libc++
+=media-libs/opencv-2.4.8-r1 libcxx
+
 # Disable iptables support
 sys-apps/iproute2 -iptables
 
