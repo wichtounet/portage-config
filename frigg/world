@@ -46,7 +46,7 @@ dev-util/perf
 dev-util/valgrind
 dev-vcs/git
 dev-vcs/git-flow
-mail-client/mutt
+mail-client/mutt-kz
 media-gfx/feh
 media-gfx/gimp
 media-gfx/graphicsmagick
@@ -61,6 +61,7 @@ media-sound/volumeicon
 net-fs/samba
 net-ftp/filezilla
 net-im/pidgin
+net-mail/offlineimap
 net-misc/ntp
 net-misc/owncloud-client
 net-misc/urlview
