@@ -17,7 +17,7 @@ dev-libs/libxml2 python
 
 # Mutt
 mail-client/mutt imap smtp sidebar sasl
-mail-client/mutt-kz imap smtp sasl slang notmuch
+mail-client/mutt-kz imap smtp sasl notmuch
 =net-mail/notmuch-0.17 mutt
 
 # Firefxo
