@@ -28,7 +28,6 @@ dev-java/maven-bin
 dev-lang/nasm
 dev-lang/python-exec
 dev-lang/python-exec:0
-dev-python/pip
 dev-python/virtualenv
 dev-python/virtualenvwrapper
 dev-tex/biber
@@ -49,12 +48,10 @@ dev-vcs/git-flow
 mail-client/mutt-kz
 media-gfx/feh
 media-gfx/gimp
-media-gfx/graphicsmagick
 media-gfx/imagemagick
 media-gfx/inkscape
 media-gfx/jpegoptim
 media-gfx/optipng
-media-libs/gd
 media-libs/opencv
 media-sound/cmus
 media-sound/pavucontrol
@@ -73,7 +70,6 @@ sys-apps/iproute2
 sys-apps/lm_sensors
 sys-apps/pciutils
 sys-apps/smartmontools
-sys-apps/the_silver_searcher
 sys-boot/grub:2
 sys-devel/clang
 sys-devel/gcc
