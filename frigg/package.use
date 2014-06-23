@@ -40,7 +40,7 @@ dev-java/icedtea -jbootstrap
 
 # Mutt
 mail-client/mutt imap smtp sidebar sasl
-mail-client/mutt-kz imap smtp sidebar sasl slang notmuch
+mail-client/mutt-kz imap smtp sidebar sasl notmuch
 net-mail/notmuch mutt
 
 # Build opencv with libc++
