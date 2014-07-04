@@ -52,3 +52,5 @@ sys-apps/iproute2 -iptables
 # Activate damn perl for interactive add
 dev-vcs/git perl
 
+# Findbugs
+>=dev-java/bcel-5.2-r2 findbugs
