@@ -50,7 +50,6 @@
 =dev-util/shflags-1.0.3 ~amd64
 
 # Mutt
-=mail-client/mutt-1.5.23-r2 ~amd64
 =mail-client/mutt-kz-1.5.22.1-r1 ~amd64
 
 # Python virtualenv
