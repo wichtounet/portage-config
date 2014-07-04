@@ -39,7 +39,6 @@ dev-texlive/texlive-pictures
 dev-texlive/texlive-science
 dev-util/ccache
 dev-util/cppcheck
-dev-util/findbugs
 dev-util/gws
 dev-util/idea-ultimate
 dev-util/perf
