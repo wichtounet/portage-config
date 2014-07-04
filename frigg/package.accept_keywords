@@ -27,10 +27,6 @@
 =app-emulation/vmware-player-6.0.2.1744117 ~amd64
 =app-emulation/vmware-modules-279.2 ~amd64
 
-# Vim 7.4
-=app-editors/vim-7.4.193 ~amd64
-=app-editors/vim-core-7.4.193 ~amd64
-
 # Clang 3.4
 =sys-devel/llvm-3.4.1-r2 ~amd64
 =sys-devel/clang-3.4.1-r100 ~amd64
