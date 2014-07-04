@@ -46,6 +46,7 @@ dev-util/valgrind
 dev-vcs/git
 dev-vcs/git-flow
 mail-client/mutt-kz
+mail-filter/imapfilter
 media-gfx/feh
 media-gfx/gimp
 media-gfx/imagemagick
