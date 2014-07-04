@@ -54,8 +54,8 @@
 
 # Python virtualenv
 =dev-python/pbr-0.7.0 ~amd64
-=dev-python/stevedore-0.15 ~amd64
-=dev-python/virtualenvwrapper-4.2 ~amd64
+=dev-python/stevedore-0.15-r1 ~amd64
+=dev-python/virtualenvwrapper-4.3 ~amd64
 
 # OpenCV (wichtounet-overlay ebuild)
 =media-libs/opencv-2.4.8-r1 ~amd64
