@@ -43,7 +43,6 @@ dev-util/findbugs
 dev-util/gws
 dev-util/idea-ultimate
 dev-util/perf
-dev-util/pmd
 dev-util/valgrind
 dev-vcs/git
 dev-vcs/git-flow
