@@ -24,11 +24,6 @@
 =net-misc/owncloud-client-1.5.4 ~amd64
 =dev-libs/qtkeychain-0.3.0 ~amd64
 
-# Last version of Zathura
-=app-text/zathura-0.2.7 ~amd64
-=app-text/zathura-pdf-poppler-0.2.5 ~amd64
-=dev-libs/girara-0.2.0 ~amd64
-
 # Autojump
 =app-shells/autojump-21.6.9 ~amd64
 
@@ -54,8 +49,8 @@
 =dev-python/unidecode-0.04.14 ~amd64
 
 # Virtualenvwrapper
-=dev-python/virtualenvwrapper-4.2 ~amd64
-=dev-python/stevedore-0.15 ~amd64
+=dev-python/virtualenvwrapper-4.3 ~amd64
+=dev-python/stevedore-0.15-r1 ~amd64
 =dev-python/pbr-0.8.0 ~amd64
 
 # libnotify daemon

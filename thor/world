@@ -6,6 +6,7 @@ app-arch/atool
 app-doc/doxygen
 app-editors/nano
 app-editors/vim
+app-misc/budgetwarrior
 app-misc/ranger
 app-portage/eix
 app-portage/gentoolkit
@@ -16,6 +17,7 @@ app-shells/zsh-completion
 app-text/evince
 app-text/highlight
 app-text/sloccount
+app-text/tree
 app-text/zathura
 app-text/zathura-pdf-poppler
 dev-java/maven-bin
@@ -40,6 +42,7 @@ dev-util/valgrind
 dev-vcs/git
 dev-vcs/git-flow
 mail-client/mutt-kz
+mail-filter/imapfilter
 media-fonts/corefonts
 media-gfx/feh
 media-gfx/jpegoptim
