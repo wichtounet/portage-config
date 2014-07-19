@@ -17,6 +17,8 @@ dev-libs/libxml2 python
 
 # Mutt
 mail-client/mutt imap smtp sidebar sasl
+mail-client/mutt-kz imap smtp sasl notmuch
+=net-mail/notmuch-0.17 mutt
 
 # Firefxo
 dev-lang/python sqlite
@@ -50,3 +52,6 @@ dev-libs/boost static-libs tools
 
 # TODO Why ?
 >=dev-qt/qtgui-4.8.5-r1 xinerama
+
+# Opencv
+=media-libs/opencv-2.4.8-r1 libcxx static-libs
