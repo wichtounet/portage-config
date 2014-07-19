@@ -30,11 +30,6 @@
 # Python compile problems
 =dev-python/urwid-1.1.2 ~amd64
 
-# Zathura
-=app-text/zathura-0.2.7 ~amd64
-=app-text/zathura-pdf-poppler-0.2.5 ~amd64
-=dev-libs/girara-0.2.0 ~amd64
-
 # LLVM / CLang 3.4
-=sys-devel/llvm-3.4.1-r1 ~amd64
-=sys-devel/clang-3.4.1-r100 ~amd64
+=sys-devel/llvm-3.4.2 ~amd64
+=sys-devel/clang-3.4.2-r100 ~amd64
