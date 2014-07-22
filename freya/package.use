@@ -1,0 +1,47 @@
+# Grub2 LVM Support
+sys-boot/grub:2 device-mapper
+
+# Disable thin provisioning support in LVM
+sys-fs/lvm2 -thin
+
+# Disable parts of git
+dev-vcs/git -subversion
+
+# X.Org Server
+dev-libs/libxml2 python
+
+# Awesome
+x11-libs/cairo xcb
+x11-libs/libXfont truetype
+
+# Python support in vim
+app-editors/vim python
+
+# Better configuration of URXVT
+x11-terms/rxvt-unicode xft unicode3 256-color
+www-client/w3m imlib
+
+# Chromim
+sys-libs/zlib minizip
+
+# Conky
+app-admin/conky truetype imlib iostats lua lua-cairo lua-imlib wifi
+
+# Activate more screensaver
+x11-misc/xscreensaver opengl
+
+# Evince
+app-text/poppler cairo
+
+# Fast compilation of openjdk
+dev-java/icedtea -jbootstrap
+app-text/ghostscript-gpl cups
+net-print/cups ppds
+net-fs/samba readline cups pam
+
+# Firefox
+>=media-libs/libpng-1.6.8 apng
+>=dev-lang/python-2.7.5-r3 sqlite
+
+# LLVM / CLang
+=sys-devel/llvm-3.4.1-r1 clang

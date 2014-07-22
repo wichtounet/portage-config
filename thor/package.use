@@ -1,0 +1,57 @@
+# Activate Clang and Gold
+sys-devel/llvm -ncurses clang gold
+
+#Printing
+net-print/hplip scanner qt4
+dev-python/pillow python_targets_python2_7
+
+# Python support for plugins
+app-editors/vim python
+
+# Avoid humongous amount of horrible perl packages
+x11-misc/xscreensaver -perl
+dev-vcs/git -perl
+
+# Graphics
+dev-libs/libxml2 python
+
+# Mutt
+mail-client/mutt imap smtp sidebar sasl
+mail-client/mutt-kz imap smtp sasl notmuch
+=net-mail/notmuch-0.17 mutt
+
+# Firefxo
+dev-lang/python sqlite
+
+# Firefox
+media-libs/libpng apng
+
+# Awesome VM
+x11-libs/cairo xcb
+
+# Zathura
+app-text/poppler cairo
+
+# Nice console font
+x11-terms/rxvt-unicode 256-color unicode3 xft
+
+# Powerful conky
+app-admin/conky imlib iostats lua lua-cairo lua-imlib
+
+# More screensavers
+x11-misc/xscreensaver opengl
+
+# Support for LVM2
+sys-boot/grub device-mapper
+
+# Nice console images
+www-client/w3m imlib
+
+# Experiments with Boost
+dev-libs/boost static-libs tools
+
+# TODO Why ?
+>=dev-qt/qtgui-4.8.5-r1 xinerama
+
+# Opencv
+=media-libs/opencv-2.4.8-r1 libcxx static-libs

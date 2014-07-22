@@ -1,0 +1,18 @@
+# LVM
+sys-fs/lvm2 -thin
+
+# XBMC
+dev-libs/libxml2 python
+media-libs/libsdl opengl
+dev-lang/python sqlite
+media-libs/sdl-image png jpeg gif
+
+# Activate hardware acceleration and enable web server
+media-tv/xbmc vaapi webserver
+net-libs/libmicrohttpd messages
+
+# Install only the agent
+net-analyzer/zabbix agent
+
+# No need to pull all perl here
+dev-vcs/git -perl
