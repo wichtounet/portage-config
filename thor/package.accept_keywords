@@ -49,6 +49,7 @@
 =dev-python/unidecode-0.04.14 ~amd64
 
 # Virtualenvwrapper
+=dev-python/virtualenv-1.11.6 ~amd64
 =dev-python/virtualenvwrapper-4.3 ~amd64
 =dev-python/stevedore-0.15-r1 ~amd64
 =dev-python/pbr-0.8.0 ~amd64

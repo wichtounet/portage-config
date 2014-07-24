@@ -2,6 +2,7 @@ app-admin/conky
 app-admin/logrotate
 app-admin/sudo
 app-admin/syslog-ng
+app-admin/sysstat
 app-arch/atool
 app-doc/doxygen
 app-editors/nano
@@ -83,6 +84,7 @@ sys-libs/libcxxrt
 sys-process/htop
 sys-process/lsof
 sys-process/vixie-cron
+virtual/cdrtools
 virtual/jre
 www-client/firefox
 www-client/w3m
