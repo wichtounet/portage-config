@@ -3,8 +3,8 @@
 =x11-plugins/vicious-2.1.0-r1 ~amd64
 
 # LLVM / Clang 3.4
-=sys-devel/llvm-3.4-r1 ~amd64
-=sys-devel/clang-3.4-r100 ~amd64
+=sys-devel/llvm-3.4.1-r2 ~amd64
+=sys-devel/clang-3.4.1-r100 ~amd64
 =sys-libs/libcxx-0.0_p20140322 ~amd64
 =sys-libs/libcxxrt-0.0_p20140322 ~amd64
 
@@ -23,11 +23,6 @@
 # Owncloud client
 =net-misc/owncloud-client-1.5.4 ~amd64
 =dev-libs/qtkeychain-0.3.0 ~amd64
-
-# Last version of Zathura
-=app-text/zathura-0.2.7 ~amd64
-=app-text/zathura-pdf-poppler-0.2.5 ~amd64
-=dev-libs/girara-0.2.0 ~amd64
 
 # Autojump
 =app-shells/autojump-21.6.9 ~amd64
@@ -54,8 +49,8 @@
 =dev-python/unidecode-0.04.14 ~amd64
 
 # Virtualenvwrapper
-=dev-python/virtualenvwrapper-4.2 ~amd64
-=dev-python/stevedore-0.15 ~amd64
+=dev-python/virtualenvwrapper-4.3 ~amd64
+=dev-python/stevedore-0.15-r1 ~amd64
 =dev-python/pbr-0.8.0 ~amd64
 
 # libnotify daemon
@@ -66,9 +61,7 @@
 
 # Mutt
 =mail-client/mutt-1.5.23-r2 ~amd64
+=mail-client/mutt-kz-1.5.22.1-r1 ~amd64
 
-
-# Gmail IMAP proxy
-#=virtual/perl-Exporter-5.680.0 ~amd64
-#=dev-lang/perl-5.18.2 ~amd64
-#=dev-perl/POE-Component-SSLify-1.8.0 ~amd64
+# opencv 
+=media-libs/opencv-2.4.8-r1 ~amd64

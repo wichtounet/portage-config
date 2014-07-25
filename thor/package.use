@@ -3,7 +3,7 @@ sys-devel/llvm -ncurses clang gold
 
 #Printing
 net-print/hplip scanner qt4
-dev-python/pillow python_targets_python2_7 
+dev-python/pillow python_targets_python2_7
 
 # Python support for plugins
 app-editors/vim python
@@ -17,9 +17,10 @@ dev-libs/libxml2 python
 
 # Mutt
 mail-client/mutt imap smtp sidebar sasl
+mail-client/mutt-kz imap smtp sasl notmuch
+=net-mail/notmuch-0.17 mutt
 
-dev-libs/boost static-libs tools
-
+# Firefxo
 dev-lang/python sqlite
 
 # Firefox
@@ -46,4 +47,11 @@ sys-boot/grub device-mapper
 # Nice console images
 www-client/w3m imlib
 
+# Experiments with Boost
+dev-libs/boost static-libs tools
+
+# TODO Why ?
 >=dev-qt/qtgui-4.8.5-r1 xinerama
+
+# Opencv
+=media-libs/opencv-2.4.8-r1 libcxx static-libs

@@ -32,7 +32,7 @@
 =app-editors/vim-core-7.4.193 ~amd64
 
 # Clang 3.4
-=sys-devel/llvm-3.4.1-r1 ~amd64
+=sys-devel/llvm-3.4.1-r2 ~amd64
 =sys-devel/clang-3.4.1-r100 ~amd64
 =sys-libs/libcxx-0.0_p20140322 ~amd64
 =sys-libs/libcxxrt-0.0_p20140322 ~amd64
@@ -46,11 +46,6 @@
 # Perf tools
 =dev-util/perf-3.8-r1 ~amd64
 
-# Last version of Zathura
-=app-text/zathura-0.2.7 ~amd64
-=app-text/zathura-pdf-poppler-0.2.5 ~amd64
-=dev-libs/girara-0.2.0 ~amd64
-
 # Last Firefox version
 =www-client/firefox-29.0.1 ~amd64
 
@@ -58,10 +53,17 @@
 =dev-vcs/git-flow-0.4.1 ~amd64
 =dev-util/shflags-1.0.3 ~amd64
 
+# Mutt
+=mail-client/mutt-1.5.23-r2 ~amd64
+=mail-client/mutt-kz-1.5.22.1-r1 ~amd64
+
 # Python virtualenv
 =dev-python/pbr-0.7.0 ~amd64
 =dev-python/stevedore-0.15 ~amd64
 =dev-python/virtualenvwrapper-4.2 ~amd64
+
+# OpenCV (wichtounet-overlay ebuild)
+=media-libs/opencv-2.4.8-r1 ~amd64
 
 # Perl Hell for biber :(
 =perl-core/Exporter-5.680.0 ~amd64
@@ -76,7 +78,7 @@
 =dev-perl/Date-Simple-3.30.0 ~amd64
 =dev-perl/Tie-Cycle-1.190.0 ~amd64
 =dev-perl/Text-BibTeX-0.690.0 ~amd64
-=dev-perl/Config-AutoConf-0.270.0 ~amd64
+=dev-perl/Config-AutoConf-0.304 ~amd64
 =dev-perl/XML-LibXML-Simple-0.930.0 ~amd64
 =dev-perl/Encode-JIS2K-0.02 ~amd64
 =dev-perl/Unicode-LineBreak-2013.11 ~amd64

@@ -37,3 +37,21 @@ dev-java/icedtea -jbootstrap
 
 # Inkscape
 >=media-libs/lcms-1.19-r1:0 python
+
+# Mutt
+mail-client/mutt imap smtp sidebar sasl
+mail-client/mutt-kz imap smtp sidebar sasl notmuch
+net-mail/notmuch mutt
+
+# Build opencv with libc++
+=media-libs/opencv-2.4.8-r1 libcxx
+
+# Disable iptables support
+sys-apps/iproute2 -iptables
+
+# Activate damn perl for interactive add
+dev-vcs/git perl
+
+# Temporary only
+sys-libs/libcxx static-libs
+sys-libs/libcxxrt static-libs

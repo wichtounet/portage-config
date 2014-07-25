@@ -42,3 +42,6 @@ net-fs/samba readline cups pam
 # Firefox
 >=media-libs/libpng-1.6.8 apng
 >=dev-lang/python-2.7.5-r3 sqlite
+
+# LLVM / CLang
+=sys-devel/llvm-3.4.1-r1 clang
