@@ -63,6 +63,7 @@ net-im/pidgin
 net-mail/offlineimap
 net-misc/owncloud-client
 net-misc/urlview
+net-misc/whois
 net-print/hplip
 sys-apps/dbus
 sys-apps/iproute2

@@ -29,14 +29,13 @@
 
 # Recent Kernel
 =sys-kernel/gentoo-sources-3.13.6 ~amd64
-=dev-util/perf-3.13.1 ~amd64
+=dev-util/perf-3.13.1-r1 ~amd64
 
 # Latex
 =dev-tex/biblatex-2.8 ~amd64
 
 # Git Flow
 =dev-vcs/git-flow-0.4.1 ~amd64
-=dev-util/shflags-1.0.3 ~amd64
 
 # Support for Haswell in Valgrind
 =dev-util/valgrind-3.9.0 ~amd64
@@ -61,7 +60,6 @@
 =media-sound/teamspeak-client-bin-3.0.13.1 ~amd64
 
 # Mutt
-=mail-client/mutt-1.5.23-r2 ~amd64
 =mail-client/mutt-kz-1.5.22.1-r1 ~amd64
 
 # opencv 
