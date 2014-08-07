@@ -9,10 +9,12 @@ app-editors/nano
 app-editors/vim
 app-misc/budgetwarrior
 app-misc/ranger
+app-misc/tagsistant
 app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
 app-shells/autojump
+app-shells/bash
 app-shells/zsh
 app-shells/zsh-completion
 app-text/evince
@@ -22,6 +24,7 @@ app-text/tree
 app-text/zathura
 app-text/zathura-pdf-poppler
 dev-java/maven-bin
+dev-lang/go
 dev-lang/nasm
 dev-libs/boost
 dev-perl/POE
@@ -42,6 +45,7 @@ dev-util/strace
 dev-util/valgrind
 dev-vcs/git
 dev-vcs/git-flow
+dev-vcs/mercurial
 mail-client/mutt-kz
 mail-filter/imapfilter
 media-fonts/corefonts
@@ -58,6 +62,7 @@ media-video/ffmpeg
 media-video/mediainfo
 media-video/mplayer
 net-dns/bind-tools
+net-fs/nfs-utils
 net-ftp/filezilla
 net-im/pidgin
 net-mail/offlineimap
