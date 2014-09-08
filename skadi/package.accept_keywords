@@ -1,6 +1,5 @@
 # Systemd
 =sys-kernel/genkernel-next-50 ~amd64
-=sys-block/thin-provisioning-tools-0.2.8-r1 ~amd64
 =app-admin/syslog-ng-3.4.6 ~amd64
 
 # Zabbix 2.2
