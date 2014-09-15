@@ -10,6 +10,8 @@ app-editors/vim
 app-misc/budgetwarrior
 app-misc/ranger
 app-misc/tagsistant
+app-misc/task
+app-misc/vit
 app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
@@ -27,7 +29,6 @@ dev-java/maven-bin
 dev-lang/go
 dev-lang/nasm
 dev-libs/boost
-dev-perl/POE
 dev-python/pip
 dev-python/virtualenv
 dev-python/virtualenvwrapper
@@ -69,6 +70,7 @@ net-mail/offlineimap
 net-misc/owncloud-client
 net-misc/urlview
 net-misc/whois
+net-p2p/qbittorrent
 net-print/hplip
 sys-apps/dbus
 sys-apps/iproute2
@@ -78,6 +80,7 @@ sys-apps/pciutils
 sys-apps/usbutils
 sys-boot/grub:2
 sys-devel/clang
+sys-devel/gcc
 sys-devel/gdb
 sys-devel/llvm
 sys-fs/dosfstools
