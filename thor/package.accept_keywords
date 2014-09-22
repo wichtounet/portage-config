@@ -10,12 +10,16 @@
 
 # Updated GCC
 =sys-devel/gcc-4.8.2 ~amd64
+=sys-devel/gcc-4.9.1 **
 
 # GUI for synergy
 =x11-misc/qsynergy-0.9.1-r1 ~amd64
 
 # Recent ranger
 =app-misc/ranger-1.6.1 ~amd64
+
+# Recent taskwarrior
+=app-misc/task-2.3.0 ~amd64
 
 # Recent Firefox
 =www-client/firefox-29.0.1 ~amd64
