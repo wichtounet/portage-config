@@ -39,7 +39,6 @@ net-im/pidgin
 net-im/skype
 net-misc/dhcpcd
 net-misc/ntp
-net-misc/owncloud-client
 net-misc/wicd
 net-wireless/wireless-tools
 sys-apps/dbus

@@ -44,4 +44,4 @@ net-fs/samba readline cups pam
 >=dev-lang/python-2.7.5-r3 sqlite
 
 # LLVM / CLang
-sys-devel/llvm clang
+sys-devel/llvm clang -ncurses gold
