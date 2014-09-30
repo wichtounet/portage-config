@@ -26,6 +26,7 @@ media-fonts/inconsolata
 media-gfx/feh
 media-gfx/imagemagick
 media-libs/imlib2
+media-libs/opencv
 media-sound/alsa-utils
 media-sound/cmus
 media-sound/pavucontrol
