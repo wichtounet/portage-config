@@ -10,12 +10,16 @@
 
 # Updated GCC
 =sys-devel/gcc-4.8.2 ~amd64
+=sys-devel/gcc-4.9.1 **
 
 # GUI for synergy
 =x11-misc/qsynergy-0.9.1-r1 ~amd64
 
 # Recent ranger
 =app-misc/ranger-1.6.1 ~amd64
+
+# Recent taskwarrior
+=app-misc/task-2.3.0 ~amd64
 
 # Recent Firefox
 =www-client/firefox-29.0.1 ~amd64
@@ -29,14 +33,13 @@
 
 # Recent Kernel
 =sys-kernel/gentoo-sources-3.13.6 ~amd64
-=dev-util/perf-3.13.1 ~amd64
+=dev-util/perf-3.13.1-r1 ~amd64
 
 # Latex
 =dev-tex/biblatex-2.8 ~amd64
 
 # Git Flow
 =dev-vcs/git-flow-0.4.1 ~amd64
-=dev-util/shflags-1.0.3 ~amd64
 
 # Support for Haswell in Valgrind
 =dev-util/valgrind-3.9.0 ~amd64
@@ -49,6 +52,7 @@
 =dev-python/unidecode-0.04.14 ~amd64
 
 # Virtualenvwrapper
+=dev-python/virtualenv-1.11.6 ~amd64
 =dev-python/virtualenvwrapper-4.3 ~amd64
 =dev-python/stevedore-0.15-r1 ~amd64
 =dev-python/pbr-0.8.0 ~amd64
@@ -60,8 +64,11 @@
 =media-sound/teamspeak-client-bin-3.0.13.1 ~amd64
 
 # Mutt
-=mail-client/mutt-1.5.23-r2 ~amd64
 =mail-client/mutt-kz-1.5.22.1-r1 ~amd64
 
 # opencv 
 =media-libs/opencv-2.4.8-r1 ~amd64
+
+=dev-go/sqlite3-9999 ~amd64
+=app-misc/tmsu-9999 ~amd64
+=dev-go/fuse-9999 ~amd64
