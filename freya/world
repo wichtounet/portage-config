@@ -26,6 +26,7 @@ media-fonts/inconsolata
 media-gfx/feh
 media-gfx/imagemagick
 media-libs/imlib2
+media-libs/opencv
 media-sound/alsa-utils
 media-sound/cmus
 media-sound/pavucontrol
@@ -39,7 +40,6 @@ net-im/pidgin
 net-im/skype
 net-misc/dhcpcd
 net-misc/ntp
-net-misc/owncloud-client
 net-misc/wicd
 net-wireless/wireless-tools
 sys-apps/dbus
@@ -49,6 +49,8 @@ sys-apps/systemd
 sys-apps/usbutils
 sys-auth/polkit
 sys-boot/grub
+sys-devel/clang
+sys-devel/llvm
 sys-fs/fuse
 sys-fs/lvm2
 sys-fs/sshfs-fuse
