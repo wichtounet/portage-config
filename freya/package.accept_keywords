@@ -45,3 +45,7 @@
 # OpenCV (wichtounet-overlay ebuild)
 =media-libs/opencv-2.4.8-r1 ~amd64
 
+# Vmware
+=app-emulation/vmware-player-6.0.2.1744117 ~amd64
+=app-emulation/vmware-tools-9.6.2.1744117 ~amd64
+=app-emulation/vmware-modules-279.2 ~amd64
