@@ -12,7 +12,7 @@
 =app-shells/autojump-21.6.9 ~amd64
 
 # ownCloud client
-=net-misc/owncloud-client-1.5.4 ~amd64
+=net-misc/owncloud-client-1.6.3 ~amd64
 =dev-libs/qtkeychain-0.3.0 ~amd64
 
 # Biblatex
