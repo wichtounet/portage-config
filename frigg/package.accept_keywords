@@ -1,6 +1,9 @@
 # Recent awesome
-=x11-wm/awesome-3.5.2-r1 ~amd64
+=x11-wm/awesome-3.5.5-r1 ~amd64
 =x11-plugins/vicious-2.1.0-r1 ~amd64
+
+# Taskwarrior 2.3.0
+=app-misc/task-2.3.0 ~amd64
 
 # Ranger
 =app-misc/ranger-1.6.1 ~amd64
@@ -9,7 +12,7 @@
 =app-shells/autojump-21.6.9 ~amd64
 
 # ownCloud client
-=net-misc/owncloud-client-1.5.4 ~amd64
+=net-misc/owncloud-client-1.6.3 ~amd64
 =dev-libs/qtkeychain-0.3.0 ~amd64
 
 # Biblatex
@@ -18,8 +21,7 @@
 # Java 7
 =virtual/jdk-1.7.0 ~amd64
 =virtual/jre-1.7.0 ~amd64
-=dev-java/icedtea-7.2.4.3 ~amd64
-=dev-java/icedtea-web-1.4.1 ~amd64
+=dev-java/icedtea-7.2.4.7 ~amd64
 
 # Vmware
 =app-emulation/vmware-tools-9.6.2.1744117 ~amd64
@@ -34,12 +36,13 @@
 
 # More recent GCC
 =sys-devel/gcc-4.8.2 ~amd64
+=sys-devel/gcc-4.9.1 **
 
 # GWS
 =dev-util/gws-9999 ~amd64
 
 # Perf tools
-=dev-util/perf-3.8-r1 ~amd64
+=dev-util/perf-3.13.1-r1 ~amd64
 
 # Last Firefox version
 =www-client/firefox-32.0 ~amd64
@@ -57,13 +60,9 @@
 # OpenCV (wichtounet-overlay ebuild)
 =media-libs/opencv-2.4.8-r1 ~amd64
 
-# Octave (base version is bugged)
-=sci-mathematics/octave-3.8.1-r1 ~amd64
-
 # Perl Hell for biber :(
 =dev-perl/Business-ISMN-1.110.0-r1 ~amd64
 =dev-perl/File-Slurp-Unicode-0.7.1-r1 ~amd64
-=virtual/perl-Exporter-5.680.0-r1 ~amd64
 =dev-perl/autovivification-0.120.0 ~amd64
 =dev-perl/Encode-HanExtra-0.230.0-r1 ~amd64
 =dev-perl/Business-ISBN-2.50.0-r1 ~amd64
@@ -71,7 +70,7 @@
 =dev-perl/Business-ISBN-Data-20120719.1.0-r1 ~amd64
 =dev-perl/Date-Simple-3.30.0-r1 ~amd64
 =dev-perl/Tie-Cycle-1.190.0-r1 ~amd64
-=dev-perl/Text-BibTeX-0.690.0 ~amd64
+=dev-perl/Text-BibTeX-0.700.0 ~amd64
 =dev-perl/Config-AutoConf-0.304 ~amd64
 =dev-perl/XML-LibXML-Simple-0.930.0 ~amd64
 =dev-perl/Encode-JIS2K-0.02 ~amd64
