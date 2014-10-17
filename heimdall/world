@@ -4,9 +4,14 @@ app-admin/syslog-ng
 app-editors/vim
 app-portage/eix
 dev-vcs/git
+net-analyzer/tcpdump
+net-analyzer/traceroute
+net-firewall/nftables
+net-misc/dhcpcd
 sys-apps/dbus
 sys-apps/iproute2
 sys-apps/pciutils
+sys-apps/smartmontools
 sys-boot/grub:2
 sys-fs/lvm2
 sys-kernel/genkernel-next

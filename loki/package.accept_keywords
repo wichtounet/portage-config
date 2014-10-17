@@ -20,9 +20,6 @@
 # Owncloud 6.0
 =www-apps/owncloud-6.0.3 ~amd64
 
-# Zabbix 2.2
-=net-analyzer/zabbix-2.2.4 ~amd64
-
 # Ranger 
 =app-misc/ranger-1.6.1 ~amd64
 
@@ -45,3 +42,7 @@
 
 # OpenCV
 =media-libs/opencv-2.4.8-r1 ~amd64
+
+# Systemd recent
+=sys-apps/systemd-216-r1 ~amd64
+
