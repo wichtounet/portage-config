@@ -10,6 +10,7 @@ sys-boot/grub device-mapper
 # PHP/Apache/PostgreSQL
 dev-lang/php -apache2 pcntl fpm curl postgres
 app-admin/eselect-php -apache2 fpm
+dev-lang/php xmlreader bcmath sysvipc truetype sockets
 
 # TT-RSS
 www-apps/tt-rss -mysql postgres daemon
@@ -24,6 +25,18 @@ dev-lang/php gd zip pdo xmlwriter
 # Zabbix Server
 net-analyzer/zabbix agent server frontend ssh postgres snmp
 >=media-libs/gd-2.0.35-r3 png
-=dev-lang/php-5.5.10 sockets xmlreader sysvipc bcmath truetype
 
+# Trac
+www-apps/trac -sqlite postgres
+
+# Fix bug in Murmur
 media-sound/murmur -dbus
+
+# Java 7
+app-text/ghostscript-gpl cups
+
+# Clang
+sys-devel/llvm clang
+
+# OpenCV
+=media-libs/opencv-2.4.8-r1 libcxx
