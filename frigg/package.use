@@ -60,3 +60,6 @@ media-libs/gd fontconfig
 
 # Add support for FLAC
 media-sound/cmus flac
+
+# Chromium
+>=sys-libs/zlib-1.2.8-r1 minizip

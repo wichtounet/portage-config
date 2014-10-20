@@ -39,6 +39,7 @@ dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
 dev-texlive/texlive-science
 dev-util/ccache
+dev-util/cccc
 dev-util/cppcheck
 dev-util/gws
 dev-util/idea-ultimate
@@ -59,6 +60,7 @@ media-libs/opencv
 media-sound/cmus
 media-sound/pavucontrol
 media-sound/volumeicon
+net-analyzer/nmap
 net-fs/samba
 net-ftp/filezilla
 net-im/pidgin
@@ -76,6 +78,7 @@ sys-apps/lm_sensors
 sys-apps/the_silver_searcher
 sys-boot/grub:2
 sys-devel/clang
+sys-devel/distcc
 sys-devel/gcc
 sys-devel/gcc:4.7
 sys-devel/gcc:4.8
@@ -95,7 +98,6 @@ virtual/jre
 www-client/firefox
 www-client/surfraw
 www-client/w3m
-www-plugins/adobe-flash
 www-servers/tomcat
 x11-base/xorg-server
 x11-drivers/ati-drivers
@@ -105,6 +107,7 @@ x11-misc/urxvt-perls
 x11-misc/wmname
 x11-misc/xcompmgr
 x11-misc/xscreensaver
+x11-misc/xsnap
 x11-plugins/vicious
 x11-terms/rxvt-unicode
 x11-wm/awesome
