@@ -10,7 +10,7 @@ sys-boot/grub device-mapper
 # PHP/Apache/PostgreSQL
 dev-lang/php -apache2 pcntl fpm curl postgres
 app-admin/eselect-php -apache2 fpm
-=dev-lang/php-5.5.12 xmlreader bcmath sysvipc truetype sockets
+dev-lang/php xmlreader bcmath sysvipc truetype sockets
 
 # TT-RSS
 www-apps/tt-rss -mysql postgres daemon
@@ -25,7 +25,6 @@ dev-lang/php gd zip pdo xmlwriter
 # Zabbix Server
 net-analyzer/zabbix agent server frontend ssh postgres snmp
 >=media-libs/gd-2.0.35-r3 png
-dev-lang/php sockets xmlreader sysvipc bcmath truetype
 
 # Trac
 www-apps/trac -sqlite postgres
