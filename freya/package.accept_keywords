@@ -15,7 +15,7 @@
 =dev-java/icedtea-7.2.4.3 ~amd64
 
 # Skype
-=net-im/skype-4.3.0.37 ~amd64
+=net-im/skype-4.3.0.37-r1 ~amd64
 
 # Recent firefox
 =www-client/firefox-29.0.1 ~amd64

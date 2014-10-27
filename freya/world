@@ -42,6 +42,7 @@ media-sound/alsa-utils
 media-sound/cmus
 media-sound/pavucontrol
 media-sound/volumeicon
+media-video/cheese
 media-video/mediainfo
 media-video/vlc
 net-analyzer/traceroute
