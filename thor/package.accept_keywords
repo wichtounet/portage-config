@@ -18,9 +18,6 @@
 # GUI for synergy
 =x11-misc/qsynergy-0.9.1-r1 ~amd64
 
-# Recent ranger
-=app-misc/ranger-1.6.1 ~amd64
-
 # Recent taskwarrior
 =app-misc/task-2.3.0 ~amd64
 

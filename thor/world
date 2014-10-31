@@ -97,7 +97,7 @@ sys-fs/dosfstools
 sys-fs/mtpfs
 sys-fs/sshfs-fuse
 sys-kernel/genkernel-next
-sys-kernel/gentoo-sources:3.13.6
+sys-kernel/gentoo-sources
 sys-libs/glibc
 sys-libs/libcxx
 sys-libs/libcxxrt
