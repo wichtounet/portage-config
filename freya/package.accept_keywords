@@ -5,9 +5,6 @@
 =x11-wm/awesome-3.5.2-r1 ~amd64
 =x11-plugins/vicious-2.1.0-r1 ~amd64
 
-# Recent ranger
-=app-misc/ranger-1.6.1 ~amd64
-
 # Java 7
 =virtual/jdk-1.7.0 ~amd64
 =virtual/jre-1.7.0 ~amd64
@@ -15,7 +12,7 @@
 =dev-java/icedtea-7.2.4.3 ~amd64
 
 # Skype
-=net-im/skype-4.3.0.37 ~amd64
+=net-im/skype-4.3.0.37-r1 ~amd64
 
 # Recent firefox
 =www-client/firefox-29.0.1 ~amd64
