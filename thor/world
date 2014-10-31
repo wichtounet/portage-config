@@ -39,6 +39,8 @@ dev-tex/latexmk
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-science
 dev-util/ccache
+dev-util/cccc
+dev-util/cloc
 dev-util/cppcheck
 dev-util/perf
 dev-util/strace
@@ -69,6 +71,7 @@ net-fs/nfs-utils
 net-ftp/filezilla
 net-im/pidgin
 net-mail/offlineimap
+net-misc/clusterssh
 net-misc/ntp
 net-misc/owncloud-client
 net-misc/urlview
@@ -85,7 +88,9 @@ sys-apps/systemd
 sys-apps/usbutils
 sys-boot/grub:2
 sys-devel/clang
+sys-devel/distcc
 sys-devel/gcc
+sys-devel/gcc:4.7
 sys-devel/gdb
 sys-devel/llvm
 sys-fs/dosfstools

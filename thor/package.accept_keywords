@@ -2,9 +2,13 @@
 =x11-wm/awesome-3.5.2-r1 ~amd64
 =x11-plugins/vicious-2.1.0-r1 ~amd64
 
+# More recent vim
+=app-editors/vim-7.4.430 ~amd64
+=app-editors/vim-core-7.4.430 ~amd64
+
 # LLVM / Clang 3.4
-=sys-devel/llvm-3.4.1-r2 ~amd64
-=sys-devel/clang-3.4.1-r100 ~amd64
+=sys-devel/llvm-3.5.0 ~amd64
+=sys-devel/clang-3.5.0-r100 ~amd64
 =sys-libs/libcxx-0.0_p20140322 ~amd64
 =sys-libs/libcxxrt-0.0_p20140322 ~amd64
 

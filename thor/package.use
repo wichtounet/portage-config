@@ -54,4 +54,4 @@ dev-libs/boost static-libs tools
 >=dev-qt/qtgui-4.8.5-r1 xinerama
 
 # Opencv
-=media-libs/opencv-2.4.8-r1 libcxx static-libs
+=media-libs/opencv-2.4.8-r1 libcxx gtk
