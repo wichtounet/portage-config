@@ -60,3 +60,9 @@ media-libs/gd fontconfig
 
 # Add support for FLAC
 media-sound/cmus flac
+
+=app-text/poppler-0.26.5 cairo
+
+# Temporary for git-svn
+dev-vcs/git subversion
+=dev-vcs/subversion-1.8.10 -dso perl

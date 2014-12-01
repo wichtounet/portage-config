@@ -16,8 +16,8 @@ app-portage/genlop
 app-portage/gentoolkit
 app-portage/layman
 app-shells/autojump
+app-shells/gentoo-zsh-completions
 app-shells/zsh
-app-shells/zsh-completion
 app-text/highlight
 app-text/sloccount
 app-text/texlive
@@ -38,15 +38,15 @@ dev-tex/latexdiff
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
 dev-texlive/texlive-science
-dev-util/ccache
 dev-util/cccc
 dev-util/cppcheck
 dev-util/gws
-dev-util/idea-ultimate
 dev-util/perf
 dev-util/valgrind
 dev-vcs/git
 dev-vcs/git-flow
+dev-vcs/rapidsvn
+dev-vcs/subversion
 mail-client/mutt-kz
 mail-filter/imapfilter
 media-gfx/feh

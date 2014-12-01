@@ -1,1 +1,3 @@
-#dev-lang/ruby
+dev-lang/ruby
+
+=media-libs/opencv-2.4.9
