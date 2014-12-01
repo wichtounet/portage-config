@@ -54,6 +54,9 @@
 =dev-python/stevedore-0.15-r1 ~amd64
 =dev-python/virtualenvwrapper-4.3 ~amd64
 
+# OpenCV (wichtounet-overlay ebuild)
+=media-libs/opencv-2.4.8-r1 ~amd64
+
 # Perl Hell for biber :(
 =dev-perl/Business-ISMN-1.110.0-r1 ~amd64
 =dev-perl/File-Slurp-Unicode-0.7.1-r1 ~amd64

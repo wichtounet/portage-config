@@ -38,6 +38,7 @@ dev-tex/latexdiff
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
 dev-texlive/texlive-science
+dev-util/astyle
 dev-util/cccc
 dev-util/cppcheck
 dev-util/gws
