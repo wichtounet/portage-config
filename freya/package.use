@@ -53,3 +53,7 @@ sys-devel/llvm clang -ncurses gold
 
 # Build opencv with libc++
 =media-libs/opencv-2.4.8-r1 libcxx
+
+# For webcams
+=sys-apps/systemd-215-r3 gudev
+>=media-libs/gst-plugins-base-1.2.4-r1 theora
