@@ -9,13 +9,17 @@ dev-vcs/git
 media-sound/alsa-utils
 media-tv/xbmc
 net-analyzer/zabbix
+net-fs/nfs-utils
+net-misc/ntp
 sys-apps/dbus
 sys-apps/iproute2
 sys-apps/lm_sensors
 sys-apps/pciutils
 sys-apps/smartmontools
+sys-apps/systemd
 sys-block/thin-provisioning-tools
 sys-boot/grub:2
+sys-devel/gcc
 sys-fs/lvm2
 sys-fs/sshfs-fuse
 sys-kernel/genkernel-next

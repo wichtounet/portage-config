@@ -1,6 +1,2 @@
 # Systemd
-=sys-kernel/genkernel-next-50 ~amd64
-=app-admin/syslog-ng-3.4.6 ~amd64
-
-# Zabbix 2.2
-=net-analyzer/zabbix-2.2.3 ~amd64
+=sys-apps/systemd-216-r1 ~amd64

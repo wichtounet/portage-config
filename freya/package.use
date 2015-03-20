@@ -39,9 +39,21 @@ app-text/ghostscript-gpl cups
 net-print/cups ppds
 net-fs/samba readline cups pam
 
+# Mutt
+mail-client/mutt imap smtp sidebar sasl
+mail-client/mutt-kz imap smtp sidebar sasl notmuch
+net-mail/notmuch mutt
+
 # Firefox
 >=media-libs/libpng-1.6.8 apng
 >=dev-lang/python-2.7.5-r3 sqlite
 
 # LLVM / CLang
-=sys-devel/llvm-3.4.1-r1 clang
+sys-devel/llvm clang -ncurses gold
+
+# Build opencv with libc++
+=media-libs/opencv-2.4.8-r1 libcxx
+
+# For webcams
+=sys-apps/systemd-215-r3 gudev
+>=media-libs/gst-plugins-base-1.2.4-r1 theora

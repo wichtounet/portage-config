@@ -2,9 +2,9 @@ app-admin/logrotate
 app-admin/sudo
 app-admin/syslog-ng
 app-admin/webapp-config
+app-arch/unrar
 app-editors/nano
 app-editors/vim
-app-misc/mmv
 app-misc/ranger
 app-misc/taskd
 app-portage/eix
@@ -19,14 +19,13 @@ dev-util/sonar-bin
 dev-vcs/git
 dev-vcs/gitolite
 media-libs/opencv
-media-sound/murmur
 media-sound/teamspeak-server-bin
 media-video/ffmpeg
 net-analyzer/nmap
 net-analyzer/traceroute
 net-analyzer/zabbix
-net-dns/bind-tools
-net-dns/ddclient
+net-fs/nfs-utils
+net-misc/ntp
 net-nntp/couchpotato
 net-nntp/headphones
 net-nntp/sabnzbd
@@ -36,6 +35,7 @@ sys-apps/iproute2
 sys-apps/lm_sensors
 sys-apps/pciutils
 sys-apps/smartmontools
+sys-apps/systemd
 sys-boot/grub:2
 sys-devel/clang
 sys-devel/llvm
@@ -53,5 +53,4 @@ virtual/jre
 www-apps/owncloud
 www-apps/trac
 www-apps/tt-rss
-www-client/links
 www-servers/nginx

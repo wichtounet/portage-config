@@ -52,6 +52,17 @@ sys-apps/iproute2 -iptables
 # Activate damn perl for interactive add
 dev-vcs/git perl
 
-# Temporary only
-sys-libs/libcxx static-libs
-sys-libs/libcxxrt static-libs
+# Doxygen
+app-doc/doxygen dot latex
+media-gfx/graphviz cairo
+media-libs/gd fontconfig
+=app-text/texlive-2012 extra
+
+# Add support for FLAC
+media-sound/cmus flac
+
+=app-text/poppler-0.26.5 cairo
+
+# Temporary for git-svn
+dev-vcs/git subversion
+=dev-vcs/subversion-1.8.10 -dso perl
