@@ -1,1 +1,4 @@
 >=www-plugins/adobe-flash-11.2.202.411 AdobeFlash-11.x
+
+# Temporary
+>=dev-java/oracle-jdk-bin-1.8.0.31 Oracle-BCLA-JavaSE
