@@ -12,7 +12,7 @@ x11-libs/cairo xcb
 sys-devel/llvm clang
 
 # Grahical ATI control
-x11-drivers/ati-drivers qt4
+x11-drivers/ati-drivers qt4 -abi_x86_32
 
 # Support of python inside vim
 app-editors/vim python

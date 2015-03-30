@@ -32,7 +32,6 @@
 
 # Last Firefox version
 =www-client/firefox-36.0.1 ~amd64
-=dev-libs/nss-3.17.4 ~amd64
 
 # OpenCV 2.4.9
 =media-libs/libpng-1.6.15 ~amd64
@@ -41,7 +40,7 @@
 =mail-client/mutt-kz-1.5.22.1-r1 ~amd64
 
 # Python virtualenv
-=dev-python/virtualenvwrapper-4.3 ~amd64
+=dev-python/virtualenvwrapper-4.3.2 ~amd64
 
 # Perl Hell for biber :(
 =dev-perl/Business-ISMN-1.110.0-r1 ~amd64
