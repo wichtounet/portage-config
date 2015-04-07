@@ -5,11 +5,21 @@ sys-fs/lvm2 -thin
 x11-base/xorg-server udev
 dev-libs/libxml2 python
 
+# MKL
+sci-libs/mkl int64 mpi
+
 # Awesome
 x11-libs/cairo xcb
 
-# LLVM / Clang 3.4
+# LLVM / Clang
 sys-devel/llvm clang
+
+# Trying to replace flash (inconclusive)
+www-client/firefox gstreamer
+
+# Poppler
+app-text/poppler cairo
+media-plugins/gst-plugins-meta ffmpeg
 
 # Grahical ATI control
 x11-drivers/ati-drivers qt4 -abi_x86_32
@@ -24,9 +34,6 @@ app-admin/conky imlib iostats lua lua-cairo lua-imlib
 x11-terms/rxvt-unicode xft unicode3 256-color
 www-client/w3m imlib
 x11-terms/rxvt-unicode perl
-
-# Bochs
-app-emulation/bochs debugger sdl
 
 # Disable bootstrap of icedtea
 dev-java/icedtea -jbootstrap
@@ -60,5 +67,3 @@ media-libs/gd fontconfig
 
 # Add support for FLAC
 media-sound/cmus flac
-
-=app-text/poppler-0.26.5 cairo

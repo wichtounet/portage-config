@@ -20,14 +20,18 @@ app-shells/autojump
 app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-text/highlight
+app-text/rnv
 app-text/sloccount
 app-text/texlive
 app-text/tree
 app-text/zathura
 app-text/zathura-pdf-poppler
 dev-java/oracle-jdk-bin:1.8
+dev-lang/icc
+dev-lang/ifc
 dev-lang/python-exec
 dev-python/docutils
+dev-python/unicodecsv
 dev-python/virtualenv
 dev-python/virtualenvwrapper
 dev-tex/biber
@@ -39,6 +43,9 @@ dev-texlive/texlive-pictures
 dev-texlive/texlive-science
 dev-util/astyle
 dev-util/cppcheck
+dev-util/cxxtest
+dev-util/gcovr
+dev-util/lcov
 dev-util/meld
 dev-util/perf
 dev-util/valgrind
@@ -52,6 +59,7 @@ media-gfx/imagemagick
 media-gfx/jpegoptim
 media-gfx/optipng
 media-libs/opencv
+media-plugins/gst-plugins-x264
 media-sound/cmus
 media-sound/pavucontrol
 media-sound/volumeicon
@@ -68,6 +76,7 @@ net-misc/owncloud-client
 net-misc/urlview
 net-print/cups
 sci-libs/libsvm
+sci-libs/mkl
 sci-visualization/gnuplot
 sys-apps/dbus
 sys-apps/iproute2
@@ -93,7 +102,10 @@ sys-process/htop
 sys-process/iotop
 sys-process/lsof
 sys-process/vixie-cron
+virtual/blas
+virtual/cblas
 virtual/jre
+virtual/lapack
 www-client/firefox
 www-client/surfraw
 www-client/w3m

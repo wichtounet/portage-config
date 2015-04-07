@@ -2,3 +2,9 @@
 
 # Temporary
 >=dev-java/oracle-jdk-bin-1.8.0.31 Oracle-BCLA-JavaSE
+
+# Intel
+>=sci-libs/mkl-10.0.5.025 Intel-SDP
+>=dev-libs/intel-common-15.0.2.164 Intel-SDP
+>=dev-lang/icc-15.0.2.164 Intel-SDP
+>=dev-lang/ifc-15.0.2.164 Intel-SDP

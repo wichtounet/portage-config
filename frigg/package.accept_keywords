@@ -24,14 +24,20 @@
 =sys-libs/libcxx-0.0_p20140322 ~amd64
 =sys-libs/libcxxrt-0.0_p20140322 ~amd64
 
-# More recent GCC
+# Compilers
 =sys-devel/gcc-4.9.2 ~amd64
+=dev-lang/icc-15.0.2.164 ~amd64
+=dev-lang/ifc-15.0.2.164 ~amd64
+=dev-libs/intel-common-15.0.2.164 ~amd64
+
+# CXXTest (for POP)
+=dev-util/cxxtest-4.3 ~amd64
 
 # Perf tools
 =dev-util/perf-3.13.1-r1 ~amd64
 
 # Last Firefox version
-=www-client/firefox-36.0.1 ~amd64
+=www-client/firefox-37.0.1 ~amd64
 
 # OpenCV 2.4.9
 =media-libs/libpng-1.6.15 ~amd64
