@@ -1,5 +1,15 @@
+# Systemd recent
+=sys-apps/systemd-216-r1 ~amd64
+
+# LibC++
+=sys-libs/libcxx-0.0_p20140322 ~amd64
+=sys-libs/libcxxrt-0.0_p20140322 ~amd64
+
+# Recent g++
+=sys-devel/gcc-4.9.2 ~amd64
+
 # TT-RSS
-=www-apps/tt-rss-1.12 ~amd64
+=www-apps/tt-rss-1.15.3 ~amd64
 
 # Sabnzbd
 =net-nntp/sabnzbd-0.7.17 ~amd64
@@ -20,9 +30,6 @@
 # Owncloud 6.0
 =www-apps/owncloud-6.0.3 ~amd64
 
-# Ranger 
-=app-misc/ranger-1.6.1 ~amd64
-
 # Teamspeak Server
 =media-sound/teamspeak-server-bin-3.0.10.3 ~amd64
 
@@ -32,17 +39,7 @@
 =dev-java/icedtea-bin-7.2.4.7 ~amd64
 
 # Sonar
-=dev-util/sonar-bin-4.3 ~amd64
+#=dev-util/sonar-bin-5.0 ~amd64
 
-# Clang / LLVM
-=sys-devel/llvm-3.4.2 ~amd64
-=sys-devel/clang-3.4.2-r100 ~amd64
-=sys-libs/libcxx-0.0_p20140322 ~amd64
-=sys-libs/libcxxrt-0.0_p20140322 ~amd64
-
-# OpenCV
-=media-libs/opencv-2.4.8-r1 ~amd64
-
-# Systemd recent
-=sys-apps/systemd-216-r1 ~amd64
-
+# Jenkins
+=dev-util/jenkins-bin-1.574 ~amd64
