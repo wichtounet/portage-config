@@ -1,7 +1,7 @@
+# Fucking Flash :(
 >=www-plugins/adobe-flash-11.2.202.411 AdobeFlash-11.x
 
 # Intel
->=sci-libs/mkl-10.0.5.025 Intel-SDP
 >=dev-libs/intel-common-15.0.2.164 Intel-SDP
 >=dev-lang/icc-15.0.2.164 Intel-SDP
 >=dev-lang/ifc-15.0.2.164 Intel-SDP

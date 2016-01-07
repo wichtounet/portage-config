@@ -15,9 +15,6 @@
 # Maven
 =dev-java/maven-bin-3.1.0 ~amd64
 
-# Likwid
-=sys-apps/likwid-4.0.1 ~amd64
-
 # Vmware
 =app-emulation/vmware-tools-9.6.2.1744117 ~amd64
 =app-emulation/vmware-modules-304.2 ~amd64
@@ -55,38 +52,25 @@
 # Perl Hell for biber :(
 =dev-tex/biber-2.1 ~amd64
 =dev-tex/biblatex-3.0-r1 ~amd64
-=dev-perl/autovivification-0.140.0 ~amd64
 =dev-perl/Business-ISBN-2.50.0-r1 ~amd64
-=dev-perl/Business-ISBN-Data-20120719.1.0-r1 ~amd64
-=dev-perl/Business-ISMN-1.110.0-r1 ~amd64
+=dev-perl/Business-ISBN-Data-20140910.2.0 ~amd64
+=dev-perl/Business-ISMN-1.130.0 ~amd64
 =dev-perl/Business-ISSN-0.910.0-r1 ~amd64
 =dev-perl/Encode-EUCJPASCII-0.03 ~amd64
 =dev-perl/Encode-HanExtra-0.230.0-r1 ~amd64
 =dev-perl/Encode-JIS2K-0.02 ~amd64
-=dev-perl/Exporter-Tiny-0.42.0 ~amd64
+=dev-perl/Config-AutoConf-0.311.0 ~amd64
 =dev-perl/ExtUtils-LibBuilder-0.04 ~amd64
 =dev-perl/File-Slurp-Unicode-0.7.1-r1 ~amd64
 =dev-perl/Readonly-XS-1.50.0-r1 ~amd64
 =dev-perl/Text-Roman-3.500.0 ~amd64
-=dev-perl/Text-BibTeX-0.700.0 ~amd64
+=dev-perl/Text-BibTeX-0.710.0 ~amd64
 =dev-perl/Tie-Cycle-1.190.0-r1 ~amd64
 =dev-perl/Unicode-LineBreak-2013.11 ~amd64
 =dev-perl/Unicode-Normalize-1.180.0 ~amd64
 =dev-perl/XML-LibXML-Simple-0.930.0 ~amd64
-=dev-perl/List-MoreUtils-0.413.0 ~amd64
 =perl-core/Unicode-Collate-1.120.0 ~amd64
 =virtual/perl-Unicode-Collate-1.120.0 ~amd64
-
-# Recent MKL (FFT)
->=sci-libs/mkl-11 ~amd64
-
-# Neovim
-=app-editors/neovim-0.1.0 ~amd64
-=dev-libs/libvterm-0.0_pre20151022 ~amd64
-=dev-lua/messagepack-0.3.2 ~amd64
-=dev-libs/libtermkey-0.17 ~amd64
-=dev-libs/msgpack-1.1.0 ~amd64
-=dev-libs/unibilium-1.1.4 ~amd64
 
 # VCSH for managing dotfiles
 =dev-vcs/vcsh-1.20150502 ~amd64
@@ -98,6 +82,3 @@
 # NVIDIA Cuda
 =dev-util/nvidia-cuda-sdk-7.5.18 ~amd64
 =dev-util/nvidia-cuda-toolkit-7.5.18-r1 ~amd64
-
-# Cppman
-=app-text/cppman-0.4.5 ~amd64
