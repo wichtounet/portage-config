@@ -5,14 +5,29 @@ sys-fs/lvm2 -thin
 x11-base/xorg-server udev
 dev-libs/libxml2 python
 
+# Taskwarrior sync
+app-misc/task gnutls
+
+# MKL
+sci-libs/mkl int64 mpi
+
 # Awesome
 x11-libs/cairo xcb
 
-# LLVM / Clang 3.4
+# LLVM / Clang
 sys-devel/llvm clang
 
-# Grahical ATI control
-x11-drivers/ati-drivers qt4
+# Build owncloud with qt4
+net-misc/owncloud-client qt4
+
+www-client/firefox gtk3 -gstreamer
+
+# Poppler
+app-text/poppler cairo
+media-plugins/gst-plugins-meta ffmpeg
+
+# Nvidia drivers and CUDA
+x11-drivers/nvidia-drivers gtk3 -multilib uvm
 
 # Support of python inside vim
 app-editors/vim python
@@ -25,9 +40,6 @@ x11-terms/rxvt-unicode xft unicode3 256-color
 www-client/w3m imlib
 x11-terms/rxvt-unicode perl
 
-# Bochs
-app-emulation/bochs debugger sdl
-
 # Disable bootstrap of icedtea
 dev-java/icedtea -jbootstrap
 
@@ -35,16 +47,10 @@ dev-java/icedtea -jbootstrap
 >=media-libs/libpng-1.6.8 apng
 >=dev-lang/python-2.7.5-r3 sqlite
 
-# Inkscape
->=media-libs/lcms-1.19-r1:0 python
-
 # Mutt
 mail-client/mutt imap smtp sidebar sasl
 mail-client/mutt-kz imap smtp sidebar sasl notmuch
 net-mail/notmuch mutt
-
-# Build opencv with libc++
-=media-libs/opencv-2.4.8-r1 libcxx
 
 # Disable iptables support
 sys-apps/iproute2 -iptables
@@ -61,8 +67,18 @@ media-libs/gd fontconfig
 # Add support for FLAC
 media-sound/cmus flac
 
-=app-text/poppler-0.26.5 cairo
+# Support for bluetooth
+media-sound/pulseaudio bluetooth dbus
 
-# Temporary for git-svn
-dev-vcs/git subversion
-=dev-vcs/subversion-1.8.10 -dso perl
+# Lua support for vim
+app-editors/vim lua
+
+# For Doxygen
+>=app-text/texlive-2014 extra
+>=app-text/texlive-core-2014-r4 xetex
+
+# required by dev-util/meld-3.14.0::gentoo
+>=dev-libs/glib-2.44.1 dbus
+# required by gnome-base/gnome-keyring-3.16.0-r1::gentoo
+# required by app-crypt/libsecret-0.18.3::gentoo
+>=app-crypt/pinentry-0.9.5 gnome-keyring
