@@ -77,8 +77,9 @@ app-editors/vim lua
 >=app-text/texlive-2014 extra
 >=app-text/texlive-core-2014-r4 xetex
 
-# required by dev-util/meld-3.14.0::gentoo
 >=dev-libs/glib-2.44.1 dbus
-# required by gnome-base/gnome-keyring-3.16.0-r1::gentoo
-# required by app-crypt/libsecret-0.18.3::gentoo
 >=app-crypt/pinentry-0.9.5 gnome-keyring
+
+# PHP FPM (Nginx)
+dev-lang/php fpm gd
+>=app-eselect/eselect-php-0.7.1-r4 fpm

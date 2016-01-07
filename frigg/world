@@ -23,6 +23,7 @@ app-portage/layman
 app-shells/autojump
 app-shells/gentoo-zsh-completions
 app-shells/zsh
+app-text/cppman
 app-text/highlight
 app-text/rnv
 app-text/sloccount
@@ -30,8 +31,10 @@ app-text/texlive
 app-text/tree
 app-text/zathura
 app-text/zathura-pdf-poppler
+dev-java/maven-bin
 dev-lang/icc
 dev-lang/ifc
+dev-lang/php
 dev-lang/python-exec
 dev-python/docutils
 dev-python/unicodecsv
@@ -94,8 +97,6 @@ net-misc/urlview
 net-print/cups
 net-wireless/bluez
 perl-core/Unicode-Collate
-sci-libs/blas-reference
-sci-libs/cblas-reference
 sci-libs/lapack-reference
 sci-libs/libsvm
 sci-libs/mkl
@@ -135,6 +136,7 @@ www-client/firefox
 www-client/surfraw
 www-client/w3m
 www-plugins/adobe-flash
+www-servers/nginx
 x11-base/xorg-server
 x11-drivers/nvidia-drivers
 x11-misc/dmenu
