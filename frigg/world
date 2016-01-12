@@ -42,6 +42,7 @@ dev-tex/glossaries
 dev-tex/latexdiff
 dev-tex/minted
 dev-texlive/texlive-humanities
+dev-texlive/texlive-langfrench
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
 dev-texlive/texlive-science
