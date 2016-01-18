@@ -30,7 +30,6 @@ app-text/zathura-pdf-poppler
 dev-java/maven-bin
 dev-lang/icc
 dev-lang/ifc
-dev-lang/php
 dev-lang/python-exec
 dev-python/docutils
 dev-python/unicodecsv
@@ -124,7 +123,6 @@ www-client/firefox
 www-client/surfraw
 www-client/w3m
 www-plugins/adobe-flash
-www-servers/nginx
 x11-base/xorg-server
 x11-drivers/nvidia-drivers
 x11-misc/dmenu
