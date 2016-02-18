@@ -5,10 +5,13 @@ sys-boot/grub:2 device-mapper
 sys-fs/lvm2 -thin
 
 # Disable parts of git
-dev-vcs/git -subversion
+dev-vcs/git -subversion -perl
 
 # X.Org Server
 dev-libs/libxml2 python
+
+# CUDA
+>=x11-drivers/nvidia-drivers-352.30 uvm
 
 # Awesome
 x11-libs/cairo xcb
@@ -45,6 +48,7 @@ mail-client/mutt-kz imap smtp sidebar sasl notmuch
 net-mail/notmuch mutt
 
 # Firefox
+www-client/firefox gtk3 -gstreamer
 >=media-libs/libpng-1.6.8 apng
 >=dev-lang/python-2.7.5-r3 sqlite
 
@@ -52,8 +56,22 @@ net-mail/notmuch mutt
 sys-devel/llvm clang -ncurses gold
 
 # Build opencv with libc++
-=media-libs/opencv-2.4.8-r1 libcxx
+=media-libs/opencv-2.4.9-r1 libcxx
 
 # For webcams
-=sys-apps/systemd-215-r3 gudev
 >=media-libs/gst-plugins-base-1.2.4-r1 theora
+
+# For Docker
+sys-fs/lvm2 thin
+
+# Enable the view
+x11-drivers/nvidia-drivers gtk3
+
+# Add bluetooth support to pulseaudio
+media-sound/pulseaudio dbus
+
+# Add sync support
+app-misc/task gnutls
+
+# For vmware
+>=app-crypt/pinentry-0.9.5 gnome-keyring

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-hostname=`hostname -s`
+hostname=`hostname`
 path=`readlink -f $0`
 dir=`dirname $path`
 

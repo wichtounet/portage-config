@@ -1,5 +1,5 @@
 #Adobe Flash
 www-plugins/adobe-flash AdobeFlash-11.x
 
-# Skype
-net-im/skype skype-4.0.0.7-copyright
+# CUDA
+>=dev-util/nvidia-cuda-toolkit-7.0.28 NVIDIA-CUDA

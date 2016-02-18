@@ -1,1 +1,10 @@
+# Fucking Flash :(
 >=www-plugins/adobe-flash-11.2.202.411 AdobeFlash-11.x
+
+# Intel
+>=dev-libs/intel-common-15.0.2.164 Intel-SDP
+>=dev-lang/icc-15.0.2.164 Intel-SDP
+>=dev-lang/ifc-15.0.2.164 Intel-SDP
+
+# NVidia
+>=dev-util/nvidia-cuda-toolkit-7.5.18-r1 NVIDIA-CUDA
