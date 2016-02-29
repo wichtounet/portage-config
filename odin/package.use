@@ -1,5 +1,10 @@
+# Python support in vim
 app-editors/vim python
+
+# Get rid of perl
 dev-vcs/git -perl
+
+# LVM in Grub
 sys-boot/grub device-mapper
 
 # Zabbix agent
@@ -8,4 +13,11 @@ net-analyzer/zabbix agent
 # Beets
 dev-lang/python sqlite
 
+# Disable iptables
 sys-apps/iproute2 -iptables
+
+# CLang
+sys-devel/llvm clang
+
+# OpenCV
+=media-libs/opencv-2.4.8-r1 libcxx
