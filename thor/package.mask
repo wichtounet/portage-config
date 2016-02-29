@@ -1,3 +1,5 @@
 dev-lang/ruby
 
-=media-video/ffmpeg-1.2.6
+=dev-db/sqlite-3.8.10.2
+
+dev-lang/python:3.4
