@@ -3,14 +3,15 @@ sys-devel/llvm -ncurses clang gold
 
 #Printing
 net-print/hplip scanner qt4
-dev-python/pillow python_targets_python2_7
+dev-python/pillow python_targets_python2_7 tiff
 
 # Python support for plugins
 app-editors/vim python
 
-# Avoid humongous amount of horrible perl packages
+# Get rid of some dependencies (perl HELL)
+dev-vcs/git -perl -subversion
+x11-terms/rxvt-unicode -perl
 x11-misc/xscreensaver -perl
-dev-vcs/git -perl
 
 # Graphics
 dev-libs/libxml2 python
@@ -18,7 +19,7 @@ dev-libs/libxml2 python
 # Mutt
 mail-client/mutt imap smtp sidebar sasl
 mail-client/mutt-kz imap smtp sasl notmuch
-=net-mail/notmuch-0.17 mutt
+net-mail/notmuch mutt
 
 # Firefxo
 dev-lang/python sqlite
@@ -51,7 +52,33 @@ www-client/w3m imlib
 dev-libs/boost static-libs tools
 
 # TODO Why ?
->=dev-qt/qtgui-4.8.5-r1 xinerama
+dev-qt/qtgui xinerama
 
-# Opencv
-=media-libs/opencv-2.4.8-r1 libcxx gtk
+# TODO WHY ?
+>=sys-libs/zlib-1.2.8-r1 minizip
+
+# GUI for NVIDIA
+x11-drivers/nvidia-drivers gtk3 uvm
+
+=dev-python/PyQt4-4.11.1 dbus
+=net-mail/notmuch-0.18.2 mutt
+>=dev-libs/glib-2.42.2 dbus
+
+# Taskwarrior sync support
+app-misc/task gnutls
+
+# Lua on vim for color_coded
+app-editors/vim lua
+
+# Does not build
+sys-devel/gdb -python
+
+>=x11-libs/libxcb-1.11.1 xkb
+>=dev-libs/libpcre-8.38 pcre16
+
+# I hate you (Qt5), so, very, very, much...
+# And this is not over, not by a long shot...
+dev-qt/qtcore:5 icu
+dev-qt/qtwebkit:5 printsupport
+dev-qt/qtgui:5 accessibility dbus xcb egl eglfs -gles2
+media-libs/mesa gles2
