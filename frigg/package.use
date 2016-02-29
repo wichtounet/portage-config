@@ -83,3 +83,6 @@ app-editors/vim lua
 # PHP FPM (Nginx)
 dev-lang/php fpm gd
 >=app-eselect/eselect-php-0.7.1-r4 fpm
+
+# Get command line tools for vmware
+app-emulation/vmware-workstation vix
