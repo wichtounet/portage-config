@@ -5,8 +5,11 @@ app-editors/nano
 app-editors/vim
 app-portage/eix
 app-portage/gentoolkit
-app-portage/layman
+app-shells/gentoo-zsh-completions
+app-shells/zsh
 dev-vcs/git
+dev-vcs/mr
+dev-vcs/vcsh
 net-analyzer/traceroute
 net-analyzer/zabbix
 net-dns/dnsmasq
@@ -17,9 +20,11 @@ sys-apps/iproute2
 sys-apps/lm_sensors
 sys-apps/smartmontools
 sys-boot/grub:2
+sys-devel/gcc
 sys-fs/lvm2
 sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:3.14.4
+sys-kernel/gentoo-sources:4.0.5
+sys-power/powertop
 sys-process/htop
 sys-process/iotop
