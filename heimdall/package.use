@@ -9,6 +9,3 @@ net-analyzer/zabbix agent
 
 # Clang
 sys-devel/llvm clang
-
-# OpenCV
-=media-libs/opencv-2.4.8-r1 libcxx
