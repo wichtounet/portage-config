@@ -4,12 +4,9 @@ app-admin/syslog-ng
 app-admin/sysstat
 app-arch/atool
 app-doc/doxygen
-app-editors/emacs
 app-editors/nano
-app-editors/neovim
 app-editors/vim
 app-emulation/vmware-modules
-app-emulation/vmware-tools
 app-emulation/vmware-workstation
 app-misc/budgetwarrior
 app-misc/ranger
@@ -24,15 +21,13 @@ app-shells/autojump
 app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-text/highlight
-app-text/rnv
 app-text/sloccount
 app-text/texlive
 app-text/tree
 app-text/zathura
 app-text/zathura-pdf-poppler
-dev-lang/icc
-dev-lang/ifc
 dev-lang/python-exec
+dev-libs/protobuf
 dev-python/docutils
 dev-python/unicodecsv
 dev-python/virtualenv
@@ -43,6 +38,7 @@ dev-tex/glossaries
 dev-tex/latexdiff
 dev-tex/minted
 dev-texlive/texlive-humanities
+dev-texlive/texlive-langfrench
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-pictures
 dev-texlive/texlive-science
@@ -83,8 +79,8 @@ net-analyzer/nmap
 net-fs/samba
 net-ftp/filezilla
 net-im/pidgin
+net-irc/weechat
 net-libs/gnutls
-net-libs/nodejs
 net-mail/offlineimap
 net-misc/clusterssh
 net-misc/ntp
@@ -93,12 +89,7 @@ net-misc/sshpass
 net-misc/urlview
 net-print/cups
 net-wireless/bluez
-perl-core/Unicode-Collate
-sci-libs/blas-reference
-sci-libs/cblas-reference
-sci-libs/lapack-reference
 sci-libs/libsvm
-sci-libs/mkl
 sci-visualization/gnuplot
 sys-apps/dbus
 sys-apps/iproute2
@@ -108,7 +99,6 @@ sys-apps/rename
 sys-apps/smartmontools
 sys-apps/the_silver_searcher
 sys-boot/grub:2
-sys-cluster/openmpi
 sys-devel/clang
 sys-devel/distcc
 sys-devel/gcc
@@ -117,7 +107,6 @@ sys-devel/gcc:4.8
 sys-devel/gcc:4.9
 sys-devel/gdb
 sys-devel/llvm
-sys-fs/ncdu
 sys-fs/sshfs-fuse
 sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
@@ -127,10 +116,7 @@ sys-process/htop
 sys-process/iotop
 sys-process/lsof
 sys-process/vixie-cron
-virtual/blas
-virtual/cblas
 virtual/jre
-virtual/lapack
 www-client/firefox
 www-client/surfraw
 www-client/w3m
