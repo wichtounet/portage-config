@@ -1,2 +1,8 @@
-# required by adobe-flash (argument)
+# Adobe crap
 >=www-plugins/adobe-flash-11.2.202.336 AdobeFlash-11.x
+
+# Oracle Java
+>=dev-java/oracle-jre-bin-1.7.0.65:1.7 Oracle-BCLA-JavaSE
+
+# Nvidia Cuda
+>=dev-util/nvidia-cuda-toolkit-7.5.18-r2 NVIDIA-CUDA
