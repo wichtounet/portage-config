@@ -10,6 +10,7 @@ sys-boot/grub device-mapper
 # PHP/Apache/PostgreSQL
 dev-lang/php -apache2 pcntl fpm curl postgres
 app-admin/eselect-php -apache2 fpm
+app-eselect/eselect-php -apache2 fpm
 dev-lang/php xmlreader bcmath sysvipc truetype sockets
 
 # TT-RSS
