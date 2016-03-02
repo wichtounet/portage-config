@@ -41,7 +41,7 @@ function install_folder_link {
     if [[ ! -d $host_dir/$folder ]]
     then
         echo "Create $host_dir/$folder"
-        mkdir $host_dir/$folder
+        mkdir -p $host_dir/$folder
     fi
 
     if [[ -d "$link" ]]
