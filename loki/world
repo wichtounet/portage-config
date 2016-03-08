@@ -30,6 +30,7 @@ dev-vcs/vcsh
 media-sound/teamspeak-server-bin
 media-video/ffmpeg
 net-analyzer/netcat
+net-analyzer/nethogs
 net-analyzer/nmap
 net-analyzer/traceroute
 net-analyzer/zabbix
