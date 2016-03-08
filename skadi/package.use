@@ -10,6 +10,7 @@ media-libs/sdl-image png jpeg gif
 # Activate hardware acceleration and enable web server
 media-tv/xbmc vaapi webserver
 net-libs/libmicrohttpd messages
+media-tv/kodi vaapi webserver
 
 # Install only the agent
 net-analyzer/zabbix agent
