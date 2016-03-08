@@ -10,6 +10,7 @@ app-shells/zsh
 dev-vcs/git
 dev-vcs/mr
 dev-vcs/vcsh
+net-analyzer/netcat
 net-analyzer/traceroute
 net-analyzer/zabbix
 net-dns/dnsmasq
