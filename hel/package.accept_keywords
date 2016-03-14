@@ -13,3 +13,6 @@
 # Clang
 =sys-devel/llvm-3.7.1 ~amd64
 =sys-devel/clang-3.7.1-r100 ~amd64
+
+# CCCC (used in Jenkins)
+=dev-util/cccc-3.1.5 ~amd64

@@ -18,6 +18,7 @@ dev-vcs/vcsh
 mail-mta/ssmtp
 media-sound/beets
 media-sound/id3v2
+net-analyzer/nethogs
 net-analyzer/zabbix
 net-dns/bind-tools
 net-fs/nfs-utils
