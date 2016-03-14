@@ -17,6 +17,13 @@ x11-libs/cairo xcb
 # LLVM / Clang
 sys-devel/llvm clang
 
+# Frakking Java
+dev-java/oracle-jre-bin javafx alsa
+dev-java/oracle-jdk-bin javafx alsa
+
+# Neovim full support
+app-editors/neovim python
+
 # Build owncloud with qt4
 net-misc/owncloud-client qt4
 

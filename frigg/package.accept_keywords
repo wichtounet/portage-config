@@ -70,6 +70,19 @@
 =app-text/zathura-0.3.3 ~amd64
 =dev-libs/girara-0.2.4 ~amd64
 
+# Neovim
+=app-editors/neovim-0.1.2 ~amd64
+=dev-libs/unibilium-1.1.4 ~amd64
+=dev-libs/libtermkey-0.18 ~amd64
+=dev-python/neovim-python-client-0.1.2 ~amd64
+=dev-libs/msgpack-1.1.0 ~amd64
+=dev-libs/libvterm-0.0_pre20160305 ~amd64
+=dev-lua/messagepack-0.3.2 ~amd64
+
+# Frakking Java 8 :(
+=virtual/jre-1.8.0-r1 ~amd64
+=virtual/jdk-1.8.0-r2 ~amd64
+
 # NVIDIA Cuda
 =dev-util/nvidia-cuda-sdk-7.5.18 ~amd64
 =dev-util/nvidia-cuda-toolkit-7.5.18-r2 ~amd64
