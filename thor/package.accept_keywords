@@ -2,6 +2,9 @@
 =dev-libs/boost-1.59.0 ~amd64
 =dev-util/boost-build-1.59.0 ~amd64
 
+# Recent gcc for c++14
+=sys-devel/gcc-5.3.0 ~amd64
+
 =dev-util/nvidia-cuda-sdk-7.5.18 ~amd64
 =dev-util/nvidia-cuda-toolkit-7.5.18-r2 ~amd64
 
@@ -54,6 +57,7 @@
 =dev-qt/qtwebkit-5.5.1-r1 ~amd64
 =dev-qt/qtwidgets-5.5.1-r1 ~amd64
 =dev-qt/qtxml-5.5.1 ~amd64
+=dev-qt/qtx11extras-5.5.1 ~amd64
 
 # I hate you guys (perl), ... so very, very, much...
 =dev-tex/biber-2.2-r1 ~amd64

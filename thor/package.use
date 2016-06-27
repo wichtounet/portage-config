@@ -76,9 +76,16 @@ sys-devel/gdb -python
 >=x11-libs/libxcb-1.11.1 xkb
 >=dev-libs/libpcre-8.38 pcre16
 
+# Fix compilation of VLC
+media-video/vlc minizip
+
 # I hate you (Qt5), so, very, very, much...
 # And this is not over, not by a long shot...
 dev-qt/qtcore:5 icu
 dev-qt/qtwebkit:5 printsupport
-dev-qt/qtgui:5 accessibility dbus xcb egl eglfs -gles2
+dev-qt/qtgui:5 accessibility dbus xcb egl eglfs evdev -gles2
 media-libs/mesa gles2
+
+
+>=dev-qt/qtsingleapplication-2.6.1_p20150629 qt4
+>=dev-qt/qtlockedfile-2.4.1_p20150629 qt4

@@ -4,6 +4,8 @@ app-admin/sudo
 app-admin/syslog-ng
 app-admin/sysstat
 app-arch/atool
+app-arch/unrar
+app-arch/unzip
 app-doc/doxygen
 app-editors/nano
 app-editors/vim
@@ -45,6 +47,7 @@ dev-texlive/texlive-humanities
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-science
 dev-util/ccache
+dev-util/cmake
 dev-util/cppcheck
 dev-util/gcovr
 dev-util/lcov
@@ -70,6 +73,7 @@ media-sound/volumeicon
 media-video/ffmpeg
 media-video/mediainfo
 media-video/mplayer
+media-video/vlc
 net-analyzer/nmap
 net-fs/nfs-utils
 net-ftp/filezilla
@@ -84,6 +88,7 @@ net-misc/telnet-bsd
 net-misc/urlview
 net-misc/wakeonlan
 net-misc/whois
+net-p2p/qbittorrent
 sci-libs/libsvm
 sys-apps/dbus
 sys-apps/iproute2
@@ -95,13 +100,15 @@ sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-boot/grub:2
 sys-devel/clang
+sys-devel/crossdev
 sys-devel/distcc
 sys-devel/gcc
 sys-devel/gdb
 sys-devel/llvm
-sys-fs/sshfs-fuse
+sys-fs/sshfs
 sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
+sys-libs/zlib
 sys-process/htop
 sys-process/lsof
 sys-process/vixie-cron
