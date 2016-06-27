@@ -1,0 +1,4 @@
+cross-x86_64-elf/binutils amd64
+cross-x86_64-elf/gcc amd64
+cross-x86_64-elf/newlib amd64
+cross-x86_64-elf/gdb amd64 ~amd64

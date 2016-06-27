@@ -26,6 +26,8 @@ app-text/sloccount
 app-text/tree
 app-text/zathura
 app-text/zathura-pdf-poppler
+cross-x86_64-elf/binutils
+cross-x86_64-elf/gcc
 dev-java/oracle-jre-bin
 dev-lang/nasm
 dev-libs/boost

@@ -1,0 +1,4 @@
+cross-x86_64-elf/binutils cross-x86_64-elf/binutils.conf
+cross-x86_64-elf/gcc cross-x86_64-elf/gcc.conf
+cross-x86_64-elf/newlib cross-x86_64-elf/newlib.conf
+cross-x86_64-elf/gdb cross-x86_64-elf/gdb.conf
