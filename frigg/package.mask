@@ -3,5 +3,3 @@ dev-lang/ruby
 =media-libs/opencv-2.4.9
 
 =dev-libs/icu-55.1
-
->=media-sound/pulseaudio-6.0

@@ -1,0 +1,18 @@
+# Java 8 for Jenkins and Sonar
+=virtual/jdk-1.8.0-r2 ~amd64
+=virtual/jre-1.8.0-r1 ~amd64
+
+# libc++ for boost build (temporary)
+=sys-libs/libcxx-3.7.1 ~amd64
+=sys-libs/libcxxrt-0.0_p20150423 ~amd64
+
+# Boost for eddic
+=dev-libs/boost-1.59.0 ~amd64
+=dev-util/boost-build-1.59.0 ~amd64
+
+# Clang
+=sys-devel/llvm-3.7.1 ~amd64
+=sys-devel/clang-3.7.1-r100 ~amd64
+
+# CCCC (used in Jenkins)
+=dev-util/cccc-3.1.5 ~amd64

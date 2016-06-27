@@ -5,9 +5,9 @@ app-admin/sysstat
 app-arch/atool
 app-doc/doxygen
 app-editors/nano
+app-editors/neovim
 app-editors/vim
 app-emulation/vmware-modules
-app-emulation/vmware-tools
 app-emulation/vmware-workstation
 app-misc/budgetwarrior
 app-misc/ranger
@@ -27,10 +27,11 @@ app-text/texlive
 app-text/tree
 app-text/zathura
 app-text/zathura-pdf-poppler
-dev-java/maven-bin
-dev-lang/icc
-dev-lang/ifc
+app-text/zathura-ps
+dev-java/oracle-jdk-bin
+dev-java/oracle-jre-bin
 dev-lang/python-exec
+dev-libs/protobuf
 dev-python/docutils
 dev-python/unicodecsv
 dev-python/virtualenv
@@ -82,6 +83,7 @@ net-analyzer/nmap
 net-fs/samba
 net-ftp/filezilla
 net-im/pidgin
+net-irc/weechat
 net-libs/gnutls
 net-mail/offlineimap
 net-misc/clusterssh
@@ -109,7 +111,7 @@ sys-devel/gcc:4.8
 sys-devel/gcc:4.9
 sys-devel/gdb
 sys-devel/llvm
-sys-fs/sshfs-fuse
+sys-fs/sshfs
 sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
 sys-libs/libcxx
@@ -118,6 +120,7 @@ sys-process/htop
 sys-process/iotop
 sys-process/lsof
 sys-process/vixie-cron
+virtual/jdk
 virtual/jre
 www-client/firefox
 www-client/surfraw

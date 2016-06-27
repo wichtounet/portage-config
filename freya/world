@@ -53,6 +53,7 @@ media-sound/cmus
 media-sound/pavucontrol
 media-sound/volumeicon
 media-video/mediainfo
+net-irc/weechat
 net-mail/offlineimap
 net-misc/dhcpcd
 net-misc/dropbox
@@ -73,6 +74,7 @@ sys-boot/efibootmgr
 sys-boot/grub
 sys-devel/clang
 sys-devel/gcc:4.9
+sys-devel/gdb
 sys-devel/llvm
 sys-fs/fuse
 sys-fs/sshfs-fuse
