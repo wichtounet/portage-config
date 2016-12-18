@@ -3,29 +3,24 @@
 =dev-util/boost-build-1.59.0 ~amd64
 
 # Recent gcc for c++14
-=sys-devel/gcc-5.3.0 ~amd64
+=sys-devel/gcc-5.4.0 ~amd64
+=sys-devel/gcc-6.2.0-r1 **
 
 =dev-util/nvidia-cuda-sdk-7.5.18 ~amd64
 =dev-util/nvidia-cuda-toolkit-7.5.18-r2 ~amd64
 
-# Recent Firefox
-=www-client/firefox-44.0.2 ~amd64
-=dev-libs/nspr-4.11 ~amd64
+# Recent mutt
+=mail-client/mutt-1.7.2 ~amd64
 
-# Weechat 1.4
-=net-irc/weechat-1.4 ~amd64
+# Recent Firefox
+=www-client/firefox-50.1.0 ~amd64
+=dev-libs/nss-3.27.2 ~amd64
 
 # Recent perf tools
 =dev-util/perf-3.15.5 ~amd64
 
-# Latex
-=dev-tex/biblatex-3.1 ~amd64
-
-# Virtualenvwrapper
-=dev-python/virtualenvwrapper-4.3.1 ~amd64
-
 # Owncloud
-=net-misc/owncloud-client-2.0.2 ~amd64
+=net-misc/owncloud-client-2.2.3 ~amd64
 
 # Teamspeak
 =media-sound/teamspeak-client-bin-3.0.18.2 ~amd64
@@ -36,112 +31,19 @@
 # minted
 =dev-tex/minted-2.0 ~amd64
 
-# VCSH for managing dotfiles
-=dev-vcs/vcsh-1.20150502 ~amd64
+# Recent clang
+=media-libs/mesa-13.0.1 ~amd64
+=sys-devel/llvm-3.9.0-r1 ~amd64
+=sys-devel/clang-3.9.0-r100 ~amd64
+=sys-devel/clang-runtime-3.9.0 ~amd64
+=sys-libs/libomp-3.9.0 ~amd64
+=x11-libs/libdrm-2.4.73 ~amd64
 
-=dev-perl/Readonly-XS-1.50.0-r1 ~amd64
-=dev-perl/Business-ISMN-1.130.0 ~amd64
-=dev-perl/XML-LibXML-Simple-0.950.0 ~amd64
-
-# Fuck you QT
-=dev-qt/qtgui-5.5.1-r1 ~amd64
-=dev-qt/qtconcurrent-5.5.1 ~amd64
-=dev-qt/qtcore-5.5.1-r1 ~amd64
-=dev-qt/qtdbus-5.5.1 ~amd64
-=dev-qt/qtdeclarative-5.5.1-r1 ~amd64
-=dev-qt/qtnetwork-5.5.1 ~amd64
-=dev-qt/qtprintsupport-5.5.1 ~amd64
-=dev-qt/qtquickcontrols-5.5.1-r1 ~amd64
-=dev-qt/qtsql-5.5.1 ~amd64
-=dev-qt/qttest-5.5.1 ~amd64
-=dev-qt/qtwebkit-5.5.1-r1 ~amd64
-=dev-qt/qtwidgets-5.5.1-r1 ~amd64
-=dev-qt/qtxml-5.5.1 ~amd64
-=dev-qt/qtx11extras-5.5.1 ~amd64
+# Recent Zathura
+=app-text/zathura-0.3.6 ~amd64
+=app-text/zathura-pdf-poppler-0.2.6 ~amd64
+=dev-libs/girara-0.2.6 ~amd64
 
 # I hate you guys (perl), ... so very, very, much...
-=dev-tex/biber-2.2-r1 ~amd64
-=perl-core/Unicode-Normalize-1.250.0 ~amd64
-=virtual/perl-Unicode-Normalize-1.250.0 ~amd64
-virtual/perl-Unicode-Collate
-dev-perl/Config-AutoConf
-dev-perl/Encode-HanExtra
-dev-perl/Business-ISBN
-dev-perl/Text-Roman
-dev-perl/Text-BibTeX
-dev-perl/Encode-EUCJPASCII
-dev-perl/Business-ISSN
-dev-perl/Encode-JIS2K
-dev-perl/File-Slurp-Unicode
-dev-perl/Unicode-LineBreak
-dev-perl/Tie-Cycle
-dev-perl/Business-ISBN-Data
-dev-perl/ExtUtils-LibBuilder
-virtual/perl-XSLoader
-=perl-core/Unicode-Collate-1.140.0 ~amd64
-
-# Fuck perl 5.22
-app-admin/perl-cleaner
-dev-lang/perl
-virtual/perl-CPAN-Meta
-virtual/perl-Compress-Raw-Bzip2
-virtual/perl-Compress-Raw-Zlib
-virtual/perl-Data-Dumper
-virtual/perl-Digest-MD5
-virtual/perl-Digest-SHA
-virtual/perl-Encode
-virtual/perl-ExtUtils-CBuilder
-virtual/perl-ExtUtils-Install
-virtual/perl-ExtUtils-MakeMaker
-virtual/perl-ExtUtils-Manifest
-virtual/perl-ExtUtils-ParseXS
-virtual/perl-File-Spec
-virtual/perl-Getopt-Long
-virtual/perl-IO
-virtual/perl-IO-Compress
-virtual/perl-JSON-PP
-virtual/perl-MIME-Base64
-virtual/perl-Perl-OSType
-virtual/perl-Pod-Parser
-virtual/perl-Pod-Simple
-virtual/perl-Scalar-List-Utils
-virtual/perl-Storable
-virtual/perl-Test-Harness
-virtual/perl-Test-Simple
-virtual/perl-Text-ParseWords
-virtual/perl-libnet
-=dev-perl/Curses-1.330.0 ~amd64
-dev-perl/Devel-GlobalDestruction
-dev-perl/File-Remove
-dev-perl/GD
-dev-perl/HTML-Parser
-dev-perl/HTTP-Message
-dev-perl/IO-Socket-SSL
-dev-perl/IO-stringy
-dev-perl/LWP-Protocol-https
-dev-perl/Mail-Box
-dev-perl/MailTools
-dev-perl/Module-Build
-dev-perl/Net-SSLeay
-dev-perl/Object-Realize-Later
-dev-perl/Readonly
-dev-perl/Spreadsheet-ParseExcel
-dev-perl/Sub-Install
-dev-perl/Term-ReadLine-Gnu
-dev-perl/TermReadKey
-dev-perl/Test-Differences
-dev-perl/Test-DistManifest
-dev-perl/Test-Pod
-dev-perl/Test-Trap
-dev-perl/Text-CSV_XS
-dev-perl/Text-Diff
-dev-perl/Text-Unidecode
-dev-perl/URI
-dev-perl/XML-Parser
-dev-perl/libintl-perl
-dev-perl/libwww-perl
-dev-perl/IO-HTML
-perl-core/Encode
-virtual/perl-Exporter
-virtual/perl-Carp
-dev-perl/File-Slurp-Tiny
+=dev-tex/biblatex-3.4-r1 ~amd64
+=dev-lang/python-3.5.2 ~amd64

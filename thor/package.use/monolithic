@@ -1,5 +1,6 @@
 # Activate Clang and Gold
 sys-devel/llvm -ncurses clang gold
+sys-libs/ncurses tinfo
 
 #Printing
 net-print/hplip scanner qt4
@@ -48,9 +49,6 @@ sys-boot/grub device-mapper
 # Nice console images
 www-client/w3m imlib
 
-# Experiments with Boost
-dev-libs/boost static-libs tools
-
 # TODO Why ?
 dev-qt/qtgui xinerama
 
@@ -85,7 +83,6 @@ dev-qt/qtcore:5 icu
 dev-qt/qtwebkit:5 printsupport
 dev-qt/qtgui:5 accessibility dbus xcb egl eglfs evdev -gles2
 media-libs/mesa gles2
-
 
 >=dev-qt/qtsingleapplication-2.6.1_p20150629 qt4
 >=dev-qt/qtlockedfile-2.4.1_p20150629 qt4
