@@ -55,6 +55,7 @@ dev-vcs/git
 dev-vcs/mr
 dev-vcs/subversion
 dev-vcs/vcsh
+mail-client/mutt
 mail-filter/imapfilter
 media-fonts/arphicfonts
 media-fonts/corefonts
