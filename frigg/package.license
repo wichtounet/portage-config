@@ -1,9 +1,9 @@
-# Fucking Flash :(
->=www-plugins/adobe-flash-11.2.202.411 AdobeFlash-11.x
-
 # NVidia
 >=dev-util/nvidia-cuda-toolkit-7.5.18-r1 NVIDIA-CUDA
 
 # Frakking Java...
 >=dev-java/oracle-jre-bin-1.8.0.74 Oracle-BCLA-JavaSE
 >=dev-java/oracle-jdk-bin-1.8.0.74 Oracle-BCLA-JavaSE
+
+# required by google-chrome (argument)
+>=www-client/google-chrome-63.0.3239.132 google-chrome
