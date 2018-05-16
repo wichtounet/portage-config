@@ -1,9 +1,16 @@
 # Disable thin partitioning
 sys-fs/lvm2 -thin
 
+# Google Chromium
+>=sys-libs/zlib-1.2.11-r1 minizip
+www-client/chromium -suid -hangouts jumbo-build
+
 # X server
 x11-base/xorg-server udev
 dev-libs/libxml2 python
+
+# Python sqlite
+dev-lang/python sqlite
 
 # Better interface for perf
 dev-util/perf slang
@@ -13,6 +20,11 @@ x11-libs/cairo xcb
 
 # LLVM / Clang
 sys-devel/llvm clang
+
+# Latex
+app-text/texlive pstricks humanities science extra graphics
+>=media-libs/gd-2.2.5 fontconfig
+>=app-text/texlive-core-2017-r3 xetex
 
 # Poppler
 app-text/poppler cairo
@@ -32,7 +44,7 @@ www-client/w3m imlib
 x11-terms/rxvt-unicode perl
 
 # Mutt
-mail-client/mutt imap smtp sidebar sasl notmuch
+mail-client/mutt imap smtp sidebar sasl notmuch lmdb slang -gdbm -berkdb
 net-mail/notmuch mutt
 dev-libs/gmime smime
 
@@ -61,3 +73,9 @@ app-editors/vim lua
 
 # Thor emulation
 sys-fs/dosfstools compat
+
+# Fucking Qt
+dev-qt/qtgui dbus
+x11-libs/libxcb xkb
+dev-libs/libpcre pcre16
+dev-libs/libpcre2 pcre16

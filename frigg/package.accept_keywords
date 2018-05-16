@@ -1,6 +1,8 @@
 # Bazel for Tensorflow
 =dev-util/bazel-0.10.1 ~amd64
 
+www-client/firefox-bin ~amd64
+
 # nextcloud client
 =net-misc/nextcloud-client-2.3.3 ~amd64
 
@@ -17,3 +19,6 @@
 # NVIDIA Cuda 9.0
 =dev-util/nvidia-cuda-sdk-9.0.176 ~amd64
 =dev-util/nvidia-cuda-toolkit-9.0.176 ~amd64
+
+# Try mutt 1.9
+=mail-client/mutt-1.9.4-r1 ~amd64

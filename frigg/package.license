@@ -5,5 +5,6 @@
 >=dev-java/oracle-jre-bin-1.8.0.74 Oracle-BCLA-JavaSE
 >=dev-java/oracle-jdk-bin-1.8.0.74 Oracle-BCLA-JavaSE
 
-# required by google-chrome (argument)
+# Google Chromium/Chrome
 >=www-client/google-chrome-63.0.3239.132 google-chrome
+>=www-plugins/chrome-binary-plugins-65.0.3325.181:stable google-chrome
